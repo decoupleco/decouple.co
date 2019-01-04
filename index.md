@@ -2,7 +2,7 @@
 
 Tech venture studio Apply software design thinking on technology and venture creation. Focus on blockchain tech and Micro Apps that is lightweight, usable and transactional.
 
-## Why?
+## Transactional Web.
 
 We are entering the third iteration of web, The Transactional Web.
 
