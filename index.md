@@ -30,3 +30,9 @@ Unless is a internal project that we initiate, we do not participate on any oper
 ### Support or Contact
 
 admin@decouple.co
+
+<div>
+<style>
+ .site-footer {display: none}
+</style>
+</div>
