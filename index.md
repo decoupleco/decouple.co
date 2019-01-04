@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Composable Apps & Businesses
 
-You can use the [editor on GitHub](https://github.com/decoupleco/decouple.co/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Tech venture studio Apply software design thinking on technology and venture creation. Focus on blockchain tech and Micro Apps that is lightweight, usable and transactional.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Why?
 
-### Markdown
+We are entering the third iteration of web, The Transactional Web.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We use software design thinking to in 1) software application and 2) venture creation
 
-```markdown
-Syntax highlighted code block
+We focus on lightweight composable softeware product and businesses. 
 
-# Header 1
-## Header 2
-### Header 3
+Ventures can come in different forms like smart contracts, multisig wallet for more project based collaborations and profit sharing instead of a traditional company structure in traditional startup hubs like SF, NYC,
 
-- Bulleted
-- List
+## MicroApp: μApp
 
-1. Numbered
-2. List
+Micro Apps Lightweight, Usable and Transactional from day one, these are Single purpose Micro Apps (μApp) for Web3 that interfaces with human, Blockchain and Apps.
 
-**Bold** and _Italic_ and `Code` text
+ - Mobile Interface for Human
+ - API interface for Apps
+ - Web3 interface for Blockchain
 
-[Link](url) and ![Image](src)
-```
+### Tech Partnership
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This is not a software development company, we partner with business who is interested to licence our technology but we generally will say no to custom application development to launch or run your company or startup.
 
-### Jekyll Themes
+Unless is a internal project that we initiate, we do not participate on any operational roles
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/decoupleco/decouple.co/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+admin@decouple.co
