@@ -1,8 +1,8 @@
-## Composable Apps & Businesses
+# Composable Apps & Businesses
 
 Tech venture studio Apply software design thinking on technology and venture creation. Focus on blockchain tech and Micro Apps that is lightweight, usable and transactional.
 
-### Why?
+## Why?
 
 We are entering the third iteration of web, The Transactional Web.
 
@@ -20,7 +20,7 @@ Micro Apps Lightweight, Usable and Transactional from day one, these are Single 
  - API interface for Apps
  - Web3 interface for Blockchain
 
-### Tech Partnership
+## Partnerships
 
 This is not a software development company, we partner with business who is interested to licence our technology but we generally will say no to custom application development to launch or run your company or startup.
 
