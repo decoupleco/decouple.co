@@ -33,6 +33,6 @@ admin@decouple.co
 
 <div>
 <style>
- .site-footer {display: none}
+ .site-footer, .page-header .btn {display: none}
 </style>
 </div>
