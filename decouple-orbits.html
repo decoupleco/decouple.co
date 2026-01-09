@@ -1,0 +1,475 @@
+div<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decouple Orbital Logo - 3 Implementations</title>
+    <style>
+        :root {
+            --R: 90px;
+            --orbit-color: #111;
+            --bg-color: #fff;
+            --period: 3s;
+        }
+        
+        body {
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        h1 { margin-bottom: 30px; }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .column {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .preview-box {
+            width: 360px;
+            height: 260px;
+            border: 1px solid #eee;
+            position: relative;
+            overflow: hidden;
+            background: var(--bg-color);
+            margin-top: 15px;
+        }
+
+        /* --- Shared Object Styles --- */
+        .main-circle {
+            position: absolute;
+            width: 180px; /* 2*R */
+            height: 180px;
+            background: var(--orbit-color);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) translateZ(0); /* Hardware Accel */
+            z-index: 10;
+        }
+
+        .satellite {
+            position: absolute;
+            width: 80px; /* Brand Adjusted: R/2.25 */
+            height: 80px;
+            background: var(--orbit-color);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            /* Centering the satellite for transform origin */
+            margin-top: -40px;
+            margin-left: -40px; 
+            
+            /* Hardware Acceleration Hints */
+            will-change: transform;
+            transform: translateZ(0); 
+            backface-visibility: hidden;
+            -webkit-font-smoothing: subpixel-antialiased;
+        }
+
+        /* Debug Overlay */
+        .debug-overlay {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            pointer-events: none;
+            display: none;
+            z-index: 100;
+        }
+        .debug-line {
+            position: absolute;
+            width: 140%;
+            height: 1px;
+            background: teal;
+            top: 50%;
+            left: -20%;
+            transform: rotate(-21deg); /* TR to BL */
+            opacity: 0.5;
+        }
+        .debug-text {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 10px;
+            color: teal;
+        }
+        #debug-toggle:checked ~ .grid .debug-overlay {
+            display: block;
+        }
+
+        /* --- 1. CSS Implementation --- */
+        /* Animation keyframes injected by JS to ensure mathematical precision */
+        
+        .css-impl .sat-layer {
+            animation: 
+                css-orbit-motion var(--period) linear infinite,
+                css-orbit-scale var(--period) linear infinite;
+            animation-play-state: paused; /* Start static */
+        }
+        
+        /* Hover to animate */
+        .preview-box:hover .sat-layer {
+            animation-play-state: running;
+        }
+        
+        /* Two-layer approach for Z-sorting */
+        .css-impl .sat-back {
+            z-index: 1; /* Behind Main (10) */
+            /* Visible only during back phase */
+            /* Note: Animation keyframes shifted by PI, so phases shift too */
+            animation-name: css-orbit-motion, css-orbit-scale, css-vis-back;
+        }
+        .css-impl .sat-front {
+            z-index: 20; /* Front of Main (10) */
+            /* Visible only during front phase */
+            animation-name: css-orbit-motion, css-orbit-scale, css-vis-front;
+        }
+        
+        /* Ghost Styles */
+        /* Trails behind (Lagging) means starting at period - lag */
+        /* Ghost 1 (Closer): Lag 37.5ms -> Start at 2.9625s */
+        /* Ghost 2 (Further): Lag 75ms -> Start at 2.925s */
+        
+        /* DEFAULT STATE: Hidden (Initial Frame) */
+        .ghost-1 { --target-opacity: 0; --delay: -2.9625s; }
+        .ghost-2 { --target-opacity: 0; --delay: -2.925s; }
+        
+        /* HOVER STATE: Visible (Animation Start) */
+        .preview-box:hover .ghost-1 { --target-opacity: 0.0625; }
+        .preview-box:hover .ghost-2 { --target-opacity: 0.03125; }
+        
+        .sat-layer.ghost-1, .sat-layer.ghost-2,
+        .svg-sat.ghost-1, .svg-sat.ghost-2,
+        .svg-sat-wrapper.ghost-1, .svg-sat-wrapper.ghost-2 {
+            animation-delay: var(--delay), var(--delay), var(--delay) !important;
+        }
+
+        /* Visibility Keyframes must match the shifted theta */
+        /* Updated to use --target-opacity variable */
+        
+        @keyframes css-vis-back {
+            0% { opacity: var(--target-opacity, 1); }   
+            49.9% { opacity: var(--target-opacity, 1); }
+            50% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @keyframes css-vis-front {
+            0% { opacity: 0; }
+            49.9% { opacity: 0; }
+            50% { opacity: var(--target-opacity, 1); }
+            100% { opacity: var(--target-opacity, 1); }
+        }
+
+        /* --- 2. SVG Implementation --- */
+        svg { width: 100%; height: 100%; overflow: visible; }
+        
+        /* Reuse calculated CSS animations for SVG elements */
+        .svg-group {
+            transform: translate(180px, 130px); /* Center of 360x260 box */
+        }
+        
+        .svg-sat-front, .svg-sat-back {
+            animation-play-state: paused;
+        }
+        .preview-box:hover .svg-sat-front, 
+        .preview-box:hover .svg-sat-back {
+            animation-play-state: running;
+        }
+
+        /* --- 3. JS Implementation --- */
+        /* Styles applied inline by RAF loop */
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <label>
+            <input type="checkbox" id="debug-toggle"> Show Debug Info
+        </label>
+    </div>
+
+    <h1>Decouple Orbital Logo</h1>
+
+    <div class="grid">
+        <!-- COLUMN 1: CSS -->
+        <div class="column">
+            <h3>CSS (Keyframes)</h3>
+            <div class="preview-box css-impl">
+                <div class="debug-overlay"><div class="debug-line"></div></div>
+                <!-- Main Circle -->
+                <div class="main-circle"></div>
+                <!-- Satellites -->
+                <!-- Ghost 2 -->
+                <div class="satellite sat-layer sat-back ghost-2"></div>
+                <div class="satellite sat-layer sat-front ghost-2"></div>
+                <!-- Ghost 1 -->
+                <div class="satellite sat-layer sat-back ghost-1"></div>
+                <div class="satellite sat-layer sat-front ghost-1"></div>
+                <!-- Main -->
+                <div class="satellite sat-layer sat-back"></div>
+                <div class="satellite sat-layer sat-front"></div>
+            </div>
+        </div>
+
+        <!-- COLUMN 2: SVG -->
+        <div class="column">
+            <h3>SVG (Div Wrapped)</h3>
+            <div class="preview-box">
+                <div class="debug-overlay"><div class="debug-line"></div></div>
+                <!-- Static Main SVG -->
+                <div class="main-circle" style="background: none;">
+                    <svg width="180" height="180"><circle cx="90" cy="90" r="90" fill="#111"/></svg>
+                </div>
+                
+                <!-- Satellite Wrappers (Divs moving on GPU) -->
+                <!-- Ghost 2 -->
+                <div class="svg-sat-wrapper back ghost-2"><svg><circle cx="40" cy="40" r="40" fill="#111"/></svg></div>
+                <div class="svg-sat-wrapper front ghost-2"><svg><circle cx="40" cy="40" r="40" fill="#111"/></svg></div>
+                <!-- Ghost 1 -->
+                <div class="svg-sat-wrapper back ghost-1"><svg><circle cx="40" cy="40" r="40" fill="#111"/></svg></div>
+                <div class="svg-sat-wrapper front ghost-1"><svg><circle cx="40" cy="40" r="40" fill="#111"/></svg></div>
+                <!-- Main -->
+                <div class="svg-sat-wrapper back"><svg><circle cx="40" cy="40" r="40" fill="#111"/></svg></div>
+                <div class="svg-sat-wrapper front"><svg><circle cx="40" cy="40" r="40" fill="#111"/></svg></div>
+            </div>
+        </div>
+
+        <!-- COLUMN 3: JS -->
+        <div class="column">
+            <h3>JS (RAF)</h3>
+            <div class="preview-box js-impl" id="js-box">
+                <div class="debug-overlay">
+                    <div class="debug-line"></div>
+                    <div class="debug-text" id="js-debug-text"></div>
+                </div>
+                <div class="main-circle"></div>
+                <!-- JS Satellites -->
+                <div class="satellite js-sat-item" data-sat-id="ghost-2"></div>
+                <div class="satellite js-sat-item" data-sat-id="ghost-1"></div>
+                <div class="satellite js-sat-item" data-sat-id="main"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- CONSTANTS & MATH ---
+        const R = 90;
+        const SatR = 40; // Brand Adjusted (R/2.25)
+        const orbitRadius = R + SatR + (0.18 * R); 
+        const periodMs = 3000;
+        
+        // Tilt & Rotation Configuration
+        // 1. Squash Factor for Side View (sin 21°)
+        const tiltDeg = 21;
+        const tiltRad = tiltDeg * Math.PI / 180;
+        const kSq = Math.sin(tiltRad); // Squash factor
+        
+        // 2. Axis Rotation (21°)
+        // We rotate the ellipse axis by 21 deg.
+        const cosRot = Math.cos(tiltRad);
+        const sinRot = Math.sin(tiltRad);
+
+        // --- PART A: GENERATE CSS KEYFRAMES ---
+        // We generate precise keyframes and inject them into the document
+        // to ensure the CSS Implementation is mathematically perfect.
+        
+        // Start Offset: Math.PI (180 deg)
+        // This places the satellite at Top-Right at 0% progress 
+        // to match the default brand logo position.
+        const startOffset = Math.PI;
+
+        // COMBINED GPU ENFORCED KEYFRAMES
+        // We use a single transform string: translate3d(...) scale(...)
+        // This avoids layout trashing (width/height) and ensures hardware accel.
+        let cssGpuOrbit = '@keyframes css-gpu-orbit {\n';
+        
+        const steps = 60; // Resolution
+        for (let i = 0; i <= steps; i++) {
+            const pct = i / steps;
+            const theta = (pct * 2 * Math.PI) + startOffset;
+            
+            // MATH (Matches step-by-step logic):
+            // 1. Side View Ellipse
+            const x0 = orbitRadius * Math.cos(theta);
+            const y0 = orbitRadius * Math.sin(theta) * kSq;
+            
+            // 2. Rotate Axis (+21 deg)
+            const x1 = x0 * cosRot - y0 * sinRot;
+            const y1 = x0 * sinRot + y0 * cosRot;
+            
+            // 3. Flip for Diagonal (Top-Right -> Bottom-Left)
+            // Mirror X
+            const xFinal = -x1;
+            const yFinal = y1;
+            
+            // Depth for scale
+            const depth = Math.sin(theta);
+            
+            // Scale Calculation
+            // clamp(1 + 0.05 * depth, 0.95, 1.05)
+            let s = 1 + 0.05 * depth;
+            s = Math.max(0.95, Math.min(s, 1.05));
+            
+            // TRANSFORM STRING: Translate3D (GPU) + Scale (GPU)
+            cssGpuOrbit += `  ${(pct * 100).toFixed(2)}% { transform: translate3d(${xFinal.toFixed(2)}px, ${yFinal.toFixed(2)}px, 0) scale(${s.toFixed(3)}); }\n`;
+        }
+        cssGpuOrbit += '}\n';
+
+        // Inject Styles
+        const styleTag = document.createElement('style');
+        styleTag.innerHTML = cssGpuOrbit;
+        
+        // CSS Overrides to use the new GPU animation
+        styleTag.innerHTML += `
+            /* Apply optimized animation to all implementations */
+            .css-impl .sat-layer,
+            .svg-sat-wrapper { 
+                animation-name: css-gpu-orbit !important;
+                /* Remove old separate scale/motion animations */
+            }
+            
+            /* Clean up previous CSS Impl specifics */
+            .css-impl .sat-back { animation-name: css-gpu-orbit, css-vis-back !important; }
+            .css-impl .sat-front { animation-name: css-gpu-orbit, css-vis-front !important; }
+            
+            /* SVG Wrapper specifics (replacing internal SVG animation) */
+            .svg-sat-wrapper {
+                position: absolute;
+                top: 50%; left: 50%;
+                width: 80px; height: 80px;
+                margin: -40px 0 0 -40px;
+                will-change: transform;
+                
+                /* Animation Setup */
+                animation-duration: var(--period), var(--period);
+                animation-timing-function: linear, step-end;
+                animation-iteration-count: infinite, infinite;
+                animation-play-state: paused; /* Default Paused */
+            }
+            
+            /* Hover State for SVG Column */
+            .preview-box:hover .svg-sat-wrapper {
+                animation-play-state: running;
+            }
+
+            .svg-sat-wrapper.back { animation-name: css-gpu-orbit, css-vis-back !important; }
+            .svg-sat-wrapper.front { animation-name: css-gpu-orbit, css-vis-front !important; }
+            
+            /* Ensure inner SVG fills wrapper */
+            .svg-sat-wrapper svg { width: 100%; height: 100%; display: block; }
+        `;
+        document.head.appendChild(styleTag);
+        
+        
+        // --- PART B: JS IMPLEMENTATION ---
+        const jsSats = Array.from(document.querySelectorAll('.js-sat-item'));
+        const jsBox = document.getElementById('js-box');
+        const debugText = document.getElementById('js-debug-text');
+        
+        // Define satellite configs
+        // Trail Logic: Positive delayOffset ("Lag") means we subtract from time.
+        // Ghost 1: Lag 37.5ms. Ghost 2: Lag 75ms.
+        const satsConfig = [
+            { id: 'ghost-2', delayOffset: 75, opacity: 0.03125 }, 
+            { id: 'ghost-1', delayOffset: 37.5, opacity: 0.0625 },  
+            { id: 'main',    delayOffset: 0,    opacity: 1.0 }
+        ];
+        
+        let accumulatedTime = 0;
+        let lastTimestamp = 0;
+        let isHovering = false;
+
+        jsBox.addEventListener('mouseenter', () => { isHovering = true; lastTimestamp = performance.now(); });
+        jsBox.addEventListener('mouseleave', () => { isHovering = false; });
+
+        function animateJS(timestamp) {
+            if (!lastTimestamp) lastTimestamp = timestamp;
+            
+            if (isHovering) {
+                const dt = timestamp - lastTimestamp;
+                accumulatedTime += dt;
+            }
+            lastTimestamp = timestamp;
+            
+            // Loop through all satellites
+            satsConfig.forEach((cfg, index) => {
+                const satEl = jsSats[index]; 
+                
+                // Opacity Logic:
+                // Only show ghosts if hovering (animation active)
+                let currentOpacity = cfg.opacity;
+                if (!isHovering && cfg.id.startsWith('ghost')) {
+                    currentOpacity = 0;
+                }
+                
+                // Calculate time including delayOffset (Lag means subtract)
+                let effectiveTime = accumulatedTime - cfg.delayOffset;
+                
+                // Handle negative time wrapping for the loop
+                // ((t % p) + p) % p ensures positive result [0, 3000)
+                let tInPeriod = ((effectiveTime % periodMs) + periodMs) % periodMs;
+
+                // Calculate theta (start from PI)
+                const theta = (tInPeriod / periodMs) * 2 * Math.PI + startOffset;
+                
+                // 1. Math (Exact Same)
+                const x0 = orbitRadius * Math.cos(theta);
+                const y0 = orbitRadius * Math.sin(theta) * kSq;
+                
+                const x1 = x0 * cosRot - y0 * sinRot;
+                const y1 = x0 * sinRot + y0 * cosRot;
+                
+                const xFinal = -x1;
+                const yFinal = y1;
+                
+                const depth = Math.sin(theta);
+                
+                // 2. Scale
+                let s = 1 + 0.05 * depth;
+                s = Math.max(0.95, Math.min(s, 1.05));
+                
+                // 3. Apply Transform
+                satEl.style.transform = `translate3d(${xFinal.toFixed(2)}px, ${yFinal.toFixed(2)}px, 0) scale(${s.toFixed(3)})`;
+                satEl.style.opacity = currentOpacity;
+                
+                // 4. Z-Order / Occlusion
+                if (depth < 0) {
+                    // Behind
+                    satEl.style.zIndex = 1;
+                } else {
+                    // Front
+                    satEl.style.zIndex = 20;
+                }
+
+                // Debug Info (Just for main)
+                if (cfg.id === 'main' && debugText.offsetParent !== null) { 
+                    debugText.textContent = `θ: ${theta.toFixed(2)}\nDepth: ${depth.toFixed(2)}`;
+                }
+            });
+            
+            requestAnimationFrame(animateJS);
+        }
+        
+        requestAnimationFrame(animateJS);
+        
+    </script>
+</body>
+</html>
