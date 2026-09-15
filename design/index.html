@@ -4,16 +4,16 @@
 @layer reset{*,:before,:after{box-sizing:border-box;margin:0}html{-webkit-text-size-adjust:100%}body{min-height:100svh}img,svg{display:block;max-width:100%}button,input,select,textarea{font:inherit;color:inherit;background:none;border:0}button{cursor:pointer}:where(a){color:inherit}table{border-collapse:collapse;width:100%}dialog{color:inherit}[hidden]{display:none!important}}
 @layer theme{
 :root{color-scheme:light;
---n0:light-dark(#fff,#12151a);--n1:light-dark(#f8fafc,#0a0c0f);--n2:light-dark(#f1f5f9,#1a1e24);--n3:light-dark(#e2e8f0,#262b33);--n4:light-dark(#cbd5e1,#3a414b);
---fg:light-dark(#020617,#e8ebf0);--fg2:light-dark(#475569,#aab2be);--fg3:light-dark(#5f6b7d,#8b95a3);
---ac:light-dark(#2563eb,#3b82f6);--on-ac:light-dark(#fff,#06101f);--ac-s:light-dark(#eff6ff,#0f1b33);--ac-b:light-dark(#bfdbfe,#1e3a8a);--ac-r:light-dark(#dbeafe,#1c2f57);--ac-f:light-dark(#1d4ed8,#8fbaff);
---ok-s:light-dark(#ecfdf5,#0b2219);--ok-b:light-dark(#a7f3d0,#14532d);--ok-f:light-dark(#047857,#5fd8a8);
---wa-s:light-dark(#fffbeb,#2a1d08);--wa-b:light-dark(#fde68a,#78350f);--wa-f:light-dark(#b45309,#f2c14e);
---no-s:light-dark(#fef2f2,#2b1010);--no-b:light-dark(#fecaca,#7f1d1d);--no-f:light-dark(#b91c1c,#ff8f8f);
+--n0:light-dark(#ffffff,#15161a);--n1:light-dark(#f7f6f4,#0b0c0f);--n2:light-dark(#efedea,#1d1f24);--n3:light-dark(#e2dfda,#2a2d33);--n4:light-dark(#c9c5bd,#3e424a);
+--fg:light-dark(#171614,#e9e8e4);--fg2:light-dark(#4b4843,#b3b0aa);--fg3:light-dark(#6d6961,#8d8a83);
+--ac:light-dark(#44618f,#7d9bc9);--on-ac:light-dark(#ffffff,#0d1016);--ac-s:light-dark(#eef1f6,#1a2231);--ac-b:light-dark(#c3cede,#31415c);--ac-r:light-dark(#dde4ee,#232e42);--ac-f:light-dark(#39547e,#a8c0e4);
+--ok-s:light-dark(#edf3ee,#152219);--ok-b:light-dark(#bcd6c2,#2c4636);--ok-f:light-dark(#3f6b4e,#8fc4a2);
+--wa-s:light-dark(#f8f2e8,#241c10);--wa-b:light-dark(#e4d3ad,#4a3a1e);--wa-f:light-dark(#7d5c28,#d8b877);
+--no-s:light-dark(#f8eeec,#241413);--no-b:light-dark(#e2c4bf,#4d2a26);--no-f:light-dark(#8f4038,#e0a098);
 --c1:light-dark(#2563eb,#3b82f6);--c2:light-dark(#0d9488,#0e9384);--c3:light-dark(#7c3aed,#8b5cf6);
 --r1:.5rem;--r2:.75rem;--r3:1rem;--r4:1.5rem;--rf:9999px;
 --sh:0 1px 2px light-dark(#0f172a14,#00000066);--hi:light-dark(transparent,#ffffff0d);
---ff:system-ui,sans-serif;--fm:ui-monospace,SFMono-Regular,Menlo,monospace;--fs:1rem;--lh:1.6;--sp:1.5;--cell:.625rem}
+--ff:ui-sans-serif,system-ui,-apple-system,"Segoe UI Variable Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--fm:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Cascadia Mono","Liberation Mono",monospace;--fs:1rem;--lh:1.6;--sp:1.5;--cell:.625rem}
 :root:where([data-t=dark]){color-scheme:dark}
 :root:where([data-t=sharp],[data-t=sharp-dark]){--fs:.875rem;--lh:1.4;--sp:1;--r3:.75rem;--r4:1rem;--cell:.375rem;font-variant-numeric:tabular-nums lining-nums;letter-spacing:-.01em}
 :root:where([data-t=sharp-dark]){color-scheme:dark}
@@ -98,7 +98,7 @@ section{scroll-margin-top:5rem;display:flex;flex-direction:column;gap:calc(1rem*
 
 <header class=top><div class=in>
 <div class=brand>μi <span>design language</span></div>
-<nav><a href="#why">Philosophy</a><a href="#found">Foundations</a><a href="#base">Base</a><a href="#sharp">Sharp</a><a href="#cl">CL manager</a><a href="#matte">Matte</a><a href="./app/">μApp demo ↗</a></nav>
+<nav><a href="#why">Philosophy</a><a href="./paper/">The paper</a><a href="#found">Foundations</a><a href="#base">Base</a><a href="#sharp">Sharp</a><a href="#cl">CL manager</a><a href="#matte">Matte</a><a href="./app/">μApp demo ↗</a></nav>
 <div class="row grow" style="justify-content:flex-end;gap:.5rem;flex-wrap:wrap">
 <div class=seg role=group aria-label=Density><button data-den=base aria-pressed=true>Base</button><button data-den=sharp>Sharp</button></div>
 <div class=seg role=group aria-label=Luminance><button data-lum=light aria-pressed=true>Light</button><button data-lum=dark>Dark</button></div>
@@ -132,6 +132,22 @@ section{scroll-margin-top:5rem;display:flex;flex-direction:column;gap:calc(1rem*
 <div><span class="pill" data-v=ok>Unit</span><div class=grow><div class=t>μApp</div><p class="sm muted">One intent, shipped as one document. Islands arrive afterwards, on gesture.</p></div></div>
 </div>
 <p class="sm muted">Density (Base / Sharp) is four custom properties, luminance is <code>light-dark()</code>, and Matte is a class — so the three axes multiply instead of forking the stylesheet.</p>
+</div>
+</div>
+
+<div class="card stack">
+<div class="row between wrap"><h3>The vocabulary</h3><span class="pill sm">every number on this card is measured</span></div>
+<div class="grid grid-2">
+<div class=list>
+<div><span class="pill sm" data-v=ok>zero</span><div class=grow><div class=t>Binary-zero</div><p class="sm muted">No runtime dependency ships. The μApp's wallet codes its own calldata; viem is a test oracle in <code>devDependencies</code>.</p></div></div>
+<div><span class="pill sm" data-v=ac>P0</span><div class=grow><div class=t>One document</div><p class="sm muted">Markup, CSS and the 653 B signal engine inlined: <b>3,792 B</b> brotli, zero subrequests.</p></div></div>
+<div><span class="pill sm" data-v=ok>CLS 0</span><div class=grow><div class=t>Nothing moves</div><p class="sm muted">Static markup matches island output and islands adopt with <code>replaceChildren</code>. A gate drives real Chrome and refuses to trust a zero unless every island actually loaded.</p></div></div>
+</div>
+<div class=list>
+<div><span class="pill sm">instant</span><div class=grow><div class=t>Non-blocking by construction</div><p class="sm muted">Inline <code>type=module</code> is deferred, so script never blocks paint — measured: inlining four more islands moved FCP by <b>0 ms</b> and only <code>load</code> by 172 ms.</p></div></div>
+<div><span class="pill sm" data-v=ac>preload</span><div class=grow><div class=t>modulepreload, eager</div><p class="sm muted">The one chunk two islands share is fetched from <code>&lt;head&gt;</code> during the first flight; every other island waits for a gesture.</p></div></div>
+<div><span class="pill sm" data-v=wa>H2/H3</span><div class=grow><div class=t>The flight is the budget</div><p class="sm muted">Measured on our own edge over HTTP/2: <b>9,472 B</b> arrives in one flight, <b>9,728 B</b> costs a whole round trip. QUIC's window is larger — but Pages serves no h3, so 9 KB is the number we design to.</p></div></div>
+</div>
 </div>
 </div>
 
@@ -180,7 +196,7 @@ section{scroll-margin-top:5rem;display:flex;flex-direction:column;gap:calc(1rem*
 </div>
 <h3>Chart series (validated)</h3>
 <div class=swatches><div class=sw><i style="background:var(--c1)"></i><span>--c1</span></div><div class=sw><i style="background:var(--c2)"></i><span>--c2</span></div><div class=sw><i style="background:var(--c3)"></i><span>--c3</span></div></div>
-<p class="sm muted">Every text/surface pair ≥ 4.5:1 in both luminances (<code>reference/contrast.js</code>). Series colors pass the CVD validator on both surfaces.</p>
+<p class="sm muted">Desaturated by intent: faintly warm neutrals, muted intent colours, and surfaces that are pastel tints rather than saturated washes — comfortable to read for hours, and still unambiguous. Every text/surface pair clears 4.5:1 in both luminances (<code>gates/contrast.js</code>, 40 pairs, worst 4.68). The three series colours are deliberately <em>not</em> desaturated: data ink should out-argue the interface, and these exact values passed the CVD validator.</p>
 </div>
 <div class="card stack">
 <h3>Type &amp; density</h3>
