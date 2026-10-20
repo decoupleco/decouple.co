@@ -1,0 +1,434 @@
+{
+  "date": "2026-10-20",
+  "scope": "Design experiments only",
+  "browser": "Codex in-app browser / desktop viewport",
+  "geometry": [
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "01-ledger",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "01-ledger",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "02-blueprint",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "02-blueprint",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "03-orchard",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "03-orchard",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "04-ticker",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "04-ticker",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "05-folio",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "05-folio",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "06-atlas",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "06-atlas",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "07-swiss",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "07-swiss",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "08-nocturne",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "08-nocturne",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "09-signal",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "09-signal",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "10-tide",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "10-tide",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "11-margin",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "11-margin",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "12-estuary",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "12-estuary",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "13-studio",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "13-studio",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "14-circuit",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "14-circuit",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "15-kiln",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "15-kiln",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "16-paper",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "16-paper",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "17-vector",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "17-vector",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "18-grove",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "18-grove",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "19-cobalt",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "19-cobalt",
+      "width": 360
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "20-relay",
+      "width": 390
+    },
+    {
+      "frames": 7,
+      "horizontalOverflow": [],
+      "managerActionFits": true,
+      "multiplePrimaries": [],
+      "smallMobileButtons": 0,
+      "theme": "20-relay",
+      "width": 360
+    }
+  ],
+  "interaction_checks": [
+    {
+      "name": "Pool protocol filter",
+      "result": "pass; UniV3 shows two pools"
+    },
+    {
+      "name": "Search within filter",
+      "result": "pass; cbBTC shows one pool"
+    },
+    {
+      "name": "Range price / ticks",
+      "result": "pass; units and values switch"
+    },
+    {
+      "name": "Chart type",
+      "result": "pass; line replaces candles and readout changes"
+    },
+    {
+      "name": "Config weight",
+      "result": "pass; 65 / 35 in editor, preview and band labels"
+    },
+    {
+      "name": "Deposit amount validation and review",
+      "result": "pass; excessive balance rejected; valid values reviewed"
+    },
+    {
+      "name": "Redemption max",
+      "result": "pass; rounded full balance accepted"
+    },
+    {
+      "name": "Redemption queue / claim states",
+      "result": "pass; waiting and claimable states expose distinct actions"
+    },
+    {
+      "name": "Holder preview",
+      "result": "pass; deposit and config inputs disabled, redemption available"
+    },
+    {
+      "name": "History unavailable preview",
+      "result": "pass; quote and action remain separate from history"
+    },
+    {
+      "name": "Config review / simulated save",
+      "result": "pass; preview-only confirmation"
+    },
+    {
+      "name": "Three-way gallery comparison",
+      "result": "pass; shared screen selector and three chosen themes render"
+    },
+    {
+      "name": "Twenty-entry gallery collection filter",
+      "result": "pass; New 10 shows Margin through Relay; compare accepts new entries"
+    }
+  ],
+  "limitations": [
+    "390px and 360px internal phone canvases checked; physical phones and true browser viewport resize not tested",
+    "Palette text and primary button contrast checked; no complete accessibility certification",
+    "Demo values and controls are presentation fixtures, not product logic",
+    "Print CSS included; PDF output not visually reviewed",
+    "No user research or usability sessions conducted"
+  ],
+  "build_source_hashes": {
+    "framework": "0287f7565df385e14e51a75bd212c254a6d67008db6e494ff27a9620f21a31f3",
+    "css": "a603a092aa53a6ef092b0a39f2bd5fe88f9e7bdfd57a1842ca6695f665ffed37",
+    "js": "cf91fea1f55b05f88005dddef53b6148cb2f540ea7a5153c66da22ad8b0a06e0",
+    "themes": "bc9d5bf12d706d0e252a0f0e76be05d7ea51246b8b0bb65b891e0b4eb9c7aeda"
+  }
+}
