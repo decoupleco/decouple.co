@@ -1,0 +1,905 @@
+{
+  "date": "2026-10-21",
+  "scope": "HTML terminal design prototypes; no native engine verification",
+  "directions": 10,
+  "layouts": 10,
+  "standalone_html": 11,
+  "runtime_dependencies": 0,
+  "fixture_sha256": "1701202e73f3539621e5dc7d8247d08130068300e3ace9ae027eb0d9df32a306",
+  "source_hashes": {
+    "css": "2ddfb53fc2f25e119761275982823d0e0b43451816a4ea8ca8be6b00020cba1c",
+    "js": "33782cf9b1031f7e17c59ac8b7ffa79f15b50d9695f4cf339dbf983484df0b57",
+    "directions": "0f866af4be084cad3acd79106b63f79bf1317b254992dff535df9da6a2e5a21d",
+    "model": "4fc1e1ce38015d42a3a1fb4f19727ded9e91e0dbef4a15cfcfb5cf2793073d3d",
+    "sources": "c2b672e2ce1fb2a6d2b8ac920106aac0f0992c50c991b4152dac9d44103ad1b2"
+  },
+  "upstream": [
+    {
+      "repo": "mwaltzer/omarchy-bauhaus-theme",
+      "commit": "bfcabfddb89dc56e95441b7a43919c662a468a14",
+      "file": "alacritty.toml",
+      "url": "https://github.com/mwaltzer/omarchy-bauhaus-theme/blob/bfcabfddb89dc56e95441b7a43919c662a468a14/alacritty.toml"
+    },
+    {
+      "repo": "curbol/omarchy-gruvbox-material",
+      "commit": "1bcf7f9339ce99fc7a93e1757da66d8ac7c5d47d",
+      "file": "colors.toml",
+      "url": "https://github.com/curbol/omarchy-gruvbox-material/blob/1bcf7f9339ce99fc7a93e1757da66d8ac7c5d47d/colors.toml"
+    },
+    {
+      "repo": "Memnoc/omarchy-rose-pine-moon-theme",
+      "commit": "e44dcc84ac6c49f52340dc4aa53955b7143a4ccd",
+      "file": "colors.toml",
+      "url": "https://github.com/Memnoc/omarchy-rose-pine-moon-theme/blob/e44dcc84ac6c49f52340dc4aa53955b7143a4ccd/colors.toml"
+    },
+    {
+      "repo": "euandeas/omarchy-flexoki-dark-theme",
+      "commit": "aa418ffb68ec1eaa72a85b02970ada07ce6f3d26",
+      "file": "colors.toml",
+      "url": "https://github.com/euandeas/omarchy-flexoki-dark-theme/blob/aa418ffb68ec1eaa72a85b02970ada07ce6f3d26/colors.toml"
+    },
+    {
+      "repo": "Luquatic/omarchy-catppuccin-dark",
+      "commit": "54b98a5c7302783298df05238ab55f312ec327ea",
+      "file": "colors.toml",
+      "url": "https://github.com/Luquatic/omarchy-catppuccin-dark/blob/54b98a5c7302783298df05238ab55f312ec327ea/colors.toml"
+    },
+    {
+      "repo": "hoblin/omarchy-cobalt2-theme",
+      "commit": "579fb7d8890000d315da9e18da6c0885de008ea3",
+      "file": "colors.toml",
+      "url": "https://github.com/hoblin/omarchy-cobalt2-theme/blob/579fb7d8890000d315da9e18da6c0885de008ea3/colors.toml"
+    },
+    {
+      "repo": "dfrico/omarchy-solarized-light-theme",
+      "commit": "e7cd8f3024f34105e31faa8d83db1852a5131850",
+      "file": "alacritty.toml",
+      "url": "https://github.com/dfrico/omarchy-solarized-light-theme/blob/e7cd8f3024f34105e31faa8d83db1852a5131850/alacritty.toml"
+    },
+    {
+      "repo": "celsobenedetti/omarchy-evergarden",
+      "commit": "1e5196cf9167e74c3a4fafb5be964cb15a3dc299",
+      "file": "colors.toml",
+      "url": "https://github.com/celsobenedetti/omarchy-evergarden/blob/1e5196cf9167e74c3a4fafb5be964cb15a3dc299/colors.toml"
+    },
+    {
+      "repo": "thmoee/omarchy-vesper-theme",
+      "commit": "427bb540bdba152cd48f7f1e4274f96a11cd591e",
+      "file": "alacritty.toml",
+      "url": "https://github.com/thmoee/omarchy-vesper-theme/blob/427bb540bdba152cd48f7f1e4274f96a11cd591e/alacritty.toml"
+    },
+    {
+      "repo": "Swarnim114/omarchy-monochrome-theme",
+      "commit": "10aa54d4b31284f24d73c5aa5532795f4bc85046",
+      "file": "alacritty.toml",
+      "url": "https://github.com/Swarnim114/omarchy-monochrome-theme/blob/10aa54d4b31284f24d73c5aa5532795f4bc85046/alacritty.toml"
+    }
+  ],
+  "palette_adaptations": [
+    {
+      "id": "01-bauhaus",
+      "changes": []
+    },
+    {
+      "id": "02-gruvbox-material",
+      "changes": []
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "changes": []
+    },
+    {
+      "id": "04-flexoki-dark",
+      "changes": [
+        {
+          "role": "negative",
+          "original": "#d14d41",
+          "adjusted": "#d25145"
+        }
+      ]
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "changes": []
+    },
+    {
+      "id": "06-cobalt2",
+      "changes": [
+        {
+          "role": "negative",
+          "original": "#ff628c",
+          "adjusted": "#ff648d"
+        }
+      ]
+    },
+    {
+      "id": "07-solarized-light",
+      "changes": [
+        {
+          "role": "fg",
+          "original": "#586e75",
+          "adjusted": "#566c73"
+        },
+        {
+          "role": "muted",
+          "original": "#657b83",
+          "adjusted": "#586b72"
+        },
+        {
+          "role": "accent",
+          "original": "#268bd2",
+          "adjusted": "#1e6ca4"
+        },
+        {
+          "role": "positive",
+          "original": "#859900",
+          "adjusted": "#606e00"
+        },
+        {
+          "role": "negative",
+          "original": "#dc322f",
+          "adjusted": "#c42d2a"
+        },
+        {
+          "role": "fee",
+          "original": "#b58900",
+          "adjusted": "#846400"
+        }
+      ]
+    },
+    {
+      "id": "08-evergarden",
+      "changes": []
+    },
+    {
+      "id": "09-vesper",
+      "changes": []
+    },
+    {
+      "id": "10-monochrome",
+      "changes": [
+        {
+          "role": "muted",
+          "original": "#888888",
+          "adjusted": "#8e8e8e"
+        },
+        {
+          "role": "negative",
+          "original": "#888888",
+          "adjusted": "#8e8e8e"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "javascript_parse": "pass",
+    "mapped_colors_in_pinned_sources": "pass",
+    "palette_pairs": 120,
+    "minimum_text_contrast": 4.5,
+    "all_cursor_prefixes": 96,
+    "candle_bounds": "pass",
+    "endpoint_values": "pass"
+  },
+  "contrast": [
+    {
+      "id": "01-bauhaus",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 16.1
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 11.72
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 6.46
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 6.45
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 6.45
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 8.81
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 14.96
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 10.89
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 6.01
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 6
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 6
+    },
+    {
+      "id": "01-bauhaus",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 8.19
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 8.16
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 5.3
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 5.72
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 6.72
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 4.7
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 6.68
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 8.16
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 5.3
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 5.72
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 6.72
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.7
+    },
+    {
+      "id": "02-gruvbox-material",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 6.68
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 11.86
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 4.86
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 9.19
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 7.13
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 5.38
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 9.55
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 11.86
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 4.86
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 9.19
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 7.13
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 5.38
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 9.55
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 11.98
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 5.19
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 4.86
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 6.12
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 4.56
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 8.08
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 11.98
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 5.19
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 4.86
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 6.12
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.56
+    },
+    {
+      "id": "04-flexoki-dark",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 8.08
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 14.43
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 11.79
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 9.91
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 14.04
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 9.01
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 16.43
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 14.43
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 11.79
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 9.91
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 14.04
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 9.01
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 16.43
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 15.29
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 6.58
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 9.71
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 8.09
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 5.43
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 7.34
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 12.75
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 5.49
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 8.09
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 6.74
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.53
+    },
+    {
+      "id": "06-cobalt2",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 6.12
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 5.14
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 5.18
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 5.21
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 5.22
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 5.18
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 5.12
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 4.52
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 4.56
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 4.59
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 4.6
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.56
+    },
+    {
+      "id": "07-solarized-light",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 4.51
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 8.22
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 5.08
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 10.58
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 10.52
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 5.71
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 9.96
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 8.22
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 5.08
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 10.58
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 10.52
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 5.71
+    },
+    {
+      "id": "08-evergarden",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 9.96
+    },
+    {
+      "id": "09-vesper",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 19.03
+    },
+    {
+      "id": "09-vesper",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 7.28
+    },
+    {
+      "id": "09-vesper",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 12.58
+    },
+    {
+      "id": "09-vesper",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 8.72
+    },
+    {
+      "id": "09-vesper",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 9.41
+    },
+    {
+      "id": "09-vesper",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 10.68
+    },
+    {
+      "id": "09-vesper",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 19.03
+    },
+    {
+      "id": "09-vesper",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 7.28
+    },
+    {
+      "id": "09-vesper",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 12.58
+    },
+    {
+      "id": "09-vesper",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 8.72
+    },
+    {
+      "id": "09-vesper",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 9.41
+    },
+    {
+      "id": "09-vesper",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 10.68
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 9.95
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 4.5
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 9.95
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 9.95
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 4.5
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 14.74
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 9.95
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 4.5
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 9.95
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 9.95
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.5
+    },
+    {
+      "id": "10-monochrome",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 14.74
+    }
+  ]
+}

@@ -1,0 +1,1255 @@
+{
+  "date": "2026-10-21",
+  "scope": "Omarchy-inspired HTML prototypes, not a native terminal or engine",
+  "geometry_cases": [
+    {
+      "direction": "01-bauhaus",
+      "gridOverflow": false,
+      "layout": "terminal layout-matrix   info-off",
+      "minimumChartHeight": 189,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "01-bauhaus",
+      "gridOverflow": false,
+      "layout": "terminal layout-matrix   info-off",
+      "minimumChartHeight": 143,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "01-bauhaus",
+      "gridOverflow": false,
+      "layout": "terminal layout-matrix  dense info-off",
+      "minimumChartHeight": 109,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "01-bauhaus",
+      "gridOverflow": false,
+      "layout": "terminal layout-matrix  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "01-bauhaus",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "01-bauhaus",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "01-bauhaus",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "01-bauhaus",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "02-gruvbox-material",
+      "gridOverflow": false,
+      "layout": "terminal layout-ledger   inspecting",
+      "minimumChartHeight": 116,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "02-gruvbox-material",
+      "gridOverflow": false,
+      "layout": "terminal layout-ledger   inspecting",
+      "minimumChartHeight": 84,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "02-gruvbox-material",
+      "gridOverflow": false,
+      "layout": "terminal layout-ledger  dense inspecting",
+      "minimumChartHeight": 68,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "02-gruvbox-material",
+      "gridOverflow": false,
+      "layout": "terminal layout-ledger  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "02-gruvbox-material",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "02-gruvbox-material",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "02-gruvbox-material",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "02-gruvbox-material",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "03-rose-pine-moon",
+      "gridOverflow": false,
+      "layout": "terminal layout-split   info-off",
+      "minimumChartHeight": 116,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "03-rose-pine-moon",
+      "gridOverflow": false,
+      "layout": "terminal layout-split   info-off",
+      "minimumChartHeight": 84,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "03-rose-pine-moon",
+      "gridOverflow": false,
+      "layout": "terminal layout-split  dense info-off",
+      "minimumChartHeight": 68,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "03-rose-pine-moon",
+      "gridOverflow": false,
+      "layout": "terminal layout-split  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "03-rose-pine-moon",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "03-rose-pine-moon",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "03-rose-pine-moon",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "03-rose-pine-moon",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "04-flexoki-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-outline   info-off",
+      "minimumChartHeight": 156,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "04-flexoki-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-outline   info-off",
+      "minimumChartHeight": 116,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "04-flexoki-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-outline  dense info-off",
+      "minimumChartHeight": 91,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "04-flexoki-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-outline  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "04-flexoki-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "04-flexoki-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "04-flexoki-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "04-flexoki-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "05-catppuccin-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-rail   info-off",
+      "minimumChartHeight": 43,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "05-catppuccin-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-rail   info-off",
+      "minimumChartHeight": 25,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "05-catppuccin-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-rail  dense info-off",
+      "minimumChartHeight": 27,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "05-catppuccin-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-rail  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "05-catppuccin-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "05-catppuccin-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "05-catppuccin-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "05-catppuccin-dark",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "06-cobalt2",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "06-cobalt2",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "06-cobalt2",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "06-cobalt2",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "06-cobalt2",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "06-cobalt2",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "06-cobalt2",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "06-cobalt2",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "07-solarized-light",
+      "gridOverflow": false,
+      "layout": "terminal layout-paper   info-off",
+      "minimumChartHeight": 182,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "07-solarized-light",
+      "gridOverflow": false,
+      "layout": "terminal layout-paper   info-off",
+      "minimumChartHeight": 138,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "07-solarized-light",
+      "gridOverflow": false,
+      "layout": "terminal layout-paper  dense info-off",
+      "minimumChartHeight": 106,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "07-solarized-light",
+      "gridOverflow": false,
+      "layout": "terminal layout-paper  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "07-solarized-light",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "07-solarized-light",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "07-solarized-light",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "07-solarized-light",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "08-evergarden",
+      "gridOverflow": false,
+      "layout": "terminal layout-focus   inspecting",
+      "minimumChartHeight": 164,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "08-evergarden",
+      "gridOverflow": false,
+      "layout": "terminal layout-focus   inspecting",
+      "minimumChartHeight": 123,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "08-evergarden",
+      "gridOverflow": false,
+      "layout": "terminal layout-focus  dense inspecting",
+      "minimumChartHeight": 96,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "08-evergarden",
+      "gridOverflow": false,
+      "layout": "terminal layout-focus  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "08-evergarden",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "08-evergarden",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "08-evergarden",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "08-evergarden",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "09-vesper",
+      "gridOverflow": false,
+      "layout": "terminal layout-race   info-off",
+      "minimumChartHeight": 116,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "09-vesper",
+      "gridOverflow": false,
+      "layout": "terminal layout-race   info-off",
+      "minimumChartHeight": 84,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "09-vesper",
+      "gridOverflow": false,
+      "layout": "terminal layout-race  dense info-off",
+      "minimumChartHeight": 68,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "09-vesper",
+      "gridOverflow": false,
+      "layout": "terminal layout-race  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "09-vesper",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "09-vesper",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "09-vesper",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "09-vesper",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "10-monochrome",
+      "gridOverflow": false,
+      "layout": "terminal layout-tape   info-off",
+      "minimumChartHeight": 129,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "10-monochrome",
+      "gridOverflow": false,
+      "layout": "terminal layout-tape   info-off",
+      "minimumChartHeight": 95,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "10-monochrome",
+      "gridOverflow": false,
+      "layout": "terminal layout-tape  dense info-off",
+      "minimumChartHeight": 76,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "10-monochrome",
+      "gridOverflow": false,
+      "layout": "terminal layout-tape  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "suggested",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "10-monochrome",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 49,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "10-monochrome",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck   inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "10-monochrome",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  dense inspecting",
+      "minimumChartHeight": 30,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflows": 0
+    },
+    {
+      "direction": "10-monochrome",
+      "gridOverflow": false,
+      "layout": "terminal layout-flightdeck  compact info-off",
+      "minimumChartHeight": 55,
+      "mode": "baseline",
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflows": 0
+    }
+  ],
+  "cursor_cases": [
+    {
+      "cursor": 0,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "01-bauhaus"
+    },
+    {
+      "cursor": 92,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "01-bauhaus"
+    },
+    {
+      "cursor": 95,
+      "endState": [
+        "shown",
+        "shown",
+        "shown",
+        "shown",
+        "shown"
+      ],
+      "future": false,
+      "id": "01-bauhaus"
+    },
+    {
+      "cursor": 0,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "02-gruvbox-material"
+    },
+    {
+      "cursor": 92,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "02-gruvbox-material"
+    },
+    {
+      "cursor": 95,
+      "endState": [
+        "shown",
+        "shown",
+        "shown",
+        "shown",
+        "shown"
+      ],
+      "future": false,
+      "id": "02-gruvbox-material"
+    },
+    {
+      "cursor": 0,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "03-rose-pine-moon"
+    },
+    {
+      "cursor": 92,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "03-rose-pine-moon"
+    },
+    {
+      "cursor": 95,
+      "endState": [
+        "shown",
+        "shown",
+        "shown",
+        "shown",
+        "shown"
+      ],
+      "future": false,
+      "id": "03-rose-pine-moon"
+    },
+    {
+      "cursor": 0,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "04-flexoki-dark"
+    },
+    {
+      "cursor": 92,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "04-flexoki-dark"
+    },
+    {
+      "cursor": 95,
+      "endState": [
+        "shown",
+        "shown",
+        "shown",
+        "shown",
+        "shown"
+      ],
+      "future": false,
+      "id": "04-flexoki-dark"
+    },
+    {
+      "cursor": 0,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "05-catppuccin-dark"
+    },
+    {
+      "cursor": 92,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "05-catppuccin-dark"
+    },
+    {
+      "cursor": 95,
+      "endState": [
+        "shown",
+        "shown",
+        "shown",
+        "shown",
+        "shown"
+      ],
+      "future": false,
+      "id": "05-catppuccin-dark"
+    },
+    {
+      "cursor": 0,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "06-cobalt2"
+    },
+    {
+      "cursor": 92,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "06-cobalt2"
+    },
+    {
+      "cursor": 95,
+      "endState": [
+        "shown",
+        "shown",
+        "shown",
+        "shown",
+        "shown"
+      ],
+      "future": false,
+      "id": "06-cobalt2"
+    },
+    {
+      "cursor": 0,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "07-solarized-light"
+    },
+    {
+      "cursor": 92,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "07-solarized-light"
+    },
+    {
+      "cursor": 95,
+      "endState": [
+        "shown",
+        "shown",
+        "shown",
+        "shown",
+        "shown"
+      ],
+      "future": false,
+      "id": "07-solarized-light"
+    },
+    {
+      "cursor": 0,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "08-evergarden"
+    },
+    {
+      "cursor": 92,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "08-evergarden"
+    },
+    {
+      "cursor": 95,
+      "endState": [
+        "shown",
+        "shown",
+        "shown",
+        "shown",
+        "shown"
+      ],
+      "future": false,
+      "id": "08-evergarden"
+    },
+    {
+      "cursor": 0,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "09-vesper"
+    },
+    {
+      "cursor": 92,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "09-vesper"
+    },
+    {
+      "cursor": 95,
+      "endState": [
+        "shown",
+        "shown",
+        "shown",
+        "shown",
+        "shown"
+      ],
+      "future": false,
+      "id": "09-vesper"
+    },
+    {
+      "cursor": 0,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "10-monochrome"
+    },
+    {
+      "cursor": 92,
+      "endState": [
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden",
+        "hidden"
+      ],
+      "future": false,
+      "id": "10-monochrome"
+    },
+    {
+      "cursor": 95,
+      "endState": [
+        "shown",
+        "shown",
+        "shown",
+        "shown",
+        "shown"
+      ],
+      "future": false,
+      "id": "10-monochrome"
+    }
+  ],
+  "middle_cursor": [
+    {
+      "cursor": 50,
+      "endHidden": true,
+      "future": false,
+      "id": "01-bauhaus"
+    },
+    {
+      "cursor": 50,
+      "endHidden": true,
+      "future": false,
+      "id": "02-gruvbox-material"
+    },
+    {
+      "cursor": 50,
+      "endHidden": true,
+      "future": false,
+      "id": "03-rose-pine-moon"
+    },
+    {
+      "cursor": 50,
+      "endHidden": true,
+      "future": false,
+      "id": "04-flexoki-dark"
+    },
+    {
+      "cursor": 50,
+      "endHidden": true,
+      "future": false,
+      "id": "05-catppuccin-dark"
+    },
+    {
+      "cursor": 50,
+      "endHidden": true,
+      "future": false,
+      "id": "06-cobalt2"
+    },
+    {
+      "cursor": 50,
+      "endHidden": true,
+      "future": false,
+      "id": "07-solarized-light"
+    },
+    {
+      "cursor": 50,
+      "endHidden": true,
+      "future": false,
+      "id": "08-evergarden"
+    },
+    {
+      "cursor": 50,
+      "endHidden": true,
+      "future": false,
+      "id": "09-vesper"
+    },
+    {
+      "cursor": 50,
+      "endHidden": true,
+      "future": false,
+      "id": "10-monochrome"
+    }
+  ],
+  "grayscale_shapes": {
+    "hatchLines": 264,
+    "hollowCandles": 20
+  },
+  "interactions": {
+    "compact_secondary": [
+      "price",
+      "exposure"
+    ],
+    "compact_info": {
+      "charts": 0,
+      "info": true
+    },
+    "explicit_reveal": true,
+    "help": true,
+    "native_tab": true,
+    "source_table_rows": 10,
+    "compare": true
+  },
+  "limits": [
+    "HTML composition sizes, not exact native terminal cells",
+    "Synthetic fixture; no engine validation",
+    "No real trading, export, paper or live implementation",
+    "Direct file opening not exercised by browser automation"
+  ]
+}
