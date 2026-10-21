@@ -1,470 +1,743 @@
 {
   "date": "2026-10-21",
-  "tool": "Codex in-app browser / CUA",
-  "scope": "HTML design prototype, not native terminal or simulator",
+  "scope": "Consolidated design studio; one renderer, two preserved sets",
+  "sets": [
+    {
+      "count": 10,
+      "label": "Showing Default 10",
+      "links": true,
+      "selected": "default"
+    },
+    {
+      "count": 10,
+      "label": "Showing Omar 10",
+      "links": true,
+      "selected": "omar"
+    },
+    {
+      "count": 20,
+      "label": "Showing all 20 · Default 10 + Omar 10",
+      "links": true,
+      "selected": "all"
+    }
+  ],
+  "cross_set_comparison": [
+    "Default 10 / Flightdeck",
+    "RESULTS[i] hide",
+    "THIS PERIOD 11-16 20:00",
+    "RUN IDENTITY",
+    "Omar 10 / Evergarden",
+    "RESULTS[i] hide",
+    "THIS PERIOD 11-16 20:00",
+    "RUN IDENTITY"
+  ],
+  "omar_navigation": {
+    "back": "index.html?set=omar",
+    "options": 10,
+    "set": "omar"
+  },
   "geometry": [
     {
-      "bodyOverflow": false,
-      "direction": "01-flightdeck",
-      "minimumChartHeight": 50,
+      "gridOverflow": false,
+      "id": "01-flightdeck",
+      "minChartHeight": 50,
       "pageOverflow": false,
       "size": "160,48",
-      "terminalWidth": 1278,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "01-flightdeck",
-      "minimumChartHeight": 30,
+      "gridOverflow": false,
+      "id": "01-flightdeck",
+      "minChartHeight": 30,
       "pageOverflow": false,
       "size": "120,40",
-      "terminalWidth": 958,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "01-flightdeck",
-      "minimumChartHeight": 30,
+      "gridOverflow": false,
+      "id": "01-flightdeck",
+      "minChartHeight": 30,
       "pageOverflow": false,
       "size": "100,30",
-      "terminalWidth": 798,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "01-flightdeck",
-      "minimumChartHeight": 56,
+      "gridOverflow": false,
+      "id": "01-flightdeck",
+      "minChartHeight": 56,
       "pageOverflow": false,
       "size": "80,24",
-      "terminalWidth": 638,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "02-split",
-      "minimumChartHeight": 116,
+      "gridOverflow": false,
+      "id": "02-split",
+      "minChartHeight": 116,
       "pageOverflow": false,
       "size": "160,48",
-      "terminalWidth": 1278,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "02-split",
-      "minimumChartHeight": 84,
+      "gridOverflow": false,
+      "id": "02-split",
+      "minChartHeight": 84,
       "pageOverflow": false,
       "size": "120,40",
-      "terminalWidth": 958,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "02-split",
-      "minimumChartHeight": 68,
+      "gridOverflow": false,
+      "id": "02-split",
+      "minChartHeight": 68,
       "pageOverflow": false,
       "size": "100,30",
-      "terminalWidth": 798,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "02-split",
-      "minimumChartHeight": 56,
+      "gridOverflow": false,
+      "id": "02-split",
+      "minChartHeight": 56,
       "pageOverflow": false,
       "size": "80,24",
-      "terminalWidth": 638,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "03-ledger",
-      "minimumChartHeight": 116,
+      "gridOverflow": false,
+      "id": "03-ledger",
+      "minChartHeight": 116,
       "pageOverflow": false,
       "size": "160,48",
-      "terminalWidth": 1278,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "03-ledger",
-      "minimumChartHeight": 84,
+      "gridOverflow": false,
+      "id": "03-ledger",
+      "minChartHeight": 84,
       "pageOverflow": false,
       "size": "120,40",
-      "terminalWidth": 958,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "03-ledger",
-      "minimumChartHeight": 68,
+      "gridOverflow": false,
+      "id": "03-ledger",
+      "minChartHeight": 68,
       "pageOverflow": false,
       "size": "100,30",
-      "terminalWidth": 798,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "03-ledger",
-      "minimumChartHeight": 56,
+      "gridOverflow": false,
+      "id": "03-ledger",
+      "minChartHeight": 56,
       "pageOverflow": false,
       "size": "80,24",
-      "terminalWidth": 638,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "04-rail",
-      "minimumChartHeight": 43,
+      "gridOverflow": false,
+      "id": "04-rail",
+      "minChartHeight": 43,
       "pageOverflow": false,
       "size": "160,48",
-      "terminalWidth": 1278,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "04-rail",
-      "minimumChartHeight": 25,
+      "gridOverflow": false,
+      "id": "04-rail",
+      "minChartHeight": 25,
       "pageOverflow": false,
       "size": "120,40",
-      "terminalWidth": 958,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "04-rail",
-      "minimumChartHeight": 27,
+      "gridOverflow": false,
+      "id": "04-rail",
+      "minChartHeight": 27,
       "pageOverflow": false,
       "size": "100,30",
-      "terminalWidth": 798,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "04-rail",
-      "minimumChartHeight": 56,
+      "gridOverflow": false,
+      "id": "04-rail",
+      "minChartHeight": 56,
       "pageOverflow": false,
       "size": "80,24",
-      "terminalWidth": 638,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "05-paper",
-      "minimumChartHeight": 183,
+      "gridOverflow": false,
+      "id": "05-paper",
+      "minChartHeight": 183,
       "pageOverflow": false,
       "size": "160,48",
-      "terminalWidth": 1278,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "05-paper",
-      "minimumChartHeight": 138,
+      "gridOverflow": false,
+      "id": "05-paper",
+      "minChartHeight": 138,
       "pageOverflow": false,
       "size": "120,40",
-      "terminalWidth": 958,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "05-paper",
-      "minimumChartHeight": 106,
+      "gridOverflow": false,
+      "id": "05-paper",
+      "minChartHeight": 106,
       "pageOverflow": false,
       "size": "100,30",
-      "terminalWidth": 798,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "05-paper",
-      "minimumChartHeight": 56,
+      "gridOverflow": false,
+      "id": "05-paper",
+      "minChartHeight": 56,
       "pageOverflow": false,
       "size": "80,24",
-      "terminalWidth": 638,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "06-focus",
-      "minimumChartHeight": 164,
+      "gridOverflow": false,
+      "id": "06-focus",
+      "minChartHeight": 164,
       "pageOverflow": false,
       "size": "160,48",
-      "terminalWidth": 1278,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "06-focus",
-      "minimumChartHeight": 123,
+      "gridOverflow": false,
+      "id": "06-focus",
+      "minChartHeight": 123,
       "pageOverflow": false,
       "size": "120,40",
-      "terminalWidth": 958,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "06-focus",
-      "minimumChartHeight": 96,
+      "gridOverflow": false,
+      "id": "06-focus",
+      "minChartHeight": 96,
       "pageOverflow": false,
       "size": "100,30",
-      "terminalWidth": 798,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "06-focus",
-      "minimumChartHeight": 56,
+      "gridOverflow": false,
+      "id": "06-focus",
+      "minChartHeight": 56,
       "pageOverflow": false,
       "size": "80,24",
-      "terminalWidth": 638,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "07-race",
-      "minimumChartHeight": 116,
+      "gridOverflow": false,
+      "id": "07-race",
+      "minChartHeight": 116,
       "pageOverflow": false,
       "size": "160,48",
-      "terminalWidth": 1278,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "07-race",
-      "minimumChartHeight": 84,
+      "gridOverflow": false,
+      "id": "07-race",
+      "minChartHeight": 84,
       "pageOverflow": false,
       "size": "120,40",
-      "terminalWidth": 958,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "07-race",
-      "minimumChartHeight": 68,
+      "gridOverflow": false,
+      "id": "07-race",
+      "minChartHeight": 68,
       "pageOverflow": false,
       "size": "100,30",
-      "terminalWidth": 798,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "07-race",
-      "minimumChartHeight": 56,
+      "gridOverflow": false,
+      "id": "07-race",
+      "minChartHeight": 56,
       "pageOverflow": false,
       "size": "80,24",
-      "terminalWidth": 638,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "08-matrix",
-      "minimumChartHeight": 189,
+      "gridOverflow": false,
+      "id": "08-matrix",
+      "minChartHeight": 189,
       "pageOverflow": false,
       "size": "160,48",
-      "terminalWidth": 1278,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "08-matrix",
-      "minimumChartHeight": 143,
+      "gridOverflow": false,
+      "id": "08-matrix",
+      "minChartHeight": 143,
       "pageOverflow": false,
       "size": "120,40",
-      "terminalWidth": 958,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "08-matrix",
-      "minimumChartHeight": 109,
+      "gridOverflow": false,
+      "id": "08-matrix",
+      "minChartHeight": 109,
       "pageOverflow": false,
       "size": "100,30",
-      "terminalWidth": 798,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "08-matrix",
-      "minimumChartHeight": 56,
+      "gridOverflow": false,
+      "id": "08-matrix",
+      "minChartHeight": 56,
       "pageOverflow": false,
       "size": "80,24",
-      "terminalWidth": 638,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "09-tape",
-      "minimumChartHeight": 130,
+      "gridOverflow": false,
+      "id": "09-tape",
+      "minChartHeight": 130,
       "pageOverflow": false,
       "size": "160,48",
-      "terminalWidth": 1278,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "09-tape",
-      "minimumChartHeight": 95,
+      "gridOverflow": false,
+      "id": "09-tape",
+      "minChartHeight": 95,
       "pageOverflow": false,
       "size": "120,40",
-      "terminalWidth": 958,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "09-tape",
-      "minimumChartHeight": 76,
+      "gridOverflow": false,
+      "id": "09-tape",
+      "minChartHeight": 76,
       "pageOverflow": false,
       "size": "100,30",
-      "terminalWidth": 798,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "09-tape",
-      "minimumChartHeight": 56,
+      "gridOverflow": false,
+      "id": "09-tape",
+      "minChartHeight": 56,
       "pageOverflow": false,
       "size": "80,24",
-      "terminalWidth": 638,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "10-outline",
-      "minimumChartHeight": 156,
+      "gridOverflow": false,
+      "id": "10-outline",
+      "minChartHeight": 156,
       "pageOverflow": false,
       "size": "160,48",
-      "terminalWidth": 1278,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "10-outline",
-      "minimumChartHeight": 116,
+      "gridOverflow": false,
+      "id": "10-outline",
+      "minChartHeight": 116,
       "pageOverflow": false,
       "size": "120,40",
-      "terminalWidth": 958,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "10-outline",
-      "minimumChartHeight": 91,
+      "gridOverflow": false,
+      "id": "10-outline",
+      "minChartHeight": 91,
       "pageOverflow": false,
       "size": "100,30",
-      "terminalWidth": 798,
-      "titleOverflows": 0
+      "titleOverflow": false
     },
     {
-      "bodyOverflow": false,
-      "direction": "10-outline",
-      "minimumChartHeight": 56,
+      "gridOverflow": false,
+      "id": "10-outline",
+      "minChartHeight": 56,
       "pageOverflow": false,
       "size": "80,24",
-      "terminalWidth": 638,
-      "titleOverflows": 0
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "01-bauhaus",
+      "minChartHeight": 189,
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "01-bauhaus",
+      "minChartHeight": 143,
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "01-bauhaus",
+      "minChartHeight": 109,
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "01-bauhaus",
+      "minChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "02-gruvbox-material",
+      "minChartHeight": 116,
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "02-gruvbox-material",
+      "minChartHeight": 84,
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "02-gruvbox-material",
+      "minChartHeight": 68,
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "02-gruvbox-material",
+      "minChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "03-rose-pine-moon",
+      "minChartHeight": 116,
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "03-rose-pine-moon",
+      "minChartHeight": 84,
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "03-rose-pine-moon",
+      "minChartHeight": 68,
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "03-rose-pine-moon",
+      "minChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "04-flexoki-dark",
+      "minChartHeight": 156,
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "04-flexoki-dark",
+      "minChartHeight": 116,
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "04-flexoki-dark",
+      "minChartHeight": 91,
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "04-flexoki-dark",
+      "minChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "05-catppuccin-dark",
+      "minChartHeight": 43,
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "05-catppuccin-dark",
+      "minChartHeight": 25,
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "05-catppuccin-dark",
+      "minChartHeight": 27,
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "05-catppuccin-dark",
+      "minChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "06-cobalt2",
+      "minChartHeight": 50,
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "06-cobalt2",
+      "minChartHeight": 30,
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "06-cobalt2",
+      "minChartHeight": 30,
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "06-cobalt2",
+      "minChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "07-solarized-light",
+      "minChartHeight": 183,
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "07-solarized-light",
+      "minChartHeight": 138,
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "07-solarized-light",
+      "minChartHeight": 106,
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "07-solarized-light",
+      "minChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "08-evergarden",
+      "minChartHeight": 164,
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "08-evergarden",
+      "minChartHeight": 123,
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "08-evergarden",
+      "minChartHeight": 96,
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "08-evergarden",
+      "minChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "09-vesper",
+      "minChartHeight": 116,
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "09-vesper",
+      "minChartHeight": 84,
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "09-vesper",
+      "minChartHeight": 68,
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "09-vesper",
+      "minChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "10-monochrome",
+      "minChartHeight": 130,
+      "pageOverflow": false,
+      "size": "160,48",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "10-monochrome",
+      "minChartHeight": 95,
+      "pageOverflow": false,
+      "size": "120,40",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "10-monochrome",
+      "minChartHeight": 76,
+      "pageOverflow": false,
+      "size": "100,30",
+      "titleOverflow": false
+    },
+    {
+      "gridOverflow": false,
+      "id": "10-monochrome",
+      "minChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "titleOverflow": false
     }
   ],
-  "cursor_checks": [
+  "legacy_redirects": [
     {
-      "cursor": 0,
-      "endCells": 5,
-      "futureSamples": false,
-      "hiddenEnd": true,
-      "id": "01-flightdeck"
+      "path": "/pairs-pro-tui-studies/index.html",
+      "selected": "omar",
+      "set": "omar"
     },
     {
-      "cursor": 0,
-      "endCells": 5,
-      "futureSamples": false,
-      "hiddenEnd": true,
-      "id": "02-split"
+      "path": "/pairs-pro-tui-studies/01-bauhaus.html",
+      "selected": "01-bauhaus",
+      "set": "omar"
     },
     {
-      "cursor": 0,
-      "endCells": 5,
-      "futureSamples": false,
-      "hiddenEnd": true,
-      "id": "03-ledger"
+      "path": "/pairs-pro-tui-studies/02-gruvbox-material.html",
+      "selected": "02-gruvbox-material",
+      "set": "omar"
     },
     {
-      "cursor": 0,
-      "endCells": 5,
-      "futureSamples": false,
-      "hiddenEnd": true,
-      "id": "04-rail"
+      "path": "/pairs-pro-tui-studies/03-rose-pine-moon.html",
+      "selected": "03-rose-pine-moon",
+      "set": "omar"
     },
     {
-      "cursor": 0,
-      "endCells": 5,
-      "futureSamples": false,
-      "hiddenEnd": true,
-      "id": "05-paper"
+      "path": "/pairs-pro-tui-studies/04-flexoki-dark.html",
+      "selected": "04-flexoki-dark",
+      "set": "omar"
     },
     {
-      "cursor": 0,
-      "endCells": 5,
-      "futureSamples": false,
-      "hiddenEnd": true,
-      "id": "06-focus"
+      "path": "/pairs-pro-tui-studies/05-catppuccin-dark.html",
+      "selected": "05-catppuccin-dark",
+      "set": "omar"
     },
     {
-      "cursor": 0,
-      "endCells": 5,
-      "futureSamples": false,
-      "hiddenEnd": true,
-      "id": "07-race"
+      "path": "/pairs-pro-tui-studies/06-cobalt2.html",
+      "selected": "06-cobalt2",
+      "set": "omar"
     },
     {
-      "cursor": 0,
-      "endCells": 5,
-      "futureSamples": false,
-      "hiddenEnd": true,
-      "id": "08-matrix"
+      "path": "/pairs-pro-tui-studies/07-solarized-light.html",
+      "selected": "07-solarized-light",
+      "set": "omar"
     },
     {
-      "cursor": 0,
-      "endCells": 5,
-      "futureSamples": false,
-      "hiddenEnd": true,
-      "id": "09-tape"
+      "path": "/pairs-pro-tui-studies/08-evergarden.html",
+      "selected": "08-evergarden",
+      "set": "omar"
     },
     {
-      "cursor": 0,
-      "endCells": 5,
-      "futureSamples": false,
-      "hiddenEnd": true,
-      "id": "10-outline"
+      "path": "/pairs-pro-tui-studies/09-vesper.html",
+      "selected": "09-vesper",
+      "set": "omar"
+    },
+    {
+      "path": "/pairs-pro-tui-studies/10-monochrome.html",
+      "selected": "10-monochrome",
+      "set": "omar"
     }
   ],
-  "interactions": {
-    "compact_secondary": {
-      "charts": [
-        "price",
-        "exposure"
-      ],
-      "cursor": "1"
-    },
-    "compact_info": {
-      "charts": 0,
-      "endHidden": true,
-      "inspector": true
-    },
-    "explicit_reveal": true,
-    "help": true,
-    "escape": true,
-    "native_tab": true,
-    "event_jump": 65,
-    "log_cursor_bounded": true,
-    "monthly_cursor_bounded": true,
-    "span_cycle": true,
-    "play_pause": true,
-    "tape_metrics": true,
-    "two_direction_comparison": true
-  },
   "limits": [
-    "Native terminal rendering not tested",
-    "No real engine or historical fixture loaded",
-    "Browser presentation sizes do not reproduce exact native terminal cells",
-    "Direct file opening not exercised by the browser tool"
+    "HTML composition sizes, not native terminal cells",
+    "Synthetic data; no engine execution",
+    "Direct file opening not tested"
   ]
 }

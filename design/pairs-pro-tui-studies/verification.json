@@ -1,745 +1,1710 @@
 {
   "date": "2026-10-21",
-  "scope": "HTML terminal design prototypes; no native engine verification",
-  "directions": 10,
-  "layouts": 10,
-  "standalone_html": 11,
-  "runtime_dependencies": 0,
+  "scope": "Consolidated HTML design studio; no native engine verification",
+  "sets": {
+    "all": 20,
+    "default": 10,
+    "omar": 10
+  },
+  "renderer_count": 1,
   "fixture_sha256": "1701202e73f3539621e5dc7d8247d08130068300e3ace9ae027eb0d9df32a306",
+  "standalone_html": 21,
+  "runtime_dependencies": 0,
   "source_hashes": {
-    "css": "82864b30b54443848f45266fb2d616114dcf406a1d4b1154fdba9b18e4741a35",
-    "js": "9cb1bb073b8c6550adc803c28d388ffc379e5b90db88ca991fe8774fc3b0ffe4",
-    "directions": "94d96d21489b05fcaeb241f4481ea0ec12b6c9f94e63b8b96e7d0e4f7f863a06",
+    "css": "2dbc4ee88ea06bf6c1fd77fdd77c6f399ceba1afa9cc5d14fc24ef0650e8a08b",
+    "js": "5aef8a169aa20e9e5abdd230562c81dea5026e0b99476cd96d221ea69f8246bb",
+    "sources": "c2b672e2ce1fb2a6d2b8ac920106aac0f0992c50c991b4152dac9d44103ad1b2",
+    "default": "94d96d21489b05fcaeb241f4481ea0ec12b6c9f94e63b8b96e7d0e4f7f863a06",
+    "omar": "0f866af4be084cad3acd79106b63f79bf1317b254992dff535df9da6a2e5a21d",
     "model": "4fc1e1ce38015d42a3a1fb4f19727ded9e91e0dbef4a15cfcfb5cf2793073d3d"
   },
   "checks": {
     "javascript_parse": "pass",
-    "palette_pairs": 120,
-    "minimum_text_contrast": 4.85,
-    "all_cursor_prefixes": 96,
-    "candle_bounds": "pass",
-    "endpoint_values": "pass"
+    "unique_studies": 20,
+    "palette_pairs": 240,
+    "min_contrast": 4.5,
+    "all_cursor_prefixes": 96
   },
   "contrast": [
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "fg",
       "bg": "bg",
-      "ratio": 15.34
+      "ratio": 15.341
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "muted",
       "bg": "bg",
-      "ratio": 7.74
+      "ratio": 7.744
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "accent",
       "bg": "bg",
-      "ratio": 8.04
+      "ratio": 8.039
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "positive",
       "bg": "bg",
       "ratio": 9.73
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "negative",
       "bg": "bg",
-      "ratio": 8.49
+      "ratio": 8.487
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "fee",
       "bg": "bg",
-      "ratio": 11.14
+      "ratio": 11.145
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "fg",
       "bg": "panel",
-      "ratio": 14.3
+      "ratio": 14.297
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "muted",
       "bg": "panel",
-      "ratio": 7.22
+      "ratio": 7.217
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "accent",
       "bg": "panel",
-      "ratio": 7.49
+      "ratio": 7.493
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "positive",
       "bg": "panel",
-      "ratio": 9.07
+      "ratio": 9.068
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "negative",
       "bg": "panel",
       "ratio": 7.91
     },
     {
       "id": "01-flightdeck",
+      "set": "default",
       "fg": "fee",
       "bg": "panel",
-      "ratio": 10.39
+      "ratio": 10.386
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "fg",
       "bg": "bg",
-      "ratio": 14.86
+      "ratio": 14.862
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "muted",
       "bg": "bg",
-      "ratio": 8.25
+      "ratio": 8.253
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "accent",
       "bg": "bg",
-      "ratio": 11.17
+      "ratio": 11.172
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "positive",
       "bg": "bg",
-      "ratio": 11.17
+      "ratio": 11.172
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "negative",
       "bg": "bg",
-      "ratio": 9.09
+      "ratio": 9.094
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "fee",
       "bg": "bg",
-      "ratio": 11.67
+      "ratio": 11.673
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "fg",
       "bg": "panel",
-      "ratio": 13.48
+      "ratio": 13.478
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "muted",
       "bg": "panel",
-      "ratio": 7.48
+      "ratio": 7.484
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "accent",
       "bg": "panel",
-      "ratio": 10.13
+      "ratio": 10.131
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "positive",
       "bg": "panel",
-      "ratio": 10.13
+      "ratio": 10.131
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "negative",
       "bg": "panel",
-      "ratio": 8.25
+      "ratio": 8.247
     },
     {
       "id": "02-split",
+      "set": "default",
       "fg": "fee",
       "bg": "panel",
-      "ratio": 10.59
+      "ratio": 10.586
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "fg",
       "bg": "bg",
-      "ratio": 14.51
+      "ratio": 14.506
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "muted",
       "bg": "bg",
-      "ratio": 8.11
+      "ratio": 8.111
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "accent",
       "bg": "bg",
-      "ratio": 10.71
+      "ratio": 10.711
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "positive",
       "bg": "bg",
-      "ratio": 10.61
+      "ratio": 10.608
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "negative",
       "bg": "bg",
       "ratio": 8.79
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "fee",
       "bg": "bg",
-      "ratio": 10.71
+      "ratio": 10.711
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "fg",
       "bg": "panel",
-      "ratio": 13.35
+      "ratio": 13.352
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "muted",
       "bg": "panel",
-      "ratio": 7.47
+      "ratio": 7.466
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "accent",
       "bg": "panel",
-      "ratio": 9.86
+      "ratio": 9.859
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "positive",
       "bg": "panel",
-      "ratio": 9.76
+      "ratio": 9.764
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "negative",
       "bg": "panel",
-      "ratio": 8.09
+      "ratio": 8.091
     },
     {
       "id": "03-ledger",
+      "set": "default",
       "fg": "fee",
       "bg": "panel",
-      "ratio": 9.86
+      "ratio": 9.859
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "fg",
       "bg": "bg",
-      "ratio": 14.41
+      "ratio": 14.406
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "muted",
       "bg": "bg",
-      "ratio": 8.04
+      "ratio": 8.043
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "accent",
       "bg": "bg",
-      "ratio": 8.79
+      "ratio": 8.788
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "positive",
       "bg": "bg",
-      "ratio": 11.01
+      "ratio": 11.013
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "negative",
       "bg": "bg",
-      "ratio": 8.95
+      "ratio": 8.952
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "fee",
       "bg": "bg",
-      "ratio": 10.98
+      "ratio": 10.983
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "fg",
       "bg": "panel",
-      "ratio": 13.38
+      "ratio": 13.376
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "muted",
       "bg": "panel",
-      "ratio": 7.47
+      "ratio": 7.468
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "accent",
       "bg": "panel",
       "ratio": 8.16
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "positive",
       "bg": "panel",
-      "ratio": 10.23
+      "ratio": 10.225
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "negative",
       "bg": "panel",
-      "ratio": 8.31
+      "ratio": 8.312
     },
     {
       "id": "04-rail",
+      "set": "default",
       "fg": "fee",
       "bg": "panel",
-      "ratio": 10.2
+      "ratio": 10.197
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "fg",
       "bg": "bg",
-      "ratio": 12.3
+      "ratio": 12.298
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "muted",
       "bg": "bg",
-      "ratio": 5.15
+      "ratio": 5.146
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "accent",
       "bg": "bg",
-      "ratio": 6.36
+      "ratio": 6.363
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "positive",
       "bg": "bg",
-      "ratio": 6.15
+      "ratio": 6.153
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "negative",
       "bg": "bg",
-      "ratio": 5.27
+      "ratio": 5.271
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "fee",
       "bg": "bg",
       "ratio": 4.87
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "fg",
       "bg": "panel",
-      "ratio": 12.3
+      "ratio": 12.298
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "muted",
       "bg": "panel",
-      "ratio": 5.15
+      "ratio": 5.146
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "accent",
       "bg": "panel",
-      "ratio": 6.36
+      "ratio": 6.363
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "positive",
       "bg": "panel",
-      "ratio": 6.15
+      "ratio": 6.153
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "negative",
       "bg": "panel",
-      "ratio": 5.27
+      "ratio": 5.271
     },
     {
       "id": "05-paper",
+      "set": "default",
       "fg": "fee",
       "bg": "panel",
       "ratio": 4.87
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "fg",
       "bg": "bg",
-      "ratio": 14.75
+      "ratio": 14.751
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "muted",
       "bg": "bg",
-      "ratio": 8.34
+      "ratio": 8.343
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "accent",
       "bg": "bg",
-      "ratio": 10.07
+      "ratio": 10.069
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "positive",
       "bg": "bg",
-      "ratio": 10.07
+      "ratio": 10.069
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "negative",
       "bg": "bg",
-      "ratio": 8.78
+      "ratio": 8.778
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "fee",
       "bg": "bg",
-      "ratio": 10.76
+      "ratio": 10.761
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "fg",
       "bg": "panel",
       "ratio": 13.79
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "muted",
       "bg": "panel",
-      "ratio": 7.8
+      "ratio": 7.799
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "accent",
       "bg": "panel",
-      "ratio": 9.41
+      "ratio": 9.413
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "positive",
       "bg": "panel",
-      "ratio": 9.41
+      "ratio": 9.413
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "negative",
       "bg": "panel",
-      "ratio": 8.21
+      "ratio": 8.206
     },
     {
       "id": "06-focus",
+      "set": "default",
       "fg": "fee",
       "bg": "panel",
       "ratio": 10.06
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "fg",
       "bg": "bg",
-      "ratio": 14.94
+      "ratio": 14.941
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "muted",
       "bg": "bg",
-      "ratio": 8.04
+      "ratio": 8.037
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "accent",
       "bg": "bg",
-      "ratio": 10.21
+      "ratio": 10.208
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "positive",
       "bg": "bg",
       "ratio": 10.36
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "negative",
       "bg": "bg",
-      "ratio": 8.96
+      "ratio": 8.959
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "fee",
       "bg": "bg",
-      "ratio": 11.25
+      "ratio": 11.245
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "fg",
       "bg": "panel",
-      "ratio": 13.7
+      "ratio": 13.695
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "muted",
       "bg": "panel",
-      "ratio": 7.37
+      "ratio": 7.367
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "accent",
       "bg": "panel",
-      "ratio": 9.36
+      "ratio": 9.356
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "positive",
       "bg": "panel",
-      "ratio": 9.5
+      "ratio": 9.496
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "negative",
       "bg": "panel",
-      "ratio": 8.21
+      "ratio": 8.212
     },
     {
       "id": "07-race",
+      "set": "default",
       "fg": "fee",
       "bg": "panel",
-      "ratio": 10.31
+      "ratio": 10.307
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "fg",
       "bg": "bg",
-      "ratio": 14.08
+      "ratio": 14.081
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "muted",
       "bg": "bg",
-      "ratio": 7.99
+      "ratio": 7.991
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "accent",
       "bg": "bg",
       "ratio": 8.82
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "positive",
       "bg": "bg",
-      "ratio": 10.22
+      "ratio": 10.217
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "negative",
       "bg": "bg",
-      "ratio": 8.65
+      "ratio": 8.651
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "fee",
       "bg": "bg",
-      "ratio": 10.29
+      "ratio": 10.288
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "fg",
       "bg": "panel",
-      "ratio": 13.17
+      "ratio": 13.172
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "muted",
       "bg": "panel",
-      "ratio": 7.48
+      "ratio": 7.475
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "accent",
       "bg": "panel",
-      "ratio": 8.25
+      "ratio": 8.251
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "positive",
       "bg": "panel",
-      "ratio": 9.56
+      "ratio": 9.558
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "negative",
       "bg": "panel",
-      "ratio": 8.09
+      "ratio": 8.093
     },
     {
       "id": "08-matrix",
+      "set": "default",
       "fg": "fee",
       "bg": "panel",
-      "ratio": 9.62
+      "ratio": 9.624
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "fg",
       "bg": "bg",
-      "ratio": 14.71
+      "ratio": 14.709
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "muted",
       "bg": "bg",
-      "ratio": 8.6
+      "ratio": 8.595
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "accent",
       "bg": "bg",
-      "ratio": 11.07
+      "ratio": 11.073
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "positive",
       "bg": "bg",
-      "ratio": 10.74
+      "ratio": 10.743
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "negative",
       "bg": "bg",
-      "ratio": 9.34
+      "ratio": 9.338
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "fee",
       "bg": "bg",
-      "ratio": 11.07
+      "ratio": 11.073
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "fg",
       "bg": "panel",
-      "ratio": 13.56
+      "ratio": 13.561
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "muted",
       "bg": "panel",
-      "ratio": 7.92
+      "ratio": 7.925
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "accent",
       "bg": "panel",
-      "ratio": 10.21
+      "ratio": 10.209
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "positive",
       "bg": "panel",
-      "ratio": 9.9
+      "ratio": 9.905
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "negative",
       "bg": "panel",
       "ratio": 8.61
     },
     {
       "id": "09-tape",
+      "set": "default",
       "fg": "fee",
       "bg": "panel",
-      "ratio": 10.21
+      "ratio": 10.209
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "fg",
       "bg": "bg",
-      "ratio": 11.21
+      "ratio": 11.214
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "muted",
       "bg": "bg",
-      "ratio": 4.85
+      "ratio": 4.852
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "accent",
       "bg": "bg",
-      "ratio": 6.06
+      "ratio": 6.056
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "positive",
       "bg": "bg",
-      "ratio": 5.66
+      "ratio": 5.658
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "negative",
       "bg": "bg",
-      "ratio": 4.97
+      "ratio": 4.967
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "fee",
       "bg": "bg",
-      "ratio": 4.93
+      "ratio": 4.928
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "fg",
       "bg": "panel",
-      "ratio": 11.21
+      "ratio": 11.214
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "muted",
       "bg": "panel",
-      "ratio": 4.85
+      "ratio": 4.852
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "accent",
       "bg": "panel",
-      "ratio": 6.06
+      "ratio": 6.056
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "positive",
       "bg": "panel",
-      "ratio": 5.66
+      "ratio": 5.658
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "negative",
       "bg": "panel",
-      "ratio": 4.97
+      "ratio": 4.967
     },
     {
       "id": "10-outline",
+      "set": "default",
       "fg": "fee",
       "bg": "panel",
-      "ratio": 4.93
+      "ratio": 4.928
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 16.097
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 11.717
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 6.462
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 6.451
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 6.453
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 8.807
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 14.962
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 10.891
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 6.006
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 5.996
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 5.998
+    },
+    {
+      "id": "01-bauhaus",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 8.186
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 8.157
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 5.304
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 5.717
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 6.716
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 4.701
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 6.678
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 8.157
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 5.304
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 5.717
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 6.716
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.701
+    },
+    {
+      "id": "02-gruvbox-material",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 6.678
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 11.864
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 4.856
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 9.186
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 7.128
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 5.38
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 9.546
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 11.864
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 4.856
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 9.186
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 7.128
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 5.38
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 9.546
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 11.98
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 5.192
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 4.864
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 6.117
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 4.56
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 8.076
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 11.98
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 5.192
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 4.864
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 6.117
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.56
+    },
+    {
+      "id": "04-flexoki-dark",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 8.076
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 14.433
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 11.788
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 9.912
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 14.038
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 9.015
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 16.426
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 14.433
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 11.788
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 9.912
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 14.038
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 9.015
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 16.426
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 15.295
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 6.584
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 9.708
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 8.088
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 5.433
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 7.338
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 12.752
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 5.489
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 8.094
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 6.743
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.53
+    },
+    {
+      "id": "06-cobalt2",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 6.118
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 5.139
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 5.176
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 5.211
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 5.222
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 5.183
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 5.118
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 4.524
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 4.557
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 4.587
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 4.598
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.563
+    },
+    {
+      "id": "07-solarized-light",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 4.506
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 8.222
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 5.078
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 10.581
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 10.525
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 5.714
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 9.956
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 8.222
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 5.078
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 10.581
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 10.525
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 5.714
+    },
+    {
+      "id": "08-evergarden",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 9.956
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 19.028
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 7.277
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 12.578
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 8.722
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 9.414
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 10.684
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 19.028
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 7.277
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 12.578
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 8.722
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 9.414
+    },
+    {
+      "id": "09-vesper",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 10.684
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 9.946
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 4.5
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 9.946
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 9.946
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 4.5
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 14.743
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 9.946
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 4.5
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 9.946
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 9.946
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.5
+    },
+    {
+      "id": "10-monochrome",
+      "set": "omar",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 14.743
     }
   ]
 }

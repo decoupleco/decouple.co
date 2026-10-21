@@ -1,0 +1,76 @@
+{
+  "catalogue": "https://omarchy.org/themes/",
+  "retrieved": "2026-10-21",
+  "sources": [
+    {
+      "repo": "mwaltzer/omarchy-bauhaus-theme",
+      "commit": "bfcabfddb89dc56e95441b7a43919c662a468a14",
+      "file": "alacritty.toml",
+      "url": "https://github.com/mwaltzer/omarchy-bauhaus-theme/blob/bfcabfddb89dc56e95441b7a43919c662a468a14/alacritty.toml",
+      "content": "[colors.primary]\nbackground = \"#101318\"\nforeground = \"#EAEFF5\"\n\n[colors.cursor]\ncursor = \"#E37B66\"\ntext = \"#101318\"\n\n[colors.selection]\nbackground = \"#2B3040\"\ntext = \"#EAEFF5\"\n\n[colors.normal]\nblack   = \"#161B22\"\nred     = \"#CB886D\"\ngreen   = \"#789FA2\"\nyellow  = \"#E7A46F\"\nblue    = \"#8999AA\"\nmagenta = \"#8D758F\"\ncyan    = \"#809D9E\"\nwhite   = \"#EAEFF5\"\n\n[colors.bright]\nblack   = \"#3A3F4C\"\nred     = \"#E06C55\"\ngreen   = \"#7B9B9F\"\nyellow  = \"#E0A568\"\nblue    = \"#6C7C82\"\nmagenta = \"#A3ADA7\"\ncyan    = \"#7B9B9F\"\nwhite   = \"#FFFFFF\"\n\n[colors.dim]\nblack   = \"#101318\"\nred     = \"#AD5E49\"\ngreen   = \"#5E8B8E\"\nyellow  = \"#D9AA98\"\nblue    = \"#606369\"\nmagenta = \"#807C83\"\ncyan    = \"#6F8A8C\"\nwhite   = \"#C6CED8\"\n"
+    },
+    {
+      "repo": "curbol/omarchy-gruvbox-material",
+      "commit": "1bcf7f9339ce99fc7a93e1757da66d8ac7c5d47d",
+      "file": "colors.toml",
+      "url": "https://github.com/curbol/omarchy-gruvbox-material/blob/1bcf7f9339ce99fc7a93e1757da66d8ac7c5d47d/colors.toml",
+      "content": "mode = \"dark\"\n\naccent = \"#e78a4e\"\nselection = \"#45403d\"\nmuted = \"#928374\"\n\nbackground = \"#282828\"\ndark_background = \"#1b1b1b\"\ndarker_background = \"#141414\"\nlighter_background = \"#32302f\"\n\nforeground = \"#d4be98\"\ndark_foreground = \"#7c6f64\"\nlight_foreground = \"#a89984\"\nbright_foreground = \"#ddc7a1\"\n\nred = \"#ea6962\"\nyellow = \"#d8a657\"\norange = \"#e78a4e\"\ngreen = \"#a9b665\"\ncyan = \"#89b482\"\nblue = \"#7daea3\"\nmagenta = \"#d3869b\"\nbrown = \"#744527\"\n\nbright_red = \"#ea6962\"\nbright_yellow = \"#d8a657\"\nbright_green = \"#a9b665\"\nbright_cyan = \"#89b482\"\nbright_blue = \"#7daea3\"\nbright_magenta = \"#d3869b\"\n"
+    },
+    {
+      "repo": "Memnoc/omarchy-rose-pine-moon-theme",
+      "commit": "e44dcc84ac6c49f52340dc4aa53955b7143a4ccd",
+      "file": "colors.toml",
+      "url": "https://github.com/Memnoc/omarchy-rose-pine-moon-theme/blob/e44dcc84ac6c49f52340dc4aa53955b7143a4ccd/colors.toml",
+      "content": "mode = \"dark\"\n\naccent = \"#9ccfd8\"\nselection = \"#44415a\"\nmuted = \"#56526e\"\n\nbackground = \"#232136\"\ndark_background = \"#1a1828\"\ndarker_background = \"#13121d\"\nlighter_background = \"#393552\"\n\nforeground = \"#e0def4\"\ndark_foreground = \"#6e6a86\"\nlight_foreground = \"#908caa\"\nbright_foreground = \"#e0def4\"\n\nred = \"#eb6f92\"\nyellow = \"#f6c177\"\norange = \"#f0a07a\"\ngreen = \"#3e8fb0\"\ncyan = \"#ea9a97\"\nblue = \"#9ccfd8\"\nmagenta = \"#c4a7e7\"\nbrown = \"#8a6a5c\"\n\nbright_red = \"#eb6f92\"\nbright_yellow = \"#f6c177\"\nbright_green = \"#3e8fb0\"\nbright_cyan = \"#ea9a97\"\nbright_blue = \"#9ccfd8\"\nbright_magenta = \"#c4a7e7\"\n"
+    },
+    {
+      "repo": "euandeas/omarchy-flexoki-dark-theme",
+      "commit": "aa418ffb68ec1eaa72a85b02970ada07ce6f3d26",
+      "file": "colors.toml",
+      "url": "https://github.com/euandeas/omarchy-flexoki-dark-theme/blob/aa418ffb68ec1eaa72a85b02970ada07ce6f3d26/colors.toml",
+      "content": "accent = \"#4385BE\"\ncursor = \"#CECDC3\"\nforeground = \"#CECDC3\"\nbackground = \"#100F0F\"\nselection_foreground = \"#CECDC3\"\nselection_background = \"#403E3C\"\n\ncolor0 = \"#100F0F\"\ncolor1 = \"#AF3029\"\ncolor2 = \"#66800B\"\ncolor3 = \"#AD8301\"\ncolor4 = \"#205EA6\"\ncolor5 = \"#A02F6F\"\ncolor6 = \"#24837B\"\ncolor7 = \"#878580\"\ncolor8 = \"#6F6E69\"\ncolor9 = \"#D14D41\"\ncolor10 = \"#879A39\"\ncolor11 = \"#D0A215\"\ncolor12 = \"#4385BE\"\ncolor13 = \"#CE5D97\"\ncolor14 = \"#3AA99F\"\ncolor15 = \"#CECDC3\"\n"
+    },
+    {
+      "repo": "Luquatic/omarchy-catppuccin-dark",
+      "commit": "54b98a5c7302783298df05238ab55f312ec327ea",
+      "file": "colors.toml",
+      "url": "https://github.com/Luquatic/omarchy-catppuccin-dark/blob/54b98a5c7302783298df05238ab55f312ec327ea/colors.toml",
+      "content": "accent = \"#89b4fa\"\ncursor = \"#f5e0dc\"\nforeground = \"#cdd6f4\"\nbackground = \"#010101\"\nselection_foreground = \"#010101\"\nselection_background = \"#f5e0dc\"\n\ncolor0 = \"#45475a\"\ncolor1 = \"#f38ba8\"\ncolor2 = \"#a6e3a1\"\ncolor3 = \"#f9e2af\"\ncolor4 = \"#89b4fa\"\ncolor5 = \"#f5c2e7\"\ncolor6 = \"#94e2d5\"\ncolor7 = \"#bac2de\"\ncolor8 = \"#585b70\"\ncolor9 = \"#f38ba8\"\ncolor10 = \"#a6e3a1\"\ncolor11 = \"#f9e2af\"\ncolor12 = \"#89b4fa\"\ncolor13 = \"#f5c2e7\"\ncolor14 = \"#94e2d5\"\ncolor15 = \"#a6adc8\"\n"
+    },
+    {
+      "repo": "hoblin/omarchy-cobalt2-theme",
+      "commit": "579fb7d8890000d315da9e18da6c0885de008ea3",
+      "file": "colors.toml",
+      "url": "https://github.com/hoblin/omarchy-cobalt2-theme/blob/579fb7d8890000d315da9e18da6c0885de008ea3/colors.toml",
+      "content": "mode = \"dark\"\n\naccent = \"#ffc600\"\nselection = \"#0050a4\"\nmuted = \"#0050a4\"\n\nbackground = \"#122738\"\ndark_background = \"#0e1d2a\"\ndarker_background = \"#09141c\"\nlighter_background = \"#193549\"\n\nforeground = \"#ffffff\"\ndark_foreground = \"#aaaaaa\"\nlight_foreground = \"#e1efff\"\nbright_foreground = \"#ffffff\"\n\nhyprland_active_border = \"rgba(ffc600ee) rgba(0088ffee) 45deg\"\n\nred = \"#ff628c\"\nyellow = \"#ffc600\"\norange = \"#ff9d00\"\ngreen = \"#3ad900\"\ncyan = \"#80fcff\"\nblue = \"#0088ff\"\nmagenta = \"#fb94ff\"\nbrown = \"#806300\"\n\nbright_red = \"#ff628c\"\nbright_yellow = \"#ffc600\"\nbright_green = \"#3ad900\"\nbright_cyan = \"#80fcff\"\nbright_blue = \"#0088ff\"\nbright_magenta = \"#fb94ff\"\n"
+    },
+    {
+      "repo": "dfrico/omarchy-solarized-light-theme",
+      "commit": "e7cd8f3024f34105e31faa8d83db1852a5131850",
+      "file": "alacritty.toml",
+      "url": "https://github.com/dfrico/omarchy-solarized-light-theme/blob/e7cd8f3024f34105e31faa8d83db1852a5131850/alacritty.toml",
+      "content": "# Colors (Solarized Light)\n\n# Default colors\n[colors.primary]\nbackground = '#fdf6e3'\nforeground = '#586e75'\n\n# Normal colors\n[colors.normal]\nblack   = '#073642'\nred     = '#dc322f'\ngreen   = '#859900'\nyellow  = '#b58900'\nblue    = '#268bd2'\nmagenta = '#d33682'\ncyan    = '#2aa198'\nwhite   = '#eee8d5'\n\n# Bright colors\n[colors.bright]\nblack   = '#002b36'\nred     = '#cb4b16'\ngreen   = '#586e75'\nyellow  = '#657b83'\nblue    = '#839496'\nmagenta = '#6c71c4'\ncyan    = '#93a1a1'\nwhite   = '#fdf6e3'\n"
+    },
+    {
+      "repo": "celsobenedetti/omarchy-evergarden",
+      "commit": "1e5196cf9167e74c3a4fafb5be964cb15a3dc299",
+      "file": "colors.toml",
+      "url": "https://github.com/celsobenedetti/omarchy-evergarden/blob/1e5196cf9167e74c3a4fafb5be964cb15a3dc299/colors.toml",
+      "content": "accent = \"#B3E6DB\"\ncursor = \"#B3E6DB\"\nforeground = \"#ADC9BC\"\nbackground = \"#232A2E\"\nselection_foreground = \"#ADC9BC\"\nselection_background = \"#839E9A\"\n\ncolor0 = \"#B3E6DB\"\ncolor1 = \"#F57F82\"\ncolor2 = \"#CBE3B3\"\ncolor3 = \"#F5D098\"\ncolor4 = \"#839E9A\"\ncolor5 = \"#B3E6DB\"\ncolor6 = \"#B3E6DB\"\ncolor7 = \"#ADC9BC\"\ncolor8 = \"#ADC9BC\"\ncolor9 = \"#F57F82\"\ncolor10 = \"#B2CAED\"\ncolor11 = \"#F5D098\"\ncolor12 = \"#B2CAED\"\ncolor13 = \"#F5D098\"\ncolor14 = \"#B2CAED\"\ncolor15 = \"#839E9A\"\n"
+    },
+    {
+      "repo": "thmoee/omarchy-vesper-theme",
+      "commit": "427bb540bdba152cd48f7f1e4274f96a11cd591e",
+      "file": "alacritty.toml",
+      "url": "https://github.com/thmoee/omarchy-vesper-theme/blob/427bb540bdba152cd48f7f1e4274f96a11cd591e/alacritty.toml",
+      "content": "[colors.primary]\nbackground = \"#101010\"\nforeground = \"#ffffff\"\n\n[colors.cursor]\ntext = \"#ffffff\"\ncursor = \"#acb1ab\"\n\n[colors.selection]\ntext = \"#acb1ab\"\nbackground = \"#988049\"\n\n\n[colors.normal]\nblack = \"#101010\"\nred = \"#f5a191\"\ngreen = \"#90b99f\"\nyellow = \"#e6b99d\"\nblue = \"#aca1cf\"\nmagenta = \"#e29eca\"\ncyan = \"#ea83a5\"\nwhite = \"#a0a0a0\"\n\n[colors.bright]\nblack = \"#7e7e7e\"\nred = \"#ff8080\"\ngreen = \"#99ffe4\"\nyellow = \"#ffc799\"\nblue = \"#b9aeda\"\nmagenta = \"#ecaad6\"\ncyan = \"#f591b2\"\nwhite = \"#ffffff\"\n\n[colors.dim]\nblack = \"#101010\"\nred = \"#f5a191\"\ngreen = \"#90b99f\"\nyellow = \"#e6b99d\"\nblue = \"#aca1cf\"\nmagenta = \"#e29eca\"\ncyan = \"#ea83a5\"\nwhite = \"#a0a0a0\""
+    },
+    {
+      "repo": "Swarnim114/omarchy-monochrome-theme",
+      "commit": "10aa54d4b31284f24d73c5aa5532795f4bc85046",
+      "file": "alacritty.toml",
+      "url": "https://github.com/Swarnim114/omarchy-monochrome-theme/blob/10aa54d4b31284f24d73c5aa5532795f4bc85046/alacritty.toml",
+      "content": "[colors]\n[colors.primary]\nbackground = \"#282828\"\nforeground = \"#d4d4d4\"\ndim_foreground = \"#505050\"\n\n[colors.cursor]\ntext = \"#282828\"\ncursor = \"#d4d4d4\"\n\n[colors.vi_mode_cursor]\ntext = \"#282828\"\ncursor = \"#d4d4d4\"\n\n[colors.selection]\ntext = \"CellForeground\"\nbackground = \"#505050\"\n\n[colors.normal]\nblack = \"#3c3c3c\"\nred = \"#d4d4d4\"\ngreen = \"#d4d4d4\"\nyellow = \"#d4d4d4\"\nblue = \"#d4d4d4\"\nmagenta = \"#d4d4d4\"\ncyan = \"#d4d4d4\"\nwhite = \"#d4d4d4\"\n\n[colors.bright]\nblack = \"#767676\"\nred = \"#ffffff\"\ngreen = \"#ffffff\"\nyellow = \"#ffffff\"\nblue = \"#ffffff\"\nmagenta = \"#ffffff\"\ncyan = \"#ffffff\"\nwhite = \"#ffffff\"\n\n[colors.dim]\nblack = \"#323232\"\nred = \"#888888\"\ngreen = \"#888888\"\nyellow = \"#888888\"\nblue = \"#888888\"\nmagenta = \"#888888\"\ncyan = \"#888888\"\nwhite = \"#888888\"\n"
+    }
+  ]
+}

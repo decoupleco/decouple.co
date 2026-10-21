@@ -1,57 +1,37 @@
-# Pairs Pro / Terminal design studio
+# Pairs Pro / consolidated terminal design studio
 
-Ten independent terminal compositions, each with the same browser-local replay fixture. Open `index.html` for the gallery, select two studies to compare, or open any numbered HTML file. Each HTML is self-contained. No installation, network requests, fonts, trading engine or wallet is required.
+One gallery and rendering implementation for **All 20**, **Default 10**, and **Omar 10**. These are the same twenty existing studies, organized into sets rather than replaced.
 
-This is a **design experiment**, not a port of the native TUI and not an engine audit. The source brief's reviewer questions were treated as context, not instructions to inspect or modify the simulator.
+- Default 10: Flightdeck, Split screen, Ledger, Event rail, Lab paper, Quiet focus, Lap timer, Matrix, Amber tape, Outline.
+- Omar 10: Bauhaus, Gruvbox Material, Rosé Pine Moon, Flexoki Dark, Catppuccin Dark, Cobalt2, Solarized Light, Evergarden, Vesper, Monochrome. “Omar” labels the Omarchy-inspired set.
 
-## Review shortlist
+Open `index.html`. Set buttons filter the gallery and persist in the URL (`?set=all`, `?set=default`, `?set=omar`). Select two studies across either set to compare. Detail navigation follows the selected set; All 20 lets you move through both sets. The Layout control offers the original composition or a fixed Flightdeck grid.
 
-| Direction | Information priority | Best use | Cost |
-| --- | --- | --- | --- |
-| **01 Flightdeck** | Price → value → exposure → fees, inspector beside | Default replay review; closest evolution of the existing screen | Inspector uses chart width |
-| 02 Split screen | Price and value side by side | Market / strategy cause and effect | Less price height |
-| 03 Ledger | Results ledger, then charts | Attribution review | Numbers lead the eye |
-| 04 Event rail | Rebalance history beside charts | Stepping through decisions | Requires width |
-| 05 Lab paper | Light research sheet | Daylight, reports | Less tonal range |
-| **06 Quiet focus** | Price and one secondary instrument | Deliberate replay; narrow workspaces | Switch instruments |
-| 07 Lap timer | Strategy versus HODL first | Benchmark comparison | Smaller price chart |
-| 08 Matrix | Four equal plots | Stable scanning | No dominant instrument |
-| 09 Amber tape | Quote board and event tape | Wide market desk | Smaller lower plots |
-| **10 Outline** | Price, then three instruments, thin results footer | Restrained light terminal | Labels carry more meaning |
+## Refactor boundaries
 
-Start with 01 as the working baseline; compare 06 for reduced cognitive load and 10 for a light alternative. These are design judgements, not user-test rankings.
+The twenty names, original compositions and final mapped palette values are unchanged. Set metadata, gallery navigation, shared rendering and source organization are consolidated. The gallery and controls use the common light studio shell, like the web UI studies. Omar pane accents, hollow Monochrome candles and exposure hatching remain specific to that set.
 
-## What works in the prototypes
+One renderer: `src/studio.js`. One style base: `src/studio.css`. One model/fixture: `src/model.mjs` and generated `fixture.json`. Set definitions: `src/sets/default.mjs` and `src/sets/omar.mjs`. Omarchy palette sources remain pinned in `sources.json`; all readability adaptations are recorded in the generated `prompts.json` and `verification.json`.
 
-- All ten layouts: play/pause, first/last, step, previous/next rebalance, time-window span, cursor scrubber, now/end inspector, optional HODL100 line, illustrative P&L, rebalance history, month-to-date view, and help.
-- Compact 80×24: price plus one secondary chart, `n` cycles Value / Exposure / Fees. Inspector becomes full-screen. Quiet focus also uses the secondary selector at full size.
-- `i` for Info; `Tab` stays native browser focus navigation. Shortcuts apply only to a focused terminal; Escape closes an overlay or leaves keyboard focus. Help lists the supported subset of the source keymap. Browser playback uses 700 / 200 / 70 ms per period, labelled 1× / 2× / 3×.
-- Event timestamps in the rail and history are selectable navigation targets.
-- End columns are hidden before the last period unless the user explicitly checks Reveal. All plots, events and month-to-date rows are bounded by the cursor. Window metadata and the total number of periods remain visible.
-- Four **HTML composition sizes**: 160×48, 120×40, 100×30, 80×24. An 8×16 px reference cell sets the outer size. These are browser layouts, not exact native terminal cell snapshots. On narrow browsers, the terminal scrolls horizontally while the studio remains responsive.
-- Help, rationale, tradeoffs, palette and direction prompts; two-way gallery comparison at the same end cursor.
+The former `pairs-pro-tui-omarchy` gallery and ten detail URLs redirect to the canonical studio and Omar set. Its builder delegates to this one; its duplicate renderer, styles and model have been removed. Both ZIP download URLs provide the same consolidated bundle.
 
-Paper/live operation, actual exports, engine logs, depth, moving averages, log pricing, A/B strategy simulation and the remaining expert commands are outside this experiment. Collect/allocate/free keys explicitly report unavailable. P&L bars are a visual decomposition of the demo gap; they are **not** an economic attribution model.
+## Replay and limits
 
-## Fixture / provenance
+Browser-local illustrative data only. Keyboard replay, stepping, event navigation, inspect/reveal, P&L illustration, history, month-to-date and help are retained. Tab stays native; shortcuts apply only to a focused terminal. At 80×24, price plus one secondary instrument remains; n cycles it and i opens full-screen info. End results are hidden until completion or explicit reveal. Charts and timestamped details stop at the cursor.
 
-User-provided brief: “backtest TUI (`bin/backtest_tui`), current spec, for review”, dated 2026-10-21. It describes `pairs-pro-api-r1port`, `port/backtest-on-r1`, HEAD `f7ec39c`. This source was not modified or revalidated here. No engine results were copied into a public artifact.
+Composition sizes are HTML previews using an 8×16 px reference cell, not exact native terminal snapshots. No simulator, wallet, paper/live behavior or actual historical backtest is executed. Financial readouts and attribution are illustrative. Real exports and the remaining expert commands are outside the design scope.
 
-The reference screenshots informed layout and the illustrative final readouts **BTC $94,831**, **strategy $185.94 per $100**, **HODL 50/50 $150.95 per $100**. The 96 four-hour periods from 2025-11-01 through 2025-11-16 20:00 UTC are generated, not historical candles. Exposure and fee paths are synthetic; fees sum to approximately $61.96 per $100 start. The fixture is generated by `src/model.mjs` and identical in all ten directions. Its full SHA-256 and source hashes are in `verification.json`; the inspector shows the fixture hash and “engine not loaded”. Do not compare these numbers with a real study row.
+Fixture SHA-256 remains `1701202e73f3539621e5dc7d8247d08130068300e3ace9ae027eb0d9df32a306`.
 
-## Reproduce
+## Build and evidence
 
 ```sh
 node design/pairs-pro-tui-studies/build.mjs
-python3 -m http.server 8765 --bind 127.0.0.1 --directory design/pairs-pro-tui-studies
+python3 -m http.server 8765 --bind 127.0.0.1 --directory design
 ```
 
-Visit `http://127.0.0.1:8765/`. No dependencies. The build emits 11 standalone HTML files, fixture, prompts and deterministic verification. Existing web studies at `design/pairs-pro-studies/` remain separate.
+Open `/pairs-pro-tui-studies/`. No dependencies. The builder produces 21 self-contained HTML files and eleven legacy redirects. Standalone HTML files require no assets or network connection.
 
-- `verification.json`: syntax, 120 text/background contrast pairs (all ≥4.5:1), 96 fixture-prefix checks, candle bounds and final demo values. These are prototype checks, not TUI-engine guarantees.
-- `browser-verification.json`: browser geometry and interaction observations, with scope and limitations.
-- `previews/`: actual browser captures.
-- `PROMPTS.md` / `prompts.json`: shared brief plus ten directions.
-- `CHALLENGE.md`: portable prompt for another design agent.
+`verification.json` records set counts, source/fixture hashes, 240 terminal text contrast pairs and 96 fixture-prefix checks. `browser-verification.json` records set filtering, navigation, comparison, sizes and redirects. `CONSOLIDATION.md` records preservation checks and release scope. `PROMPTS.md` and `CHALLENGE.md` support further sets without duplicating the studio.
 
-No production app, API, simulator, keeper, contract, live defaults or original twenty web directions were changed.
+Previous releases: original TUI `d5e702f`; Omarchy addition `136abae`. Their historical screenshots/review records remain in Git. The twenty web UI studies are separate and unchanged.

@@ -1,5 +1,16 @@
 {
-  "shared": "Design a Pairs Pro backtest replay terminal, not a trading dashboard. Use a monospace cell rhythm, square ruled panels, compact textual commands, and restrained color. Preserve PRICE, VALUE ($ per $100 initial), EXPOSURE (% of value: base/quote, deployed/idle), FEES (ledger $ per period) and a single replay cursor. Price has base/wide and limit/tight bands plus rebalance markers. Strategy value is solid, HODL 50/50 dashed, optional HODL100 dotted. Inspect now/end metrics, ranges and run provenance; hide end metrics until completion or an explicit reveal. Compact 80×24 shows price plus one secondary instrument, cycling with n; info becomes a full-screen view. Demonstrate pause/play, step, event navigation, span selection, info, P&L, monthly history and help. Confine shortcuts to a focused terminal and preserve native browser Tab/Escape. Browser-local illustrative data only. Paper/live and collect/allocate/free are unavailable. Produce a self-contained HTML with no remote fonts, assets or dependencies, a gallery thumbnail, a concise rationale, a tradeoff and a shared-fixture comparison. Vary layout and information priority, not just palette. Avoid rounded web cards, chrome effects, neon, decorative scanlines and fake performance claims.",
+  "sets": [
+    {
+      "id": "default",
+      "label": "Default 10",
+      "prompt": "Design a Pairs Pro backtest replay terminal, not a trading dashboard. Use a monospace cell rhythm, square ruled panels, compact textual commands, and restrained color. Preserve PRICE, VALUE ($ per $100 initial), EXPOSURE (% of value: base/quote, deployed/idle), FEES (ledger $ per period) and a single replay cursor. Price has base/wide and limit/tight bands plus rebalance markers. Strategy value is solid, HODL 50/50 dashed, optional HODL100 dotted. Inspect now/end metrics, ranges and run provenance; hide end metrics until completion or an explicit reveal. Compact 80×24 shows price plus one secondary instrument, cycling with n; info becomes a full-screen view. Demonstrate pause/play, step, event navigation, span selection, info, P&L, monthly history and help. Confine shortcuts to a focused terminal and preserve native browser Tab/Escape. Browser-local illustrative data only. Paper/live and collect/allocate/free are unavailable. Produce a self-contained HTML with no remote fonts, assets or dependencies, a gallery thumbnail, a concise rationale, a tradeoff and a shared-fixture comparison. Vary layout and information priority, not just palette. Avoid rounded web cards, chrome effects, neon, decorative scanlines and fake performance claims."
+    },
+    {
+      "id": "omar",
+      "label": "Omar 10",
+      "prompt": "Create a Pairs Pro backtest replay TUI inspired by one commit-pinned community palette from Omarchy’s theme catalogue. Preserve the same synthetic fixture and financial units across all variants. Map source colors to background, text, active strategy, exposure, benchmark and fee roles; document all contrast adaptations. Treat the layout as your own interpretation, not a claim that Omarchy supplies financial information architecture. Use square tiled panes, monospace labels, an active-pane edge and a compact workspace status line. Keep PRICE, VALUE per $100 initial, EXPOSURE deployed/idle and FEES ledger per period. One replay cursor bounds charts, logs and monthly rows. Hide end results until completion or explicit reveal. At 80×24 keep price and one secondary chart; use i for full-screen info. Demonstrate browser-local replay, step, event jumps, help and keyboard focus. Preserve native Tab. Use shapes and patterns as well as color, particularly in Monochrome. Include source URL, pinned commit, a design tradeoff and a same-layout palette comparison option. No external assets, fonts, runtime dependencies, engine or live connections."
+    }
+  ],
   "variants": [
     {
       "id": "01-flightdeck",
@@ -18,7 +29,9 @@
       "fee": "#ecc178",
       "brief": "The clearest evolution of the current TUI: one tall price pane, three aligned instrument strips, and a persistent now/end inspector.",
       "tradeoff": "Best all-rounder. An inspector costs chart width.",
-      "rank": "Recommended"
+      "rank": "Recommended",
+      "set": "default",
+      "adjustments": []
     },
     {
       "id": "02-split",
@@ -36,7 +49,9 @@
       "negative": "#e9a8a1",
       "fee": "#e5ce93",
       "brief": "Give price and value equal weight. Read market action on the left and the strategy’s response on the right; exposure and fee strips sit directly beneath.",
-      "tradeoff": "Fast cause-and-effect comparison. Less vertical space for price."
+      "tradeoff": "Fast cause-and-effect comparison. Less vertical space for price.",
+      "set": "default",
+      "adjustments": []
     },
     {
       "id": "03-ledger",
@@ -54,7 +69,9 @@
       "negative": "#e9a59a",
       "fee": "#e9c37d",
       "brief": "Start with the numbers. A fixed left ledger anchors current performance while a chart stack explains it, with fees and divergence kept explicit.",
-      "tradeoff": "Excellent for attribution. Metrics lead the eye before the market."
+      "tradeoff": "Excellent for attribution. Metrics lead the eye before the market.",
+      "set": "default",
+      "adjustments": []
     },
     {
       "id": "04-rail",
@@ -72,7 +89,9 @@
       "negative": "#efa1b3",
       "fee": "#e5c68b",
       "brief": "Place a timestamped rebalance rail beside the price stack. Every event is a navigation target, so the replay feels like stepping through a debugger.",
-      "tradeoff": "Strong for reviewing decisions. The event rail needs a wide terminal."
+      "tradeoff": "Strong for reviewing decisions. The event rail needs a wide terminal.",
+      "set": "default",
+      "adjustments": []
     },
     {
       "id": "05-paper",
@@ -90,7 +109,9 @@
       "negative": "#974f48",
       "fee": "#886223",
       "brief": "A light, ink-on-paper research layout: price and value to the left, exposure and fees to the right, with a ruled audit trail below.",
-      "tradeoff": "Good for daylight and screenshots. Fewer dark/light exposure shades."
+      "tradeoff": "Good for daylight and screenshots. Fewer dark/light exposure shades.",
+      "set": "default",
+      "adjustments": []
     },
     {
       "id": "06-focus",
@@ -109,7 +130,9 @@
       "fee": "#dfc693",
       "brief": "Protect the price chart. Show only one secondary instrument at a time and keep the inspector slim. Designed for deliberate keyboard-led replay.",
       "tradeoff": "Lowest cognitive load. Secondary charts require a switch.",
-      "rank": "Shortlist"
+      "rank": "Shortlist",
+      "set": "default",
+      "adjustments": []
     },
     {
       "id": "07-race",
@@ -127,7 +150,9 @@
       "negative": "#e6a5ab",
       "fee": "#e5c88c",
       "brief": "Make the race against HODL the hero. A large value pane comes first; price, exposure and fees explain the gap beneath it.",
-      "tradeoff": "Best for benchmark questions. Price is intentionally secondary."
+      "tradeoff": "Best for benchmark questions. Price is intentionally secondary.",
+      "set": "default",
+      "adjustments": []
     },
     {
       "id": "08-matrix",
@@ -145,7 +170,9 @@
       "negative": "#e8a5ae",
       "fee": "#dfc398",
       "brief": "Use a strict two-by-two instrument grid with a shared time window. Read each plot independently without changing the panel arrangement.",
-      "tradeoff": "Predictable scanning. Price loses its visual priority."
+      "tradeoff": "Predictable scanning. Price loses its visual priority.",
+      "set": "default",
+      "adjustments": []
     },
     {
       "id": "09-tape",
@@ -163,7 +190,9 @@
       "negative": "#e7aaa0",
       "fee": "#edc281",
       "brief": "A compact quote board above a wide price chart, a right-hand event tape, and three narrow lower instruments. Restrained amber without CRT effects.",
-      "tradeoff": "Efficient at 160 columns. Lower charts become small at 100."
+      "tradeoff": "Efficient at 160 columns. Lower charts become small at 100.",
+      "set": "default",
+      "adjustments": []
     },
     {
       "id": "10-outline",
@@ -182,7 +211,276 @@
       "fee": "#806121",
       "brief": "A restrained, almost monochrome console. A full-width price chart sits above a three-instrument row, with key results in a narrow ruled footer.",
       "tradeoff": "Easy to port to basic terminals. Meaning relies on labels and line patterns.",
-      "rank": "Shortlist"
+      "rank": "Shortlist",
+      "set": "default",
+      "adjustments": []
+    },
+    {
+      "id": "01-bauhaus",
+      "name": "Bauhaus",
+      "type": "Geometric instrument grid",
+      "group": "Dense",
+      "layout": "matrix",
+      "bg": "#101318",
+      "panel": "#161b22",
+      "line": "#3a3f4c",
+      "fg": "#eaeff5",
+      "muted": "#c6ced8",
+      "accent": "#e37b66",
+      "positive": "#789fa2",
+      "negative": "#cb886d",
+      "fee": "#e7a46f",
+      "sourceIndex": 0,
+      "brief": "Coral, sand and cool slate in a strict four-pane grid. Equal instrument weights and numbered headers make the composition feel measured and architectural.",
+      "tradeoff": "Best for scanning equal instruments. The price pane gives up visual priority.",
+      "adjustments": [],
+      "set": "omar"
+    },
+    {
+      "id": "02-gruvbox-material",
+      "name": "Gruvbox Material",
+      "type": "Warm results ledger",
+      "group": "Dense",
+      "layout": "ledger",
+      "bg": "#282828",
+      "panel": "#282828",
+      "line": "#45403d",
+      "fg": "#d4be98",
+      "muted": "#a89984",
+      "accent": "#e78a4e",
+      "positive": "#a9b665",
+      "negative": "#ea6962",
+      "fee": "#d8a657",
+      "sourceIndex": 1,
+      "brief": "Warm charcoal, parchment text and orange commands. A fixed left ledger keeps results in view while the chart stack explains where the return came from.",
+      "tradeoff": "Strong for long attribution sessions. The ledger uses a third of the width.",
+      "adjustments": [],
+      "set": "omar"
+    },
+    {
+      "id": "03-rose-pine-moon",
+      "name": "Rosé Pine Moon",
+      "type": "Soft split workspace",
+      "group": "Dense",
+      "layout": "split",
+      "bg": "#232136",
+      "panel": "#232136",
+      "line": "#393552",
+      "fg": "#e0def4",
+      "muted": "#908caa",
+      "accent": "#9ccfd8",
+      "positive": "#ea9a97",
+      "negative": "#eb6f92",
+      "fee": "#f6c177",
+      "sourceIndex": 2,
+      "brief": "Moonlit violet with foam, rose and gold. Price and portfolio value share the top row, keeping market movement and strategy response in a single glance.",
+      "tradeoff": "A calm comparison workspace. Less height for the price chart.",
+      "adjustments": [],
+      "set": "omar"
+    },
+    {
+      "id": "04-flexoki-dark",
+      "name": "Flexoki Dark",
+      "type": "Ink workbench",
+      "group": "Dense",
+      "layout": "outline",
+      "bg": "#100f0f",
+      "panel": "#100f0f",
+      "line": "#403e3c",
+      "fg": "#cecdc3",
+      "muted": "#878580",
+      "accent": "#4385be",
+      "positive": "#879a39",
+      "negative": "#d25145",
+      "fee": "#d0a215",
+      "sourceIndex": 3,
+      "brief": "Almost-black ink, warm paper text and selective blue. A wide price pane sits above three ruled instruments; restrained accents carry only active information.",
+      "tradeoff": "Clear visual hierarchy with little color noise. Some source hues need brighter text variants.",
+      "adjustments": [
+        {
+          "role": "negative",
+          "original": "#d14d41",
+          "adjusted": "#d25145"
+        }
+      ],
+      "set": "omar"
+    },
+    {
+      "id": "05-catppuccin-dark",
+      "name": "Catppuccin Dark",
+      "type": "Pastel event workspace",
+      "group": "Dense",
+      "layout": "rail",
+      "bg": "#010101",
+      "panel": "#010101",
+      "line": "#45475a",
+      "fg": "#cdd6f4",
+      "muted": "#bac2de",
+      "accent": "#89b4fa",
+      "positive": "#a6e3a1",
+      "negative": "#f38ba8",
+      "fee": "#f9e2af",
+      "sourceIndex": 4,
+      "brief": "The selected community port uses a near-black background with Mocha pastels. A timestamp rail makes rebalances the entry points into a blue-led chart stack.",
+      "tradeoff": "Good for decision-by-decision replay. The rail benefits from 120 columns or more.",
+      "adjustments": [],
+      "set": "omar"
+    },
+    {
+      "id": "06-cobalt2",
+      "name": "Cobalt2",
+      "type": "Blue and gold flightdeck",
+      "group": "Dense",
+      "layout": "flightdeck",
+      "bg": "#122738",
+      "panel": "#193549",
+      "line": "#0050a4",
+      "fg": "#ffffff",
+      "muted": "#aaaaaa",
+      "accent": "#ffc600",
+      "positive": "#3ad900",
+      "negative": "#ff648d",
+      "fee": "#ff9d00",
+      "sourceIndex": 5,
+      "brief": "Deep blue panes, a gold active edge and white readouts. Price remains the hero; value, exposure and fees align underneath, beside a persistent results inspector.",
+      "tradeoff": "The strongest instrument hierarchy. Gold is reserved for selection and the strategy line.",
+      "rank": "Shortlist",
+      "adjustments": [
+        {
+          "role": "negative",
+          "original": "#ff628c",
+          "adjusted": "#ff648d"
+        }
+      ],
+      "set": "omar"
+    },
+    {
+      "id": "07-solarized-light",
+      "name": "Solarized Light",
+      "type": "Daylight research sheet",
+      "group": "Light",
+      "layout": "paper",
+      "bg": "#fdf6e3",
+      "panel": "#eee8d5",
+      "line": "#93a1a1",
+      "fg": "#566c73",
+      "muted": "#586b72",
+      "accent": "#1e6ca4",
+      "positive": "#606e00",
+      "negative": "#c42d2a",
+      "fee": "#846400",
+      "sourceIndex": 6,
+      "brief": "Cream paper, blue ink and restrained ochre. A light research sheet places price and value beside exposure and fee instruments, with a ruled event history below.",
+      "tradeoff": "Best daylight candidate. Chart-label colors are darkened to retain readable contrast.",
+      "rank": "Shortlist",
+      "adjustments": [
+        {
+          "role": "fg",
+          "original": "#586e75",
+          "adjusted": "#566c73"
+        },
+        {
+          "role": "muted",
+          "original": "#657b83",
+          "adjusted": "#586b72"
+        },
+        {
+          "role": "accent",
+          "original": "#268bd2",
+          "adjusted": "#1e6ca4"
+        },
+        {
+          "role": "positive",
+          "original": "#859900",
+          "adjusted": "#606e00"
+        },
+        {
+          "role": "negative",
+          "original": "#dc322f",
+          "adjusted": "#c42d2a"
+        },
+        {
+          "role": "fee",
+          "original": "#b58900",
+          "adjusted": "#846400"
+        }
+      ],
+      "set": "omar"
+    },
+    {
+      "id": "08-evergarden",
+      "name": "Evergarden",
+      "type": "Quiet green focus",
+      "group": "Focused",
+      "layout": "focus",
+      "bg": "#232a2e",
+      "panel": "#232a2e",
+      "line": "#536560",
+      "fg": "#adc9bc",
+      "muted": "#839e9a",
+      "accent": "#b3e6db",
+      "positive": "#cbe3b3",
+      "negative": "#f57f82",
+      "fee": "#f5d098",
+      "sourceIndex": 7,
+      "brief": "Eucalyptus text, mint highlights and a charcoal-green ground. One secondary instrument at a time leaves room to study price and the current position.",
+      "tradeoff": "The calmest focused replay. Switching is needed to inspect every secondary instrument.",
+      "rank": "Recommended",
+      "adjustments": [],
+      "set": "omar"
+    },
+    {
+      "id": "09-vesper",
+      "name": "Vesper",
+      "type": "Peach benchmark desk",
+      "group": "Focused",
+      "layout": "race",
+      "bg": "#101010",
+      "panel": "#101010",
+      "line": "#3a3631",
+      "fg": "#ffffff",
+      "muted": "#a0a0a0",
+      "accent": "#ffc799",
+      "positive": "#90b99f",
+      "negative": "#f5a191",
+      "fee": "#e6b99d",
+      "sourceIndex": 8,
+      "brief": "Black, white and a controlled peach accent. Portfolio value takes the main pane; price, exposure and fees explain the strategy’s distance from HODL below.",
+      "tradeoff": "Best for reading the benchmark race. The market chart is secondary.",
+      "adjustments": [],
+      "set": "omar"
+    },
+    {
+      "id": "10-monochrome",
+      "name": "Monochrome",
+      "type": "Grayscale tape console",
+      "group": "Dense",
+      "layout": "tape",
+      "bg": "#282828",
+      "panel": "#282828",
+      "line": "#505050",
+      "fg": "#d4d4d4",
+      "muted": "#8e8e8e",
+      "accent": "#d4d4d4",
+      "positive": "#d4d4d4",
+      "negative": "#8e8e8e",
+      "fee": "#ffffff",
+      "sourceIndex": 9,
+      "brief": "A grayscale quote board and event tape. Hollow rising candles, solid falling candles, line patterns and exposure hatching preserve distinctions without hue.",
+      "tradeoff": "Useful for low-color terminals and contrast review. Pattern and label design must carry every distinction.",
+      "adjustments": [
+        {
+          "role": "muted",
+          "original": "#888888",
+          "adjusted": "#8e8e8e"
+        },
+        {
+          "role": "negative",
+          "original": "#888888",
+          "adjusted": "#8e8e8e"
+        }
+      ],
+      "set": "omar"
     }
   ]
 }
