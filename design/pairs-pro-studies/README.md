@@ -1,6 +1,10 @@
 # Pairs Pro — twenty visual design experiments
 
-20 October 2026. Local design studies only. Open `index.html` to compare twenty directions; each numbered HTML contains five mobile screens and two desktop screens. Every HTML embeds its styles, JavaScript and vector charts. No installation, remote fonts or assets are required.
+Updated 21 October 2026 · revision 2. Visual and interaction design studies. Open `index.html` to compare twenty directions; each numbered HTML contains five mobile screens and two desktop screens. Every HTML embeds its styles, JavaScript and vector charts. No installation, remote fonts or assets are required.
+
+## Revision 2
+
+All twenty directions remain. The 21 October refinement tightens period tabs, uses DEX/network dropdowns, groups price and pool metrics into the header, aligns the position card with Blocks, labels the exit Withdraw, and places Show range below the chart at the right. Mobile was reviewed first, desktop second, then all directions and states. [Three-round log and evidence](REVISION-2.md).
 
 ## Design review
 
@@ -24,7 +28,7 @@ This is an editorial design assessment, not user research or an evaluation of pr
 | M02 | Pools | Discover and compare an opportunity; search and protocol filters. |
 | M03 | Pool detail | Understand the price, ranges and personal position before acting. |
 | M04 | Deposit | Focus on amounts, expected shares and a clear review. |
-| M05 | Redeem | Focus on outputs and the distinction between instant, waiting and claimable states. |
+| M05 | Withdraw | Focus on outputs and the distinction between instant, waiting and claimable states. |
 | D01 | Pool workspace | A broad chart with a position/action sidebar and allocation detail. |
 | D02 | Strategy settings | Four manager groups with adjacent preview and review. |
 
@@ -62,7 +66,7 @@ Start by comparing M01 across Quiet Ledger, Orchard and Index. Then compare M03 
 - Gallery: use **All 20 / Original 10 / New 10** to browse the two collections. Select up to three directions and press **Compare shortlist**. Switch the comparison between all five mobile tasks.
 - Study: use **Full board** or focus one screen. The full board has five horizontally scrollable phone canvases and two desktop canvases below.
 - Change **Phone canvas** between 390 and 360px. Phone content scrolls independently; desktop canvases are 1440 × 900 scaled to the page.
-- Try search/filter, chart modes and periods, show ranges, price/tick toggle, deposit amount/review, redemption state tabs and manager weight/review.
+- Try search/filter, chart modes and periods, show ranges, price/tick toggle, deposit amount/review, withdrawal state tabs and manager weight/review.
 - **Preview state** demonstrates role, connection, network and unavailable-history presentation. These are visual fixtures.
 - **Read design brief** and gallery disclosures expose the prompts; print styling is also supplied.
 
@@ -104,7 +108,7 @@ This regenerates twenty-one standalone HTML files, prompt artifacts and `verific
 
 - Twenty variants × seven screens = **140 screen designs**.
 - Browser geometry checks: all twenty at 390px and 360px phone canvas widths; seven frames each, no horizontal content overflow, no visible mobile button below 44 × 44px, no frame with multiple primary actions, and manager review actions within the desktop canvas.
-- Shared interactions exercised: comparison, pool search/filter, chart mode, range units, deposit input/review, maximum redemption, waiting/claim states, role/history presentation and config weight/review.
+- Shared interactions exercised: comparison, pool search/filter, chart mode, range units, deposit input/review, maximum withdrawal, waiting/claim states, role/history presentation and config weight/review.
 - 200 palette text/button contrast checks pass, minimum **4.60:1**. This is a palette check, not a complete accessibility assessment.
 - JavaScript syntax check passes. Saved source hashes and palette results: [verification.json](verification.json). Browser observations: [browser-verification.json](browser-verification.json).
 - Expansion screenshot: [Margin / Estuary / Cobalt](previews/expansion-comparison.png).
@@ -114,7 +118,7 @@ Not tested: physical devices, true browser viewport resizing, screen-reader usab
 
 ## Source branch and publication
 
-The consolidated source branch is `codex/pairs-pro-design-studies` in `decoupleco/pairs-pro`, based on `docs/refresh-user-stories` revision 3 (`8722dbe62c78fc7352a4f8e6a4437b62d04c1628`). It includes the existing user-story spec and wireframe PDF alongside these experiments.
+The consolidated source branch is `design` in `decoupleco/pairs-pro`, based on `docs/refresh-user-stories` revision 3 (`8722dbe62c78fc7352a4f8e6a4437b62d04c1628`). It includes the existing user-story spec and wireframe PDF alongside these experiments.
 
 Public gallery: https://decouple.co/design/pairs-pro-studies/.
 

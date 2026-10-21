@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "variants": 20,
   "mobile_screens_per_variant": 5,
   "desktop_screens_per_variant": 2,
@@ -8,11 +8,11 @@
   "network_policy": "connect-src none; no wallet provider",
   "source_hashes": {
     "framework": "0287f7565df385e14e51a75bd212c254a6d67008db6e494ff27a9620f21a31f3",
-    "css": "a603a092aa53a6ef092b0a39f2bd5fe88f9e7bdfd57a1842ca6695f665ffed37",
-    "js": "cf91fea1f55b05f88005dddef53b6148cb2f540ea7a5153c66da22ad8b0a06e0",
-    "themes": "bc9d5bf12d706d0e252a0f0e76be05d7ea51246b8b0bb65b891e0b4eb9c7aeda"
+    "css": "da31d6295599f3d9ddb7e262607661c58f525e253762a8a03b414b4344f23533",
+    "js": "58937acb03d3fcb03206ad34bdf3ef4ffbbd9aa9578072a0812180d0787eb464",
+    "themes": "9a36955c1fbc4f000820661c47f6eb2045d6f608e5fa400a74055b336a441831"
   },
-  "challenge_prompt_hash": "113c2ff130fa04d397af21fcb8869fc2b1636a6608c9f3bb6c1fc38f8a36d770",
+  "challenge_prompt_hash": "a5521fed5685cb1880b8cdfe0c5f91b3da52d972e14d04e5342d9807004801ac",
   "framework_source": "decouple/design/preview.html at 459d779916453dffe2207da79f1e312e506e6a7c; reset/theme/base/comp layers extracted using lib/ui.js",
   "checks": {
     "javascript_parse": "pass",

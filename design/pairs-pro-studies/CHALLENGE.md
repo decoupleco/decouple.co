@@ -34,7 +34,7 @@ Study enough of the current work to identify two concrete visual weaknesses and 
 | M02 | Same mobile canvas | Pools | Search and compare token pairs, venue, liquidity, price and estimated APY. |
 | M03 | Same mobile canvas | Pool detail | Price chart, ranges, pool/vault totals, own position and primary action. |
 | M04 | Same mobile canvas | Deposit | Token inputs, balance feedback, expected shares and review dialog. |
-| M05 | Same mobile canvas | Redeem | Shares to redeem, token outputs, instant / waiting / claimable example states. |
+| M05 | Same mobile canvas | Withdraw | Shares to withdraw, token outputs, instant / waiting / claimable example states. |
 | D01 | Desktop 1440 × 900 | Pool workspace | Broad chart and holdings table alongside personal position and actions. |
 | D02 | Desktop 1440 × 900 | Strategy settings | Anchor / Range / Weight / Exposure groups with adjacent preview and review. |
 
@@ -53,15 +53,19 @@ Use this fixture so visual comparisons are fair. Preserve meaning and quantities
 - Other discovery rows: WETH/USDC UniV3 0.05%, pool TVL $184.2M, estimated APY 12.4%; cbBTC/USDC UniV3 0.30%, pool TVL $62.1M, estimated APY 8.9%, price 97,412 USDC; AERO/USDC VeloV3 0.30%, pool TVL $9.3M, estimated APY 34.6%, price 1.284 USDC. Do not silently route a different pool to the WETH sample without an explicit prototype notice.
 - Sample allocation: base 80%, price range 2,289.70–2,581.80; limit 20%, range 2,446.10–2,540.90. Prices are USDC/WETH by default. A price/tick toggle may use fixed illustrative tick labels; do not imply an engine calculation was performed.
 - Default deposit: 0.5 WETH + 1,215.75 USDC, total $2,431.50. Expected shares = total / 1.7154. Minimum shares = expected × 0.995. Review shows exact token approvals, minimum shares, estimated $0.42 fee and 10-minute deadline. Use fixed demo balances, state them, and reject inputs exceeding them.
-- Redeem: input shares; offer 25/50/75/100%. Outputs scale from the sample position; minimum amounts are estimated outputs × 0.995. Separate immediate redemption from a queued sample and a settled/claimable sample. Label a different venue/chain explicitly when demonstrating another exit model.
+- Withdraw: input shares; offer 25/50/75/100%. Outputs scale from the sample position; minimum amounts are estimated outputs × 0.995. Separate immediate withdrawal from a queued sample and a settled/claimable sample. Label a different venue/chain explicitly when demonstrating another exit model.
 - Config defaults: reference pool WETH/USDC; interval 1 hour; day/hour EMA 20/20; base ATR 5×, limit ATR 3× (both 1–15); chase 67%; offset Base/Limit/Both; complementary base/limit weights 80/20; target base ratio 50%; tolerance 30%; slippage control on; keeper strategy enabled. The range preview is schematic, not a strategy implementation. Saving a config and later allocation are distinct presentation states.
 - Optional vault holdings table: base 412.18 WETH + 1,003,200 USDC; limit 0 WETH + 408,110 USDC; unused 1.42 WETH + 2,544 USDC; total 413.60 WETH + 1,413,854 USDC. These are vault holdings, not the user's personal outputs.
+
+## Revision 2 layout requirements (21 October 2026)
+
+Retain the twenty directions in the curated collection. Use compact underline period tabs with generous hit areas. Pool discovery uses separate DEX and network dropdowns. The pool header combines WETH price (with units), vault TVL, underlying pool TVL, estimated APY and vault fees in one metrics bar; stack the same information compactly on phones. Put “Base in range” inside the Blocks position card: identity, a range with min/current/max labels, three aligned information rows and actions. Mobile actions may remain in the bottom dock for reach. Put “Show range” below the chart, right aligned. Use “Withdraw” for the visible exit action; internal contract/API terms are unchanged. Distinguish base/limit band identity from keeper/projected provenance.
 
 ## Required interactions and presentation states
 
 Make search/filter, chart type/period, show ranges, price/tick toggle, deposit inputs/review, redeem percentages/state examples and complementary weight editing respond meaningfully. Review modals should reflect entered values. Prototype confirmations end in an explicit simulated result.
 
-Provide a preview-state selector for normal, holder-only, disconnected, wrong-network and unavailable-history examples. A holder-only preview can redeem while deposit/config controls are unavailable. Missing chart history should not erase separately available current balances and redemption examples. Context, source and snapshot can live in one accessible disclosure rather than being repeated beside every metric.
+Provide a preview-state selector for normal, holder-only, disconnected, wrong-network and unavailable-history examples. A holder-only preview can withdraw while deposit/config controls are unavailable. Missing chart history should not erase separately available current balances and withdrawal examples. Context, source and snapshot can live in one accessible disclosure rather than being repeated beside every metric.
 
 Use semantic HTML, real labels, visible keyboard focus, at least 44 × 44px mobile button targets, readable contrast and status cues beyond color. Choose one dominant action per screen; a discovery list need not invent a global primary button. Respect reduced motion. Avoid microscopic mono text, repeated dashboard tiles, oversized empty cards, decorative crypto art, unnecessary gradients and promotional APY language. Keep USD values, token quantities, percentage changes and their time periods unambiguous.
 
