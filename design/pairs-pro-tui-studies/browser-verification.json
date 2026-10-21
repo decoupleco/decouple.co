@@ -1,0 +1,470 @@
+{
+  "date": "2026-10-21",
+  "tool": "Codex in-app browser / CUA",
+  "scope": "HTML design prototype, not native terminal or simulator",
+  "geometry": [
+    {
+      "bodyOverflow": false,
+      "direction": "01-flightdeck",
+      "minimumChartHeight": 50,
+      "pageOverflow": false,
+      "size": "160,48",
+      "terminalWidth": 1278,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "01-flightdeck",
+      "minimumChartHeight": 30,
+      "pageOverflow": false,
+      "size": "120,40",
+      "terminalWidth": 958,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "01-flightdeck",
+      "minimumChartHeight": 30,
+      "pageOverflow": false,
+      "size": "100,30",
+      "terminalWidth": 798,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "01-flightdeck",
+      "minimumChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "terminalWidth": 638,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "02-split",
+      "minimumChartHeight": 116,
+      "pageOverflow": false,
+      "size": "160,48",
+      "terminalWidth": 1278,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "02-split",
+      "minimumChartHeight": 84,
+      "pageOverflow": false,
+      "size": "120,40",
+      "terminalWidth": 958,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "02-split",
+      "minimumChartHeight": 68,
+      "pageOverflow": false,
+      "size": "100,30",
+      "terminalWidth": 798,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "02-split",
+      "minimumChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "terminalWidth": 638,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "03-ledger",
+      "minimumChartHeight": 116,
+      "pageOverflow": false,
+      "size": "160,48",
+      "terminalWidth": 1278,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "03-ledger",
+      "minimumChartHeight": 84,
+      "pageOverflow": false,
+      "size": "120,40",
+      "terminalWidth": 958,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "03-ledger",
+      "minimumChartHeight": 68,
+      "pageOverflow": false,
+      "size": "100,30",
+      "terminalWidth": 798,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "03-ledger",
+      "minimumChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "terminalWidth": 638,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "04-rail",
+      "minimumChartHeight": 43,
+      "pageOverflow": false,
+      "size": "160,48",
+      "terminalWidth": 1278,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "04-rail",
+      "minimumChartHeight": 25,
+      "pageOverflow": false,
+      "size": "120,40",
+      "terminalWidth": 958,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "04-rail",
+      "minimumChartHeight": 27,
+      "pageOverflow": false,
+      "size": "100,30",
+      "terminalWidth": 798,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "04-rail",
+      "minimumChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "terminalWidth": 638,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "05-paper",
+      "minimumChartHeight": 183,
+      "pageOverflow": false,
+      "size": "160,48",
+      "terminalWidth": 1278,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "05-paper",
+      "minimumChartHeight": 138,
+      "pageOverflow": false,
+      "size": "120,40",
+      "terminalWidth": 958,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "05-paper",
+      "minimumChartHeight": 106,
+      "pageOverflow": false,
+      "size": "100,30",
+      "terminalWidth": 798,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "05-paper",
+      "minimumChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "terminalWidth": 638,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "06-focus",
+      "minimumChartHeight": 164,
+      "pageOverflow": false,
+      "size": "160,48",
+      "terminalWidth": 1278,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "06-focus",
+      "minimumChartHeight": 123,
+      "pageOverflow": false,
+      "size": "120,40",
+      "terminalWidth": 958,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "06-focus",
+      "minimumChartHeight": 96,
+      "pageOverflow": false,
+      "size": "100,30",
+      "terminalWidth": 798,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "06-focus",
+      "minimumChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "terminalWidth": 638,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "07-race",
+      "minimumChartHeight": 116,
+      "pageOverflow": false,
+      "size": "160,48",
+      "terminalWidth": 1278,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "07-race",
+      "minimumChartHeight": 84,
+      "pageOverflow": false,
+      "size": "120,40",
+      "terminalWidth": 958,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "07-race",
+      "minimumChartHeight": 68,
+      "pageOverflow": false,
+      "size": "100,30",
+      "terminalWidth": 798,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "07-race",
+      "minimumChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "terminalWidth": 638,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "08-matrix",
+      "minimumChartHeight": 189,
+      "pageOverflow": false,
+      "size": "160,48",
+      "terminalWidth": 1278,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "08-matrix",
+      "minimumChartHeight": 143,
+      "pageOverflow": false,
+      "size": "120,40",
+      "terminalWidth": 958,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "08-matrix",
+      "minimumChartHeight": 109,
+      "pageOverflow": false,
+      "size": "100,30",
+      "terminalWidth": 798,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "08-matrix",
+      "minimumChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "terminalWidth": 638,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "09-tape",
+      "minimumChartHeight": 130,
+      "pageOverflow": false,
+      "size": "160,48",
+      "terminalWidth": 1278,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "09-tape",
+      "minimumChartHeight": 95,
+      "pageOverflow": false,
+      "size": "120,40",
+      "terminalWidth": 958,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "09-tape",
+      "minimumChartHeight": 76,
+      "pageOverflow": false,
+      "size": "100,30",
+      "terminalWidth": 798,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "09-tape",
+      "minimumChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "terminalWidth": 638,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "10-outline",
+      "minimumChartHeight": 156,
+      "pageOverflow": false,
+      "size": "160,48",
+      "terminalWidth": 1278,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "10-outline",
+      "minimumChartHeight": 116,
+      "pageOverflow": false,
+      "size": "120,40",
+      "terminalWidth": 958,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "10-outline",
+      "minimumChartHeight": 91,
+      "pageOverflow": false,
+      "size": "100,30",
+      "terminalWidth": 798,
+      "titleOverflows": 0
+    },
+    {
+      "bodyOverflow": false,
+      "direction": "10-outline",
+      "minimumChartHeight": 56,
+      "pageOverflow": false,
+      "size": "80,24",
+      "terminalWidth": 638,
+      "titleOverflows": 0
+    }
+  ],
+  "cursor_checks": [
+    {
+      "cursor": 0,
+      "endCells": 5,
+      "futureSamples": false,
+      "hiddenEnd": true,
+      "id": "01-flightdeck"
+    },
+    {
+      "cursor": 0,
+      "endCells": 5,
+      "futureSamples": false,
+      "hiddenEnd": true,
+      "id": "02-split"
+    },
+    {
+      "cursor": 0,
+      "endCells": 5,
+      "futureSamples": false,
+      "hiddenEnd": true,
+      "id": "03-ledger"
+    },
+    {
+      "cursor": 0,
+      "endCells": 5,
+      "futureSamples": false,
+      "hiddenEnd": true,
+      "id": "04-rail"
+    },
+    {
+      "cursor": 0,
+      "endCells": 5,
+      "futureSamples": false,
+      "hiddenEnd": true,
+      "id": "05-paper"
+    },
+    {
+      "cursor": 0,
+      "endCells": 5,
+      "futureSamples": false,
+      "hiddenEnd": true,
+      "id": "06-focus"
+    },
+    {
+      "cursor": 0,
+      "endCells": 5,
+      "futureSamples": false,
+      "hiddenEnd": true,
+      "id": "07-race"
+    },
+    {
+      "cursor": 0,
+      "endCells": 5,
+      "futureSamples": false,
+      "hiddenEnd": true,
+      "id": "08-matrix"
+    },
+    {
+      "cursor": 0,
+      "endCells": 5,
+      "futureSamples": false,
+      "hiddenEnd": true,
+      "id": "09-tape"
+    },
+    {
+      "cursor": 0,
+      "endCells": 5,
+      "futureSamples": false,
+      "hiddenEnd": true,
+      "id": "10-outline"
+    }
+  ],
+  "interactions": {
+    "compact_secondary": {
+      "charts": [
+        "price",
+        "exposure"
+      ],
+      "cursor": "1"
+    },
+    "compact_info": {
+      "charts": 0,
+      "endHidden": true,
+      "inspector": true
+    },
+    "explicit_reveal": true,
+    "help": true,
+    "escape": true,
+    "native_tab": true,
+    "event_jump": 65,
+    "log_cursor_bounded": true,
+    "monthly_cursor_bounded": true,
+    "span_cycle": true,
+    "play_pause": true,
+    "tape_metrics": true,
+    "two_direction_comparison": true
+  },
+  "limits": [
+    "Native terminal rendering not tested",
+    "No real engine or historical fixture loaded",
+    "Browser presentation sizes do not reproduce exact native terminal cells",
+    "Direct file opening not exercised by the browser tool"
+  ]
+}

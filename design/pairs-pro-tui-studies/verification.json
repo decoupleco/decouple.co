@@ -1,0 +1,745 @@
+{
+  "date": "2026-10-21",
+  "scope": "HTML terminal design prototypes; no native engine verification",
+  "directions": 10,
+  "layouts": 10,
+  "standalone_html": 11,
+  "runtime_dependencies": 0,
+  "fixture_sha256": "1701202e73f3539621e5dc7d8247d08130068300e3ace9ae027eb0d9df32a306",
+  "source_hashes": {
+    "css": "82864b30b54443848f45266fb2d616114dcf406a1d4b1154fdba9b18e4741a35",
+    "js": "9cb1bb073b8c6550adc803c28d388ffc379e5b90db88ca991fe8774fc3b0ffe4",
+    "directions": "94d96d21489b05fcaeb241f4481ea0ec12b6c9f94e63b8b96e7d0e4f7f863a06",
+    "model": "4fc1e1ce38015d42a3a1fb4f19727ded9e91e0dbef4a15cfcfb5cf2793073d3d"
+  },
+  "checks": {
+    "javascript_parse": "pass",
+    "palette_pairs": 120,
+    "minimum_text_contrast": 4.85,
+    "all_cursor_prefixes": 96,
+    "candle_bounds": "pass",
+    "endpoint_values": "pass"
+  },
+  "contrast": [
+    {
+      "id": "01-flightdeck",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 15.34
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 7.74
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 8.04
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 9.73
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 8.49
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 11.14
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 14.3
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 7.22
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 7.49
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 9.07
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 7.91
+    },
+    {
+      "id": "01-flightdeck",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 10.39
+    },
+    {
+      "id": "02-split",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 14.86
+    },
+    {
+      "id": "02-split",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 8.25
+    },
+    {
+      "id": "02-split",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 11.17
+    },
+    {
+      "id": "02-split",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 11.17
+    },
+    {
+      "id": "02-split",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 9.09
+    },
+    {
+      "id": "02-split",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 11.67
+    },
+    {
+      "id": "02-split",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 13.48
+    },
+    {
+      "id": "02-split",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 7.48
+    },
+    {
+      "id": "02-split",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 10.13
+    },
+    {
+      "id": "02-split",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 10.13
+    },
+    {
+      "id": "02-split",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 8.25
+    },
+    {
+      "id": "02-split",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 10.59
+    },
+    {
+      "id": "03-ledger",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 14.51
+    },
+    {
+      "id": "03-ledger",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 8.11
+    },
+    {
+      "id": "03-ledger",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 10.71
+    },
+    {
+      "id": "03-ledger",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 10.61
+    },
+    {
+      "id": "03-ledger",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 8.79
+    },
+    {
+      "id": "03-ledger",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 10.71
+    },
+    {
+      "id": "03-ledger",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 13.35
+    },
+    {
+      "id": "03-ledger",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 7.47
+    },
+    {
+      "id": "03-ledger",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 9.86
+    },
+    {
+      "id": "03-ledger",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 9.76
+    },
+    {
+      "id": "03-ledger",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 8.09
+    },
+    {
+      "id": "03-ledger",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 9.86
+    },
+    {
+      "id": "04-rail",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 14.41
+    },
+    {
+      "id": "04-rail",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 8.04
+    },
+    {
+      "id": "04-rail",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 8.79
+    },
+    {
+      "id": "04-rail",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 11.01
+    },
+    {
+      "id": "04-rail",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 8.95
+    },
+    {
+      "id": "04-rail",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 10.98
+    },
+    {
+      "id": "04-rail",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 13.38
+    },
+    {
+      "id": "04-rail",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 7.47
+    },
+    {
+      "id": "04-rail",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 8.16
+    },
+    {
+      "id": "04-rail",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 10.23
+    },
+    {
+      "id": "04-rail",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 8.31
+    },
+    {
+      "id": "04-rail",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 10.2
+    },
+    {
+      "id": "05-paper",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 12.3
+    },
+    {
+      "id": "05-paper",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 5.15
+    },
+    {
+      "id": "05-paper",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 6.36
+    },
+    {
+      "id": "05-paper",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 6.15
+    },
+    {
+      "id": "05-paper",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 5.27
+    },
+    {
+      "id": "05-paper",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 4.87
+    },
+    {
+      "id": "05-paper",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 12.3
+    },
+    {
+      "id": "05-paper",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 5.15
+    },
+    {
+      "id": "05-paper",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 6.36
+    },
+    {
+      "id": "05-paper",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 6.15
+    },
+    {
+      "id": "05-paper",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 5.27
+    },
+    {
+      "id": "05-paper",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 4.87
+    },
+    {
+      "id": "06-focus",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 14.75
+    },
+    {
+      "id": "06-focus",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 8.34
+    },
+    {
+      "id": "06-focus",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 10.07
+    },
+    {
+      "id": "06-focus",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 10.07
+    },
+    {
+      "id": "06-focus",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 8.78
+    },
+    {
+      "id": "06-focus",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 10.76
+    },
+    {
+      "id": "06-focus",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 13.79
+    },
+    {
+      "id": "06-focus",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 7.8
+    },
+    {
+      "id": "06-focus",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 9.41
+    },
+    {
+      "id": "06-focus",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 9.41
+    },
+    {
+      "id": "06-focus",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 8.21
+    },
+    {
+      "id": "06-focus",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 10.06
+    },
+    {
+      "id": "07-race",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 14.94
+    },
+    {
+      "id": "07-race",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 8.04
+    },
+    {
+      "id": "07-race",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 10.21
+    },
+    {
+      "id": "07-race",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 10.36
+    },
+    {
+      "id": "07-race",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 8.96
+    },
+    {
+      "id": "07-race",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 11.25
+    },
+    {
+      "id": "07-race",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 13.7
+    },
+    {
+      "id": "07-race",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 7.37
+    },
+    {
+      "id": "07-race",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 9.36
+    },
+    {
+      "id": "07-race",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 9.5
+    },
+    {
+      "id": "07-race",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 8.21
+    },
+    {
+      "id": "07-race",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 10.31
+    },
+    {
+      "id": "08-matrix",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 14.08
+    },
+    {
+      "id": "08-matrix",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 7.99
+    },
+    {
+      "id": "08-matrix",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 8.82
+    },
+    {
+      "id": "08-matrix",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 10.22
+    },
+    {
+      "id": "08-matrix",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 8.65
+    },
+    {
+      "id": "08-matrix",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 10.29
+    },
+    {
+      "id": "08-matrix",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 13.17
+    },
+    {
+      "id": "08-matrix",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 7.48
+    },
+    {
+      "id": "08-matrix",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 8.25
+    },
+    {
+      "id": "08-matrix",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 9.56
+    },
+    {
+      "id": "08-matrix",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 8.09
+    },
+    {
+      "id": "08-matrix",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 9.62
+    },
+    {
+      "id": "09-tape",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 14.71
+    },
+    {
+      "id": "09-tape",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 8.6
+    },
+    {
+      "id": "09-tape",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 11.07
+    },
+    {
+      "id": "09-tape",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 10.74
+    },
+    {
+      "id": "09-tape",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 9.34
+    },
+    {
+      "id": "09-tape",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 11.07
+    },
+    {
+      "id": "09-tape",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 13.56
+    },
+    {
+      "id": "09-tape",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 7.92
+    },
+    {
+      "id": "09-tape",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 10.21
+    },
+    {
+      "id": "09-tape",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 9.9
+    },
+    {
+      "id": "09-tape",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 8.61
+    },
+    {
+      "id": "09-tape",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 10.21
+    },
+    {
+      "id": "10-outline",
+      "fg": "fg",
+      "bg": "bg",
+      "ratio": 11.21
+    },
+    {
+      "id": "10-outline",
+      "fg": "muted",
+      "bg": "bg",
+      "ratio": 4.85
+    },
+    {
+      "id": "10-outline",
+      "fg": "accent",
+      "bg": "bg",
+      "ratio": 6.06
+    },
+    {
+      "id": "10-outline",
+      "fg": "positive",
+      "bg": "bg",
+      "ratio": 5.66
+    },
+    {
+      "id": "10-outline",
+      "fg": "negative",
+      "bg": "bg",
+      "ratio": 4.97
+    },
+    {
+      "id": "10-outline",
+      "fg": "fee",
+      "bg": "bg",
+      "ratio": 4.93
+    },
+    {
+      "id": "10-outline",
+      "fg": "fg",
+      "bg": "panel",
+      "ratio": 11.21
+    },
+    {
+      "id": "10-outline",
+      "fg": "muted",
+      "bg": "panel",
+      "ratio": 4.85
+    },
+    {
+      "id": "10-outline",
+      "fg": "accent",
+      "bg": "panel",
+      "ratio": 6.06
+    },
+    {
+      "id": "10-outline",
+      "fg": "positive",
+      "bg": "panel",
+      "ratio": 5.66
+    },
+    {
+      "id": "10-outline",
+      "fg": "negative",
+      "bg": "panel",
+      "ratio": 4.97
+    },
+    {
+      "id": "10-outline",
+      "fg": "fee",
+      "bg": "panel",
+      "ratio": 4.93
+    }
+  ]
+}

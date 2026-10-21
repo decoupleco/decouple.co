@@ -1,0 +1,20 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {directions,sharedPrompt} from './src/directions.mjs';
+import {makeFixture,visibleRows,valuesAt} from './src/model.mjs';
+const root=fileURLToPath(new URL('.',import.meta.url)),read=x=>readFile(root+x,'utf8'),sha=x=>createHash('sha256').update(x).digest('hex');
+const [css,js,dirs,model]=await Promise.all(['src/studio.css','src/studio.js','src/directions.mjs','src/model.mjs'].map(read));new vm.Script(js);
+const fixture=makeFixture(),fixtureJson=JSON.stringify(fixture,null,2)+'\n',hash=sha(fixtureJson);
+function html(t){return `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Ten Pairs Pro terminal UI design directions. Keyboard-driven replay prototypes with illustrative data."><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; font-src 'none'; base-uri 'none'; form-action 'none'"><title>Pairs Pro / ${t?t.name:'Terminal design studio'}</title><style>${css}</style></head><body><div id="root"></div><dialog class="compare-dialog" id="comparison" aria-label="Compare terminal directions"></dialog><div class="toast" id="toast" role="status" hidden></div><noscript><p class="no-js">Enable JavaScript to see the offline terminal previews. Read README.md for the design rationale.</p></noscript><script>window.TUI_DIRECTIONS=${JSON.stringify(directions)};window.TUI_FIXTURE=${JSON.stringify(fixture)};window.TUI_HASH=${JSON.stringify(hash)};window.TUI_ID=${JSON.stringify(t?.id||null)};\n${js}</script></body></html>\n`}
+await writeFile(root+'index.html',html());for(const t of directions)await writeFile(root+t.id+'.html',html(t));await writeFile(root+'fixture.json',fixtureJson);
+await writeFile(root+'PROMPTS.md','# Pairs Pro / terminal design prompts\n\n## Shared prompt\n\n'+sharedPrompt+'\n\n'+directions.map(t=>`<a id="${t.id}"></a>\n\n## ${t.id.slice(0,2)} / ${t.name}\n\n**Composition:** ${t.type}.\n\n${t.brief}\n\n**Tradeoff:** ${t.tradeoff}\n\n**Palette:** background ${t.bg}, text ${t.fg}, secondary ${t.muted}, accent ${t.accent}.`).join('\n\n')+'\n');
+await writeFile(root+'prompts.json',JSON.stringify({shared:sharedPrompt,variants:directions},null,2)+'\n');
+const lum=h=>h.slice(1).match(/../g).map(v=>parseInt(v,16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4).reduce((s,v,i)=>s+v*[.2126,.7152,.0722][i],0),ratio=(a,b)=>(Math.max(lum(a),lum(b))+.05)/(Math.min(lum(a),lum(b))+.05);
+const contrast=[];for(const t of directions)for(const bg of ['bg','panel'])for(const fg of ['fg','muted','accent','positive','negative','fee']){const v=ratio(t[fg],t[bg]);assert(v>=4.5,`${t.id} ${fg}/${bg}: ${v}`);contrast.push({id:t.id,fg,bg,ratio:+v.toFixed(2)})}
+for(let c=0;c<fixture.length;c++){const rows=visibleRows(fixture,c,40);assert(rows.every(r=>r.i<=c));assert.equal(rows.at(-1).i,c);assert.equal(valuesAt(fixture,c).fees,fixture.slice(0,c+1).reduce((s,r)=>s+r.fee,0));for(const r of rows)assert(r.high>=Math.max(r.open,r.close)&&r.low<=Math.min(r.open,r.close))}
+assert.equal(directions.length,10);assert.equal(new Set(directions.map(d=>d.layout)).size,10);assert.equal(valuesAt(fixture,95).nav,185.94);assert.equal(valuesAt(fixture,95).hodl,150.95);
+await writeFile(root+'verification.json',JSON.stringify({date:'2026-10-21',scope:'HTML terminal design prototypes; no native engine verification',directions:10,layouts:10,standalone_html:11,runtime_dependencies:0,fixture_sha256:hash,source_hashes:{css:sha(css),js:sha(js),directions:sha(dirs),model:sha(model)},checks:{javascript_parse:'pass',palette_pairs:contrast.length,minimum_text_contrast:Math.min(...contrast.map(c=>c.ratio)),all_cursor_prefixes:96,candle_bounds:'pass',endpoint_values:'pass'},contrast},null,2)+'\n');
+console.log(`Built 10 standalone directions + gallery. ${contrast.length} contrast pairs, 96 prefix checks. Fixture ${hash}.`);
