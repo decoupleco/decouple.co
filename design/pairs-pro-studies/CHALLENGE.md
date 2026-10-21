@@ -61,6 +61,10 @@ Use this fixture so visual comparisons are fair. Preserve meaning and quantities
 
 Retain the twenty directions in the curated collection. Use compact underline period tabs with generous hit areas. Pool discovery uses separate DEX and network dropdowns. The pool header combines WETH price (with units), vault TVL, underlying pool TVL, estimated APY and vault fees in one metrics bar; stack the same information compactly on phones. Put “Base in range” inside the Blocks position card: identity, a range with min/current/max labels, three aligned information rows and actions. Mobile actions may remain in the bottom dock for reach. Put “Show range” below the chart, right aligned. Use “Withdraw” for the visible exit action; internal contract/API terms are unchanged. Distinguish base/limit band identity from keeper/projected provenance.
 
+## Revision 3 layout requirements
+
+Use a consistent amount-card surface and card-level focus feedback, without a boxed background or focus rectangle inside the amount. Give every position card a visible border, including the minimal themes. On desktop the compact vault table belongs in the sidebar, with Range / WETH / USDC / USD total columns. Put two secondary panels below the primary chart: **Position value / Exposure** and **Fees / Price per share**. Each slash denotes selectable metrics within its panel. Show the panels side by side on desktop and stack them on mobile. Personal position value is $8,400; current WETH exposure is 50% of its USD value. Price per share is 1.7154 USD/share. Illustrative cumulative vault fees are $7,400 for 7D, $31,000 for 30D and $92,400 for All. Synchronize the secondary panels with the main chart period. Label units and ownership; never mix whole-vault balances with the user's position. Treat the TUI reference as a layout reference only.
+
 ## Required interactions and presentation states
 
 Make search/filter, chart type/period, show ranges, price/tick toggle, deposit inputs/review, redeem percentages/state examples and complementary weight editing respond meaningfully. Review modals should reflect entered values. Prototype confirmations end in an explicit simulated result.

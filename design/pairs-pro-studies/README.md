@@ -1,6 +1,10 @@
 # Pairs Pro — twenty visual design experiments
 
-Updated 21 October 2026 · revision 2. Visual and interaction design studies. Open `index.html` to compare twenty directions; each numbered HTML contains five mobile screens and two desktop screens. Every HTML embeds its styles, JavaScript and vector charts. No installation, remote fonts or assets are required.
+Updated 21 October 2026 · revision 3. Visual and interaction design studies. Open `index.html` to compare twenty directions; each numbered HTML contains five mobile screens and two desktop screens. Every HTML embeds its styles, JavaScript and vector charts. No installation, remote fonts or assets are required.
+
+## Revision 3
+
+Amount fields now inherit a clean card surface, with the focus indicator on the card. Position cards retain an explicit boundary in every theme. The vault table is compact and lives in the desktop sidebar. The primary chart column has two secondary panels: Position value / Exposure and Fees / Price per share. Their period follows the main chart. The panels stack below the position card on mobile. [Review log and definitions](REVISION-3.md).
 
 ## Revision 2
 
