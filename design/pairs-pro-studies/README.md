@@ -1,6 +1,10 @@
 # Pairs Pro — twenty visual design experiments
 
-Updated 22 October 2026 · revision 5. Visual and interaction design studies. Open `index.html` to compare twenty directions; each numbered HTML contains five mobile screens and two desktop screens. Every HTML embeds its styles, JavaScript and vector charts. No installation, remote fonts or assets are required.
+Updated 22 October 2026 · revision 6. Visual and interaction design studies. Open `index.html` to compare twenty directions; each numbered HTML contains five mobile screens and two desktop screens. Every HTML embeds its styles, JavaScript and vector charts. No installation, remote fonts or assets are required.
+
+## Revision 6
+
+Restored the original full-height left sidebar, including the brand. Pool identity stays in the content header. Metrics are inside the primary chart column, with matching left/right edges; the position card remains alongside. All20 theme alignment checks passed; both desktop views retain the original sidebar. Evidence: `browser-verification-revision-6.json` and `previews/revision-6-header.png`.
 
 ## Revision 5
 

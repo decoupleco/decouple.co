@@ -1,0 +1,325 @@
+{
+  "date": "2026-10-22",
+  "checks": [
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "01-ledger"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "02-blueprint"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "03-orchard"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "04-ticker"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "05-folio"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "06-atlas"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "07-swiss"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "08-nocturne"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "09-signal"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "10-tide"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "11-margin"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "12-estuary"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "13-studio"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "14-circuit"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "15-kiln"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "16-paper"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "17-vector"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "18-grove"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "19-cobalt"
+    },
+    {
+      "leftDifference": 0,
+      "metricsOverflow": false,
+      "rails": [
+        {
+          "brand": true,
+          "headerInContent": true
+        },
+        {
+          "brand": true,
+          "headerInContent": true
+        }
+      ],
+      "rightDifference": 0,
+      "theme": "20-relay"
+    }
+  ]
+}
