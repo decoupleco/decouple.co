@@ -1,0 +1,526 @@
+{
+  "date": "2026-10-22",
+  "checks": [
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "01-ledger"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "02-blueprint"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "03-orchard"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "04-ticker"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "05-folio"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "06-atlas"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "07-swiss"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "08-nocturne"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "09-signal"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "10-tide"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "11-margin"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "12-estuary"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "13-studio"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "14-circuit"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "15-kiln"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "16-paper"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "17-vector"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "18-grove"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "19-cobalt"
+    },
+    {
+      "desktops": [
+        {
+          "brand": 1,
+          "frame": "d01",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        },
+        {
+          "brand": 1,
+          "frame": "d02",
+          "fullWidth": true,
+          "overflow": false,
+          "overlap": false
+        }
+      ],
+      "metricOrder": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "theme": "20-relay"
+    }
+  ],
+  "scope": "Full-width desktop header on all20 themes, both desktop views; existing mobile design unchanged"
+}

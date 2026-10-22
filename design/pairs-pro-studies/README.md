@@ -1,6 +1,10 @@
 # Pairs Pro — twenty visual design experiments
 
-Updated 22 October 2026 · revision 4. Visual and interaction design studies. Open `index.html` to compare twenty directions; each numbered HTML contains five mobile screens and two desktop screens. Every HTML embeds its styles, JavaScript and vector charts. No installation, remote fonts or assets are required.
+Updated 22 October 2026 · revision 5. Visual and interaction design studies. Open `index.html` to compare twenty directions; each numbered HTML contains five mobile screens and two desktop screens. Every HTML embeds its styles, JavaScript and vector charts. No installation, remote fonts or assets are required.
+
+## Revision 5
+
+The chosen reference is applied to all twenty desktop themes: brand, Pools breadcrumb, pair, protocol metadata and wallet share one full-width top header. The ordered metrics span the full width beneath it; navigation starts below. Both desktop views use this header. Mobile remains unchanged. Forty desktop header checks passed; see `browser-verification-revision-5.json` and `previews/revision-5-header.png`.
 
 ## Revision 4
 
