@@ -35,3 +35,8 @@ Open `/pairs-pro-tui-studies/`. No dependencies. The builder produces 21 self-co
 `verification.json` records set counts, source/fixture hashes, 240 terminal text contrast pairs and 96 fixture-prefix checks. `browser-verification.json` records set filtering, navigation, comparison, sizes and redirects. `CONSOLIDATION.md` records preservation checks and release scope. `PROMPTS.md` and `CHALLENGE.md` support further sets without duplicating the studio.
 
 Previous releases: original TUI `d5e702f`; Omarchy addition `136abae`. Their historical screenshots/review records remain in Git. The twenty web UI studies are separate and unchanged.
+
+
+## 22 October UX review and sessions experiment
+
+[Multi-session workspace](sessions.html): twelve supplied session identities, searchable left-arrow picker, network filter, Summary / Events / log views, all twenty palettes. [Review decisions, evidence and implementation boundary](UX-REVIEW-2026-10-22.md). Historical excerpt and illustrative process states; no process connection. Both studio overviews received typography and comparison refinements.

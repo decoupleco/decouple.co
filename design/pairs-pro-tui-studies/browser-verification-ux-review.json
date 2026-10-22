@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-22",
+  "session_cases": [
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "01-flightdeck"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "01-flightdeck"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "02-split"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "02-split"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "03-ledger"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "03-ledger"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "04-rail"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "04-rail"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "05-paper"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "05-paper"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "06-focus"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "06-focus"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "07-race"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "07-race"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "08-matrix"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "08-matrix"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "09-tape"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "09-tape"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "10-outline"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "10-outline"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "01-bauhaus"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "01-bauhaus"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "02-gruvbox-material"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "02-gruvbox-material"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "03-rose-pine-moon"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "03-rose-pine-moon"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "04-flexoki-dark"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "04-flexoki-dark"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "05-catppuccin-dark"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "05-catppuccin-dark"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "06-cobalt2"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "06-cobalt2"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "07-solarized-light"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "07-solarized-light"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "08-evergarden"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "08-evergarden"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "09-vesper"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "09-vesper"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "wide",
+      "theme": "10-monochrome"
+    },
+    {
+      "consoleOverflow": false,
+      "pageOverflow": false,
+      "size": "compact",
+      "theme": "10-monochrome"
+    }
+  ],
+  "interactions": [
+    "Left opens sessions from console and button",
+    "Search BTC + Mezo yields 2 of 12",
+    "ArrowDown + Enter activates session3",
+    "Switch away/back retains session8 log view and rewards filter",
+    "Empty search state",
+    "Escape closes picker",
+    "Omar set reload retains10 visible",
+    "Two-study comparison and Clear"
+  ],
+  "overview": "All20 headings22px without clipping at529px browser; no page overflow",
+  "limits": "HTML prototype; no native terminal, processes, ANSI, telemetry, restart, or streaming integration"
+}

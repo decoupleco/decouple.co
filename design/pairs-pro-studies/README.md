@@ -1,6 +1,10 @@
 # Pairs Pro — twenty visual design experiments
 
-Updated 21 October 2026 · revision 3. Visual and interaction design studies. Open `index.html` to compare twenty directions; each numbered HTML contains five mobile screens and two desktop screens. Every HTML embeds its styles, JavaScript and vector charts. No installation, remote fonts or assets are required.
+Updated 22 October 2026 · revision 4. Visual and interaction design studies. Open `index.html` to compare twenty directions; each numbered HTML contains five mobile screens and two desktop screens. Every HTML embeds its styles, JavaScript and vector charts. No installation, remote fonts or assets are required.
+
+## Revision 4
+
+Compact pool identity in application headers, tighter ordered metrics, repaired quoted-font titles and clearer studio filters/comparison. [Review and measurements](REVISION-4.md).
 
 ## Revision 3
 

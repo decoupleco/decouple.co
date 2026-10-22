@@ -1,0 +1,1487 @@
+{
+  "date": "2026-10-22",
+  "cases": [
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "01-ledger",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "01-ledger",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "02-blueprint",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "02-blueprint",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "03-orchard",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "03-orchard",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "04-ticker",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "04-ticker",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "05-folio",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "05-folio",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "06-atlas",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "06-atlas",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "07-swiss",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "07-swiss",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "08-nocturne",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "08-nocturne",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "09-signal",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "09-signal",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "10-tide",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "10-tide",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "11-margin",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "11-margin",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "12-estuary",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "12-estuary",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "13-studio",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "13-studio",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "14-circuit",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "14-circuit",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "15-kiln",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "15-kiln",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "16-paper",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "16-paper",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "17-vector",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "17-vector",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "18-grove",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "18-grove",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "19-cobalt",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "19-cobalt",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "20-relay",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    },
+    {
+      "gap": "6.6667px",
+      "header": 55,
+      "metrics": [
+        "WETH price · USDC",
+        "Pool TVL",
+        "Vault TVL",
+        "Est. APY · 30D",
+        "Fees · 30D"
+      ],
+      "phones": [
+        {
+          "id": "m01",
+          "overflow": false
+        },
+        {
+          "id": "m02",
+          "overflow": false
+        },
+        {
+          "id": "m03",
+          "overflow": false
+        },
+        {
+          "id": "m04",
+          "overflow": false
+        },
+        {
+          "id": "m05",
+          "overflow": false
+        }
+      ],
+      "summary": 104,
+      "theme": "20-relay",
+      "titleSize": "44px",
+      "width": "<redacted>"
+    }
+  ],
+  "overview": "All 20 headings 32px at 1265px; quoted families preserved; collection reload and clear verified",
+  "limits": "Canvas checks, not native device testing; unrelated controls retain previous coverage"
+}

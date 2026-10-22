@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "scope": "Consolidated HTML design studio; no native engine verification",
   "sets": {
     "all": 20,
@@ -8,11 +8,12 @@
   },
   "renderer_count": 1,
   "fixture_sha256": "1701202e73f3539621e5dc7d8247d08130068300e3ace9ae027eb0d9df32a306",
-  "standalone_html": 21,
+  "standalone_html": 22,
   "runtime_dependencies": 0,
+  "session_prototype": "12 illustrative keeper sessions; no process connection",
   "source_hashes": {
-    "css": "2dbc4ee88ea06bf6c1fd77fdd77c6f399ceba1afa9cc5d14fc24ef0650e8a08b",
-    "js": "5aef8a169aa20e9e5abdd230562c81dea5026e0b99476cd96d221ea69f8246bb",
+    "css": "61d4306b5f243b006f620cb084284a4122fa131b1d562a33db28ac9fd5615c15",
+    "js": "aaeefa4e10a1acba0368515577b78e8886dff21f1ba1ddeef185c0f8d31cf070",
     "sources": "c2b672e2ce1fb2a6d2b8ac920106aac0f0992c50c991b4152dac9d44103ad1b2",
     "default": "94d96d21489b05fcaeb241f4481ea0ec12b6c9f94e63b8b96e7d0e4f7f863a06",
     "omar": "0f866af4be084cad3acd79106b63f79bf1317b254992dff535df9da6a2e5a21d",

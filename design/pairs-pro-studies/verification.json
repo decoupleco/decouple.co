@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "variants": 20,
   "mobile_screens_per_variant": 5,
   "desktop_screens_per_variant": 2,
@@ -8,8 +8,8 @@
   "network_policy": "connect-src none; no wallet provider",
   "source_hashes": {
     "framework": "0287f7565df385e14e51a75bd212c254a6d67008db6e494ff27a9620f21a31f3",
-    "css": "6b83181623d6fed82658652ece8523c71f0b78776c8176337e3ec184df223e93",
-    "js": "fe771c0a33e1ece5181119f2f23ee344a12afd312f2bc51936ae7c17b056b41e",
+    "css": "a0421ce4f2536d205f6602213c8c26c58520819f59405b0a8bd3d4f2be13cfdd",
+    "js": "97ba1240e9d980007704fb7be9d041dfc3f174a77216cfbb0aafa7a151b0297c",
     "themes": "c40a2bb43499aac97372f81876b4508f40f2499eb902179338dfda37907691a9"
   },
   "challenge_prompt_hash": "b5d61832560aba666243bf88177a1216a7b490e89c0b17b87c174a6c9d67589b",

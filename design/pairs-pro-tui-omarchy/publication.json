@@ -1,15 +1,10 @@
 {
-  "published_at": "2026-10-21T10:56:16.540768+00:00",
+  "published_at": "2026-10-22T03:59:19.302047+00:00",
   "source_repo": "decoupleco/pairs-pro",
   "source_branch": "design",
-  "source_commit": "2c119970695317387aa071e2c055ca7013edf9f6",
-  "hosting_parent": "37b25a80ef45eaf560943bf0a66e4dd586f43664",
+  "source_commit": "bf9a057cded6f1a5eefc9a07b85bbe2c8f409c12",
+  "hosting_parent": "1aa9f5d5554b4e438e37266eae07f2cd60ec1e4d",
   "canonical_url": "https://decouple.co/design/pairs-pro-tui-studies/",
-  "sets": {
-    "all": 20,
-    "default": 10,
-    "omar": 10
-  },
   "legacy_entry": true,
   "files": {
     "01-bauhaus.html": "9121f6633b05495c580860997080ebe217f725deba598189bd14cf9f46372c58",
