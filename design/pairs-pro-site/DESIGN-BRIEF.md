@@ -52,7 +52,7 @@ Explain trend/volatility, inventory and venue economics as three connected decis
 
 ### Strategy library
 
-Present the strategies in this order: 1. Optimal-Range, 2. Market-Aware, 3. Follow-Tick, 4. Vol+. Give each a distinct job within one family. Aero-optimized operation remains a venue specialization rather than a fifth strategy. A small selector can change the instrument's emphasis. The text remains readable without interacting.
+Present the strategies in this order: 1. Optimal-Range, 2. Market-Aware, 3. Follow-Tick, 4. Vol+. Give each a distinct job within one family. Aero/MetaDEX-optimized operation remains a venue specialization rather than a fifth strategy. A small selector can change the instrument's emphasis. The text remains readable without interacting.
 
 ### Two markets
 
@@ -68,7 +68,7 @@ Motion should explain a change in profile or strategy input and its effect. Use 
 
 - Optimal-Range: change trend and price movement, then show placement and concentration.
 - Market-Aware: compare pool price with a reference and show the intended decision region. For LST/LRT, separate reference accrual from residual market deviation rather than showing a static peg.
-- Follow-Tick: show a tick-spaced focused range following pool price; explain Aero gauge/reward operation as a specialization.
+- Follow-Tick: show a tick-spaced focused range following pool price; explain Aero/MetaDEX gauge/reward operation as a specialization.
 - Vol+: connect volatility/velocity/flow to a schematic fee response.
 
 No animated balance growth, APY counter or always-successful trade path. Label the instrument Schematic. Treat the geometry as explanatory, not a second strategy implementation.
@@ -80,6 +80,8 @@ Use one short transition per selection. Pause rather than loop. A static reduced
 Use a deliberate grid, asymmetric hierarchy, oversized sans-serif typography, strong spacing and fine rules. Black and warm white form the base. One accent identifies action or a selected relationship.
 
 System or bundled fonts are enough for the study. Good spacing matters more than a fashionable typeface. Use monospaced type only for small instrument labels.
+
+The wordmark is one uninterrupted Pairs.pro: “Pairs” bold at 700 and “.pro” thin at 200. Use a system sans-serif with real light weights for the header and footer wordmarks. Do not make the suffix smaller or insert a space. Normal body mentions of the product retain ordinary text styling.
 
 Avoid rounded card mosaics, glass, gradients, glowing networks, stock candles, token coins and pseudo-scientific microtype.
 
