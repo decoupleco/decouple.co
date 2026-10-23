@@ -1,0 +1,268 @@
+{
+  "date": "2026-10-23",
+  "directions": 10,
+  "screens_per_direction": 7,
+  "gates": {
+    "min_structural_distance": 3,
+    "min_contrast": 4.61,
+    "max_primaries_per_screen": 1,
+    "study_budget_brotli": 40000
+  },
+  "gallery": {
+    "raw": 63463,
+    "brotli": 10243,
+    "gzip": 12251
+  },
+  "pages": [
+    {
+      "file": "01-weekly-flow.html",
+      "name": "Weekly Flow",
+      "raw": 54764,
+      "brotli": 9559,
+      "gzip": 11734,
+      "worstContrast": 5.58,
+      "minStructuralDistance": 3,
+      "ax": {
+        "nav": "week",
+        "lead": "fee",
+        "row": "gauge",
+        "chart": "overlay",
+        "action": "dock"
+      },
+      "primaries": {
+        "M01": 1,
+        "M02": 0,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "D01": 1,
+        "D02": 1
+      }
+    },
+    {
+      "file": "02-rate-board.html",
+      "name": "Rate Board",
+      "raw": 57477,
+      "brotli": 9482,
+      "gzip": 11774,
+      "worstContrast": 5.89,
+      "minStructuralDistance": 3,
+      "ax": {
+        "nav": "seg",
+        "lead": "quote",
+        "row": "board",
+        "chart": "spread",
+        "action": "inline"
+      },
+      "primaries": {
+        "M01": 1,
+        "M02": 0,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "D01": 1,
+        "D02": 1
+      }
+    },
+    {
+      "file": "03-balance-sheet.html",
+      "name": "Balance Sheet",
+      "raw": 51509,
+      "brotli": 9310,
+      "gzip": 11516,
+      "worstContrast": 5.8,
+      "minStructuralDistance": 3,
+      "ax": {
+        "nav": "crumbs",
+        "lead": "ledger",
+        "row": "ledger",
+        "chart": "area",
+        "action": "sheet"
+      },
+      "primaries": {
+        "M01": 1,
+        "M02": 0,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "D01": 1,
+        "D02": 1
+      }
+    },
+    {
+      "file": "04-desk.html",
+      "name": "Desk",
+      "raw": 48209,
+      "brotli": 9352,
+      "gzip": 11727,
+      "worstContrast": 5.94,
+      "minStructuralDistance": 4,
+      "ax": {
+        "nav": "rail",
+        "lead": "quote",
+        "row": "table",
+        "chart": "multiples",
+        "action": "side"
+      },
+      "primaries": {
+        "M01": 1,
+        "M02": 0,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "D01": 1,
+        "D02": 1
+      }
+    },
+    {
+      "file": "05-pocket.html",
+      "name": "Pocket",
+      "raw": 50441,
+      "brotli": 9234,
+      "gzip": 11373,
+      "worstContrast": 5.52,
+      "minStructuralDistance": 3,
+      "ax": {
+        "nav": "tabs",
+        "lead": "balance",
+        "row": "cards",
+        "chart": "area",
+        "action": "sheet"
+      },
+      "primaries": {
+        "M01": 1,
+        "M02": 0,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "D01": 1,
+        "D02": 1
+      }
+    },
+    {
+      "file": "06-ladder.html",
+      "name": "Ladder",
+      "raw": 52158,
+      "brotli": 9307,
+      "gzip": 11480,
+      "worstContrast": 4.72,
+      "minStructuralDistance": 4,
+      "ax": {
+        "nav": "seg",
+        "lead": "ladder",
+        "row": "ladder",
+        "chart": "area",
+        "action": "dock"
+      },
+      "primaries": {
+        "M01": 1,
+        "M02": 0,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "D01": 1,
+        "D02": 1
+      }
+    },
+    {
+      "file": "07-index.html",
+      "name": "Index",
+      "raw": 47013,
+      "brotli": 9093,
+      "gzip": 11229,
+      "worstContrast": 6.15,
+      "minStructuralDistance": 3,
+      "ax": {
+        "nav": "seg",
+        "lead": "ledger",
+        "row": "table",
+        "chart": "overlay",
+        "action": "inline"
+      },
+      "primaries": {
+        "M01": 1,
+        "M02": 0,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "D01": 1,
+        "D02": 1
+      }
+    },
+    {
+      "file": "08-cockpit.html",
+      "name": "Cockpit",
+      "raw": 65746,
+      "brotli": 9576,
+      "gzip": 11958,
+      "worstContrast": 5.57,
+      "minStructuralDistance": 4,
+      "ax": {
+        "nav": "status",
+        "lead": "meters",
+        "row": "meters",
+        "chart": "spread",
+        "action": "side"
+      },
+      "primaries": {
+        "M01": 1,
+        "M02": 0,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "D01": 1,
+        "D02": 1
+      }
+    },
+    {
+      "file": "09-tasks.html",
+      "name": "Tasks",
+      "raw": 46315,
+      "brotli": 9026,
+      "gzip": 11000,
+      "worstContrast": 4.61,
+      "minStructuralDistance": 4,
+      "ax": {
+        "nav": "steps",
+        "lead": "tasks",
+        "row": "cards",
+        "chart": "spark",
+        "action": "dock"
+      },
+      "primaries": {
+        "M01": 1,
+        "M02": 0,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "D01": 1,
+        "D02": 1
+      }
+    },
+    {
+      "file": "10-night.html",
+      "name": "Night",
+      "raw": 52043,
+      "brotli": 9615,
+      "gzip": 11936,
+      "worstContrast": 6.54,
+      "minStructuralDistance": 3,
+      "ax": {
+        "nav": "week",
+        "lead": "fee",
+        "row": "board",
+        "chart": "band",
+        "action": "inline"
+      },
+      "primaries": {
+        "M01": 1,
+        "M02": 0,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "D01": 1,
+        "D02": 1
+      }
+    }
+  ]
+}

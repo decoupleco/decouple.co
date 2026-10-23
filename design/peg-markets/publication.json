@@ -2,13 +2,26 @@
   "url": "https://decouple.co/design/peg-markets/",
   "source_repository": "decoupleco/peg-markets",
   "source_branch": "design/peg-markets-wireframe",
-  "source_commit": "84aa83dd541068e01eaf296483cf7237a8c178dc",
+  "source_commit": "b79d6d0fe0b690f5b04868fbcd4465554ec3946f",
   "hosting_repository": "decoupleco/decouple.co",
   "hosting_branch": "gh-pages",
   "sha256": {
-    "index.html": "c22dd055bffac105d3dd98a91bf5086826363bd902814ce169a01191e8706bde",
+    "index.html": "56d5dc42fb7146e36f3d3e847500db04b3e0a24d4d664d8d23673db17a857986",
     "refresh-wireframe.pdf": "297a3697b94e5755c0588d2b7651a39c8c5dea58a0f846bc9f5a895f1f57af39",
-    "studies/weekly-flow/index.html": "dd0d2387ed53a32dd1cb72d093ded9ddea2c38913e1377246a49423c5110bdff",
-    "studies/weekly-flow/verification.json": "4aa21a63747692c25313d81899769fae2e20af28b5bfb369f9515a43cbcd32d8"
+    "studies/01-weekly-flow.html": "609bee0f02f52bd6293ceda696584a773f09d9eb4f54de380f77c438b3c169fb",
+    "studies/02-rate-board.html": "520d5f325c5ec65a1f2717998f65d04f5ac44383b20e41c4361dfd05ea98cc57",
+    "studies/03-balance-sheet.html": "cf4133e74d0283d32a7888408c19a8201a75fc35383c177bc1da9a8e0501afa8",
+    "studies/04-desk.html": "64945f37dfb4b70c4f318b6d668040543180fc89677a20059f1ca000b144dac4",
+    "studies/05-pocket.html": "eb23f2264e34af1d8928bb8e2b8e8bfa26cad6f38b7517881f6739627d4da10c",
+    "studies/06-ladder.html": "8cc7b5dc0e94953dca6696f632b9768afc74e6f4cd38dd07558c7e51cbcaee09",
+    "studies/07-index.html": "24e9bbbcccd16981492c16e7c34e51b49b2f99015e901cb72ac1d9a3b0dfe2e9",
+    "studies/08-cockpit.html": "4303bb22badf91d7ae54c063956aa1dedea0d04c73c30eefe81ca6b3dd3e4e12",
+    "studies/09-tasks.html": "4e4394fd64faaaa71cd8376771b9f9a579c7486be70eadec9b502999dc4bd823",
+    "studies/10-night.html": "83eb1f72688110504f0516aae1a042c7f10b8e51194b216819b479c597d93976",
+    "studies/CHALLENGE.md": "531500a98a5bd2a5144f6781b78bc6920d8bc33d789131286a90f18243f7be4c",
+    "studies/README.md": "722cbc347ea03172be0fcf70ba75f6ebd138a4408cdc9744872d816149dcd9ac",
+    "studies/index.html": "ca58da6513a3a6bac145f4593c7f4a25779e0e5e324744ed215cfd5755344a4b",
+    "studies/prompts.json": "5467d21f8101e34a9578a9a60b26024b18c2026c22c798a9a98f864b428a7d7e",
+    "studies/verification.json": "b1413c3aa782e9da65c6b93e3c1ce6d3cbf12e7c50389caeedb42dca98720787"
   }
 }
