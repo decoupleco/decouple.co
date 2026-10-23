@@ -1,0 +1,14 @@
+{
+  "url": "https://decouple.co/design/peg-markets/",
+  "source_repository": "decoupleco/peg-markets",
+  "source_branch": "design/peg-markets-wireframe",
+  "source_commit": "84aa83dd541068e01eaf296483cf7237a8c178dc",
+  "hosting_repository": "decoupleco/decouple.co",
+  "hosting_branch": "gh-pages",
+  "sha256": {
+    "index.html": "c22dd055bffac105d3dd98a91bf5086826363bd902814ce169a01191e8706bde",
+    "refresh-wireframe.pdf": "297a3697b94e5755c0588d2b7651a39c8c5dea58a0f846bc9f5a895f1f57af39",
+    "studies/weekly-flow/index.html": "dd0d2387ed53a32dd1cb72d093ded9ddea2c38913e1377246a49423c5110bdff",
+    "studies/weekly-flow/verification.json": "4aa21a63747692c25313d81899769fae2e20af28b5bfb369f9515a43cbcd32d8"
+  }
+}
