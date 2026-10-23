@@ -4,17 +4,21 @@
   "sourceInputs": {
     "fixture.json": "e3b4d0fd5b5d842962076aa2d52ea1ec3b9912ebc73a3511a21f6adaa27c72ec",
     "entries.json": "2b85548c8e27eaacd3a277c7ac9f7d36027b19c91771011b2d499e8b50b14f3a",
+    "entries-round-two.json": "2426bf02056d2594c06397ba9ad4af1297c05775d86c75e09592838873256fc6",
+    "round-two.mjs": "220b9c40037104a96c2e58d1710908c49f429322e68761075c7b103316b42ea1",
+    "round-two.css": "5d523abcc6e0ccef471c8026ae4e2631e3d6c59ea2d814512c7869f04092a131",
     "stories.json": "b0eb1a5a9abe9a4cc160e1bad5c74817d555cba57d478ce7269fd8f2c178e843",
-    "build.mjs": "f2eae34c0b228339c68390d18fae3a4e522f5615e4d6f978e29fc2a85ecf30d8",
-    "check.mjs": "227c7e91f63cef14167bd43a95ce0cd6d87aaa5d7b005efaa6fb797afd060882",
+    "build.mjs": "b8edb3fd27930487c2b69d81e5f6363fd30f535c43fa9e2b1cb2ec26b6be7850",
+    "check.mjs": "74f168f9018b14237e008ac23e8c260b3d086a6615ba174435fe44dd1ba1dd50",
     "index-baseline.json": "5e9c53e1aee17542f39fc0f703c2206ca94758a79d1e039804b0b12fbe75bd4a",
     "ui.css": "3361d693260a5cc392d34aaaac442bb7130398e20cf5e36ff697883b8cb3ab17",
     "theme.css": "dacf78da7ef89fe37a18d786cf65465d5be247c60f206d636f4fec64a332ec8f",
     "gallery.css": "161f7f498e6dc3bd55a16b704a5b443c34100569fa072f2b038f48332af8d8fa",
-    "gallery.js": "3df618a8cdad68edec7a6abe46b7803eb16cecc4035b90dd54d7aa101f4a2d59",
+    "gallery.js": "d487fe8868a5bed793e1aee9e0b5f22894bb40814b38bf6276390d1e69325682",
     "gallery-content.json": "0209b67ffa3c75c14a130c1702e00301b732817339f82bd07dd8e665615ddec2",
     "evidence.json": "bf8b62fc118bff2aec604742be9ac31f4a72a1a9c4737b50f165f3b9dfb6c61c",
-    "browser-qa.json": "abb72f67215380412371fe9dfe7deb6170af47fa37d3a1c40234a939dbe3b231"
+    "browser-qa.json": "ff21c301069676dc7ff62b78b5fd2815736267d16b1b5c99aebe5d020d0524cf",
+    "round-two-browser-qa.json": "172e532e1f957cc3780aa83c8727ac352a5587e489ff9581ce8ebb4c580d61a1"
   },
   "evidence": [
     {
@@ -48,7 +52,6 @@
     "No Core or live app changes",
     "No wallet execution",
     "No fabricated historical data",
-    "No deployment to decouple.co",
     "No real-user or latency claims"
   ]
 }

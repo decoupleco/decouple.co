@@ -15,15 +15,19 @@
       "status": "pass"
     },
     {
-      "name": "Ten entries, seven frames, distinct structural briefs",
+      "name": "Twenty entries, seven frames, distinct structural briefs",
       "status": "pass"
     },
     {
-      "name": "Index-only refresh preserves every study byte-for-byte",
+      "name": "First ten studies remain byte-identical",
       "status": "pass"
     },
     {
       "name": "Local links resolve and IDs are unique",
+      "status": "pass"
+    },
+    {
+      "name": "Lazy previews reuse rendered studies without fragment scroll",
       "status": "pass"
     },
     {
@@ -46,10 +50,10 @@
   "sizes": [
     {
       "name": "index",
-      "bytes": 52191,
-      "brotli": 9201,
-      "gzip": 11017,
-      "sha256": "770f7cf8748e38cae21433fe0c7850c4f134753e2f2f01f427daf7fad194a8ed"
+      "bytes": 45488,
+      "brotli": 8312,
+      "gzip": 10034,
+      "sha256": "6a2a8144405d9a9be32d5b5f0d502acc3d167afce6a293531301792d26575476"
     },
     {
       "name": "currency-ledger",
@@ -120,6 +124,76 @@
       "brotli": 7113,
       "gzip": 8431,
       "sha256": "347c2e013dc282bfb3edb641357447427822a5a974a948f3910487d9449852b0"
+    },
+    {
+      "name": "meridian",
+      "bytes": 46540,
+      "brotli": 8321,
+      "gzip": 9778,
+      "sha256": "4c50600e9af161e51cae535ea1b609dfc0b8ceff0defd36bd4f57866676fda02"
+    },
+    {
+      "name": "parity",
+      "bytes": 46806,
+      "brotli": 8345,
+      "gzip": 9833,
+      "sha256": "f7ca16f4fbbafa5d7b9fdea7acac5cccf0c4e7fff7980945b83c49aebcdbeb93"
+    },
+    {
+      "name": "arc",
+      "bytes": 46514,
+      "brotli": 8333,
+      "gzip": 9789,
+      "sha256": "66b414a03b2f2c28eb41f3e6b058bca2a692a6e8dbc72495479cf4da64623d7e"
+    },
+    {
+      "name": "civic",
+      "bytes": 46666,
+      "brotli": 8363,
+      "gzip": 9824,
+      "sha256": "dbe127d94d3730671f1dd5a1814a12fb8f4c788fa891bab1ea1edbbf67ad9083"
+    },
+    {
+      "name": "current",
+      "bytes": 46616,
+      "brotli": 8340,
+      "gzip": 9789,
+      "sha256": "0b9cf7d0d34acfde3aafb3bcea4440de6a1c54d06ebd4c1b146224504a07a0ca"
+    },
+    {
+      "name": "aperture",
+      "bytes": 46877,
+      "brotli": 8386,
+      "gzip": 9867,
+      "sha256": "6039ad4cef9c517461f7c8be6c4e168c9f9d8b794a6670386f878120858a8942"
+    },
+    {
+      "name": "forma",
+      "bytes": 46730,
+      "brotli": 8395,
+      "gzip": 9861,
+      "sha256": "2c7a5c18c228614edb7e1a5677ee315272f615861f378689eec86d5b32330040"
+    },
+    {
+      "name": "harbor",
+      "bytes": 46545,
+      "brotli": 8319,
+      "gzip": 9772,
+      "sha256": "f95be63d89ce45cba0b6628cf04678406b846b52790d1c525ec566bb7a978141"
+    },
+    {
+      "name": "quartz",
+      "bytes": 46448,
+      "brotli": 8334,
+      "gzip": 9782,
+      "sha256": "5e9df02dbcbf24ca58047facc522b7677206e3f373b46164a8ee39e7a30b7989"
+    },
+    {
+      "name": "alto",
+      "bytes": 46542,
+      "brotli": 8334,
+      "gzip": 9776,
+      "sha256": "c6c4cc0e965cc3e968301c0a0a1beeb14164a9b47be4c8924b7d2e68fa0a2f43"
     }
   ],
   "browserQA": "See browser-qa.json. Static checks do not prove CLS, network latency or user success."

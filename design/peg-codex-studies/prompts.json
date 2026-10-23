@@ -58,5 +58,65 @@
     "title": "Settlement Tape",
     "author": "Codex",
     "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Treat provenance, state and review as a legible operational record. Visual structure: record tabs; provenance first; event records; state checkpoints; review record. Tradeoff to test: Best for audit and Buffer work; more context than casual users need. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
+  },
+  {
+    "id": "11",
+    "title": "Meridian",
+    "author": "Codex",
+    "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Make exchanging, supplying and borrowing three clear moves in one confident currency workspace. Visual structure: currency console; exchange pair; split account planes; labelled collateral rail; persistent ticket. Tradeoff to test: A strong general-purpose product; the side-by-side hierarchy needs careful mobile stacking. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
+  },
+  {
+    "id": "12",
+    "title": "Parity",
+    "author": "Codex",
+    "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Treat every operation as a readable equation with exact units and almost no interface furniture. Visual structure: numbered index; amount equation; typographic rules; monochrome proportions; underlined review. Tradeoff to test: Very fast to scan; its strict visual language may feel austere. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
+  },
+  {
+    "id": "13",
+    "title": "Arc",
+    "author": "Codex",
+    "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Give currency exchange a focused night-mode ticket, with route and consequence adjacent to the amounts. Visual structure: capsule navigation; conversion ticket; layered night surfaces; vertical exchange path; ticket footer. Tradeoff to test: A distinctive dark experience; all status and secondary copy must retain contrast. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
+  },
+  {
+    "id": "14",
+    "title": "Civic",
+    "author": "Codex",
+    "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Present markets as a public financial record before asking anyone to create a position. Visual structure: public record masthead; market statement; editorial account spread; available locked book; annotated receipt. Tradeoff to test: Excellent for trust through explanation; less compact for a frequent trader. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
+  },
+  {
+    "id": "15",
+    "title": "Current",
+    "author": "Codex",
+    "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Use physical liquidity and labelled flows as the organizing language across every task. Visual structure: treasury rail; working collateral; open allocation rows; paired flow blocks; adjacent action dock. Tradeoff to test: Clear for LP decisions; movement diagrams must not suggest an execution guarantee. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
+  },
+  {
+    "id": "16",
+    "title": "Aperture",
+    "author": "Codex",
+    "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Build a measured financial instrument with source, units and consequences aligned on one grid. Visual structure: instrument toolbar; observation matrix; crosshair grid; numeric state ladder; bounded execution panel. Tradeoff to test: Powerful for analytical users; the density is not the best first-time experience. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
+  },
+  {
+    "id": "17",
+    "title": "Forma",
+    "author": "Codex",
+    "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Guide the user through choose, inspect and review without disguising missing execution data as progress. Visual structure: task spine; chosen intent; staged form sheets; before after tiles; review checkpoint. Tradeoff to test: Makes consequences easy to follow; routine users may prefer a shorter route. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
+  },
+  {
+    "id": "18",
+    "title": "Harbor",
+    "author": "Codex",
+    "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Begin with the user's own claim, then give borrowing and liquidity separate homes. Visual structure: personal bottom navigation; owned claim; account cards; balance composition; thumb reach review. Tradeoff to test: A welcoming personal view; public pool context must remain accessible. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
+  },
+  {
+    "id": "19",
+    "title": "Quartz",
+    "author": "Codex",
+    "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Make amount, asset and unit one precise visual grammar across swap, debt and LP claims. Visual structure: asset strip; unit anchored figures; compact split rows; token quantity blocks; flush action bar. Tradeoff to test: Strong numerical clarity; the compressed typography needs small-screen testing. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
+  },
+  {
+    "id": "20",
+    "title": "Alto",
+    "author": "Codex",
+    "prompt": "Build a self-contained μi / μApp study for Peg. Five mobile frames M01–M05 and two desktop frames D01–D02. Use fixture.json and stories.json unchanged. Create a bright native-app rhythm with a single dominant action and a restrained summary above it. Visual structure: native task tabs; single action stage; rounded account stacks; flat progress bands; wide primary action. Tradeoff to test: Approachable and familiar; it needs distinctive content rather than extra decoration. Label unsupported data; no wallet, external requests, invented yield or historical series. Use semantic controls, readable contrast and tabular financial figures. Follow ENTRY-GUIDE.md."
   }
 ]

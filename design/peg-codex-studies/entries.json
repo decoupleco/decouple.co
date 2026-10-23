@@ -1,12 +1,322 @@
 [
-  {"id":"01","slug":"currency-ledger","title":"Currency Ledger","author":"Codex","thesis":"Keep currency, token and collateral identities visible from browse to review.","tradeoff":"The clearest general-purpose direction; less room for an advanced dealing view.","shortlist":true,"axes":["currency rail","identity first","ruled ledger","collateral strip","split ticket"]},
-  {"id":"02","slug":"one-thing","title":"One Thing","author":"Codex","thesis":"Ask one question at a time. Keep a short path from intent to review.","tradeoff":"Best for new users; repeat operators need more steps.","shortlist":true,"axes":["task steps","intent first","large choices","before-after","footer action"]},
-  {"id":"03","slug":"balance-sheet","title":"Balance Sheet","author":"Codex","thesis":"Explain the market as two separate books: the LP pool and the user's loan.","tradeoff":"Strong accounting clarity; needs testing with users new to balance sheets.","shortlist":false,"axes":["breadcrumbs","accounting first","two books","asset blocks","inline review"]},
-  {"id":"04","slug":"dealing-room","title":"Dealing Room","author":"Codex","thesis":"Make units and quote terms scan as quickly as a compact dealing ticket.","tradeoff":"Fast for frequent users; its information density is less forgiving.","shortlist":false,"axes":["rate board","quote first","compact grid","quote ladder","side ticket"]},
-  {"id":"05","slug":"pocket","title":"Pocket","author":"Codex","thesis":"Start with what the user owns, then expose only the next useful action.","tradeoff":"Friendly on a phone; public market comparison is a second step.","shortlist":false,"axes":["bottom tabs","wallet first","roomy cards","balance segments","bottom action"]},
-  {"id":"06","slug":"health-desk","title":"Health Desk","author":"Codex","thesis":"Put debt risk before borrowing capacity without assigning risk to LP shares.","tradeoff":"Good for Mint; risk framing can distract users who only want liquidity.","shortlist":true,"axes":["risk rail","health first","risk rows","threshold ladder","guarded review"]},
-  {"id":"07","slug":"liquidity-sheet","title":"Liquidity Sheet","author":"Codex","thesis":"Make available and locked collateral the visual centre of the market.","tradeoff":"Best for LP decisions; token swapping is deliberately quieter.","shortlist":false,"axes":["currency tabs","liquidity first","stacked bands","physical composition","adjacent form"]},
-  {"id":"08","slug":"flow-map","title":"Flow Map","author":"Codex","thesis":"Show what moves between wallet, pool and loan before asking for a signature.","tradeoff":"Strong teaching tool; arrows must not imply a guaranteed execution route.","shortlist":false,"axes":["flow trail","movement first","directional rows","current flow diagram","inline steps"]},
-  {"id":"09","slug":"plain-sight","title":"Plain Sight","author":"Codex","thesis":"Use precise sentences and small tables instead of a dashboard of cards.","tradeoff":"Low visual noise; a quieter identity may be less memorable.","shortlist":false,"axes":["text index","sentence first","definition rows","numeric table","text review"]},
-  {"id":"10","slug":"settlement-tape","title":"Settlement Tape","author":"Codex","thesis":"Treat provenance, state and review as a legible operational record.","tradeoff":"Best for audit and Buffer work; more context than casual users need.","shortlist":false,"axes":["record tabs","provenance first","event records","state checkpoints","review record"]}
+  {
+    "id": "01",
+    "slug": "currency-ledger",
+    "title": "Currency Ledger",
+    "author": "Codex",
+    "thesis": "Keep currency, token and collateral identities visible from browse to review.",
+    "tradeoff": "The clearest general-purpose direction; less room for an advanced dealing view.",
+    "shortlist": true,
+    "axes": [
+      "currency rail",
+      "identity first",
+      "ruled ledger",
+      "collateral strip",
+      "split ticket"
+    ]
+  },
+  {
+    "id": "02",
+    "slug": "one-thing",
+    "title": "One Thing",
+    "author": "Codex",
+    "thesis": "Ask one question at a time. Keep a short path from intent to review.",
+    "tradeoff": "Best for new users; repeat operators need more steps.",
+    "shortlist": true,
+    "axes": [
+      "task steps",
+      "intent first",
+      "large choices",
+      "before-after",
+      "footer action"
+    ]
+  },
+  {
+    "id": "03",
+    "slug": "balance-sheet",
+    "title": "Balance Sheet",
+    "author": "Codex",
+    "thesis": "Explain the market as two separate books: the LP pool and the user's loan.",
+    "tradeoff": "Strong accounting clarity; needs testing with users new to balance sheets.",
+    "shortlist": false,
+    "axes": [
+      "breadcrumbs",
+      "accounting first",
+      "two books",
+      "asset blocks",
+      "inline review"
+    ]
+  },
+  {
+    "id": "04",
+    "slug": "dealing-room",
+    "title": "Dealing Room",
+    "author": "Codex",
+    "thesis": "Make units and quote terms scan as quickly as a compact dealing ticket.",
+    "tradeoff": "Fast for frequent users; its information density is less forgiving.",
+    "shortlist": false,
+    "axes": [
+      "rate board",
+      "quote first",
+      "compact grid",
+      "quote ladder",
+      "side ticket"
+    ]
+  },
+  {
+    "id": "05",
+    "slug": "pocket",
+    "title": "Pocket",
+    "author": "Codex",
+    "thesis": "Start with what the user owns, then expose only the next useful action.",
+    "tradeoff": "Friendly on a phone; public market comparison is a second step.",
+    "shortlist": false,
+    "axes": [
+      "bottom tabs",
+      "wallet first",
+      "roomy cards",
+      "balance segments",
+      "bottom action"
+    ]
+  },
+  {
+    "id": "06",
+    "slug": "health-desk",
+    "title": "Health Desk",
+    "author": "Codex",
+    "thesis": "Put debt risk before borrowing capacity without assigning risk to LP shares.",
+    "tradeoff": "Good for Mint; risk framing can distract users who only want liquidity.",
+    "shortlist": true,
+    "axes": [
+      "risk rail",
+      "health first",
+      "risk rows",
+      "threshold ladder",
+      "guarded review"
+    ]
+  },
+  {
+    "id": "07",
+    "slug": "liquidity-sheet",
+    "title": "Liquidity Sheet",
+    "author": "Codex",
+    "thesis": "Make available and locked collateral the visual centre of the market.",
+    "tradeoff": "Best for LP decisions; token swapping is deliberately quieter.",
+    "shortlist": false,
+    "axes": [
+      "currency tabs",
+      "liquidity first",
+      "stacked bands",
+      "physical composition",
+      "adjacent form"
+    ]
+  },
+  {
+    "id": "08",
+    "slug": "flow-map",
+    "title": "Flow Map",
+    "author": "Codex",
+    "thesis": "Show what moves between wallet, pool and loan before asking for a signature.",
+    "tradeoff": "Strong teaching tool; arrows must not imply a guaranteed execution route.",
+    "shortlist": false,
+    "axes": [
+      "flow trail",
+      "movement first",
+      "directional rows",
+      "current flow diagram",
+      "inline steps"
+    ]
+  },
+  {
+    "id": "09",
+    "slug": "plain-sight",
+    "title": "Plain Sight",
+    "author": "Codex",
+    "thesis": "Use precise sentences and small tables instead of a dashboard of cards.",
+    "tradeoff": "Low visual noise; a quieter identity may be less memorable.",
+    "shortlist": false,
+    "axes": [
+      "text index",
+      "sentence first",
+      "definition rows",
+      "numeric table",
+      "text review"
+    ]
+  },
+  {
+    "id": "10",
+    "slug": "settlement-tape",
+    "title": "Settlement Tape",
+    "author": "Codex",
+    "thesis": "Treat provenance, state and review as a legible operational record.",
+    "tradeoff": "Best for audit and Buffer work; more context than casual users need.",
+    "shortlist": false,
+    "axes": [
+      "record tabs",
+      "provenance first",
+      "event records",
+      "state checkpoints",
+      "review record"
+    ]
+  },
+  {
+    "id": "11",
+    "slug": "meridian",
+    "title": "Meridian",
+    "author": "Codex",
+    "thesis": "Make exchanging, supplying and borrowing three clear moves in one confident currency workspace.",
+    "tradeoff": "A strong general-purpose product; the side-by-side hierarchy needs careful mobile stacking.",
+    "shortlist": true,
+    "axes": [
+      "currency console",
+      "exchange pair",
+      "split account planes",
+      "labelled collateral rail",
+      "persistent ticket"
+    ]
+  },
+  {
+    "id": "12",
+    "slug": "parity",
+    "title": "Parity",
+    "author": "Codex",
+    "thesis": "Treat every operation as a readable equation with exact units and almost no interface furniture.",
+    "tradeoff": "Very fast to scan; its strict visual language may feel austere.",
+    "shortlist": false,
+    "axes": [
+      "numbered index",
+      "amount equation",
+      "typographic rules",
+      "monochrome proportions",
+      "underlined review"
+    ]
+  },
+  {
+    "id": "13",
+    "slug": "arc",
+    "title": "Arc",
+    "author": "Codex",
+    "thesis": "Give currency exchange a focused night-mode ticket, with route and consequence adjacent to the amounts.",
+    "tradeoff": "A distinctive dark experience; all status and secondary copy must retain contrast.",
+    "shortlist": false,
+    "axes": [
+      "capsule navigation",
+      "conversion ticket",
+      "layered night surfaces",
+      "vertical exchange path",
+      "ticket footer"
+    ]
+  },
+  {
+    "id": "14",
+    "slug": "civic",
+    "title": "Civic",
+    "author": "Codex",
+    "thesis": "Present markets as a public financial record before asking anyone to create a position.",
+    "tradeoff": "Excellent for trust through explanation; less compact for a frequent trader.",
+    "shortlist": true,
+    "axes": [
+      "public record masthead",
+      "market statement",
+      "editorial account spread",
+      "available locked book",
+      "annotated receipt"
+    ]
+  },
+  {
+    "id": "15",
+    "slug": "current",
+    "title": "Current",
+    "author": "Codex",
+    "thesis": "Use physical liquidity and labelled flows as the organizing language across every task.",
+    "tradeoff": "Clear for LP decisions; movement diagrams must not suggest an execution guarantee.",
+    "shortlist": false,
+    "axes": [
+      "treasury rail",
+      "working collateral",
+      "open allocation rows",
+      "paired flow blocks",
+      "adjacent action dock"
+    ]
+  },
+  {
+    "id": "16",
+    "slug": "aperture",
+    "title": "Aperture",
+    "author": "Codex",
+    "thesis": "Build a measured financial instrument with source, units and consequences aligned on one grid.",
+    "tradeoff": "Powerful for analytical users; the density is not the best first-time experience.",
+    "shortlist": false,
+    "axes": [
+      "instrument toolbar",
+      "observation matrix",
+      "crosshair grid",
+      "numeric state ladder",
+      "bounded execution panel"
+    ]
+  },
+  {
+    "id": "17",
+    "slug": "forma",
+    "title": "Forma",
+    "author": "Codex",
+    "thesis": "Guide the user through choose, inspect and review without disguising missing execution data as progress.",
+    "tradeoff": "Makes consequences easy to follow; routine users may prefer a shorter route.",
+    "shortlist": false,
+    "axes": [
+      "task spine",
+      "chosen intent",
+      "staged form sheets",
+      "before after tiles",
+      "review checkpoint"
+    ]
+  },
+  {
+    "id": "18",
+    "slug": "harbor",
+    "title": "Harbor",
+    "author": "Codex",
+    "thesis": "Begin with the user's own claim, then give borrowing and liquidity separate homes.",
+    "tradeoff": "A welcoming personal view; public pool context must remain accessible.",
+    "shortlist": true,
+    "axes": [
+      "personal bottom navigation",
+      "owned claim",
+      "account cards",
+      "balance composition",
+      "thumb reach review"
+    ]
+  },
+  {
+    "id": "19",
+    "slug": "quartz",
+    "title": "Quartz",
+    "author": "Codex",
+    "thesis": "Make amount, asset and unit one precise visual grammar across swap, debt and LP claims.",
+    "tradeoff": "Strong numerical clarity; the compressed typography needs small-screen testing.",
+    "shortlist": false,
+    "axes": [
+      "asset strip",
+      "unit anchored figures",
+      "compact split rows",
+      "token quantity blocks",
+      "flush action bar"
+    ]
+  },
+  {
+    "id": "20",
+    "slug": "alto",
+    "title": "Alto",
+    "author": "Codex",
+    "thesis": "Create a bright native-app rhythm with a single dominant action and a restrained summary above it.",
+    "tradeoff": "Approachable and familiar; it needs distinctive content rather than extra decoration.",
+    "shortlist": false,
+    "axes": [
+      "native task tabs",
+      "single action stage",
+      "rounded account stacks",
+      "flat progress bands",
+      "wide primary action"
+    ]
+  }
 ]

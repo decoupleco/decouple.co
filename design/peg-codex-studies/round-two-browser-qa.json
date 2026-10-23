@@ -1,0 +1,921 @@
+{
+  "date": "2026-10-23",
+  "browser": "Codex in-app browser",
+  "frameChecks": [
+    {
+      "slug": "meridian",
+      "frame": "M01",
+      "appHeight": 1008.359375,
+      "scrollWidth": 821,
+      "visible": [
+        "M01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "meridian",
+      "frame": "M02",
+      "appHeight": 906.5625,
+      "scrollWidth": 821,
+      "visible": [
+        "M02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "meridian",
+      "frame": "M03",
+      "appHeight": 1042.65625,
+      "scrollWidth": 821,
+      "visible": [
+        "M03"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "meridian",
+      "frame": "M04",
+      "appHeight": 1163.453125,
+      "scrollWidth": 821,
+      "visible": [
+        "M04"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "meridian",
+      "frame": "M05",
+      "appHeight": 1045.109375,
+      "scrollWidth": 821,
+      "visible": [
+        "M05"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "meridian",
+      "frame": "D01",
+      "appHeight": 1310.40625,
+      "scrollWidth": 821,
+      "visible": [
+        "D01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "meridian",
+      "frame": "D02",
+      "appHeight": 1171.6953125,
+      "scrollWidth": 821,
+      "visible": [
+        "D02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "parity",
+      "frame": "M01",
+      "appHeight": 1132.859375,
+      "scrollWidth": 821,
+      "visible": [
+        "M01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "parity",
+      "frame": "M02",
+      "appHeight": 906.5625,
+      "scrollWidth": 821,
+      "visible": [
+        "M02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "parity",
+      "frame": "M03",
+      "appHeight": 1070.7109375,
+      "scrollWidth": 821,
+      "visible": [
+        "M03"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "parity",
+      "frame": "M04",
+      "appHeight": 1163.453125,
+      "scrollWidth": 821,
+      "visible": [
+        "M04"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "parity",
+      "frame": "M05",
+      "appHeight": 1045.109375,
+      "scrollWidth": 821,
+      "visible": [
+        "M05"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "parity",
+      "frame": "D01",
+      "appHeight": 1298.90625,
+      "scrollWidth": 821,
+      "visible": [
+        "D01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "parity",
+      "frame": "D02",
+      "appHeight": 1171.6953125,
+      "scrollWidth": 821,
+      "visible": [
+        "D02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "arc",
+      "frame": "M01",
+      "appHeight": 1023.859375,
+      "scrollWidth": 821,
+      "visible": [
+        "M01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "arc",
+      "frame": "M02",
+      "appHeight": 917.5625,
+      "scrollWidth": 821,
+      "visible": [
+        "M02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "arc",
+      "frame": "M03",
+      "appHeight": 1024.7109375,
+      "scrollWidth": 821,
+      "visible": [
+        "M03"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "arc",
+      "frame": "M04",
+      "appHeight": 1174.453125,
+      "scrollWidth": 821,
+      "visible": [
+        "M04"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "arc",
+      "frame": "M05",
+      "appHeight": 1056.109375,
+      "scrollWidth": 821,
+      "visible": [
+        "M05"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "arc",
+      "frame": "D01",
+      "appHeight": 1305.90625,
+      "scrollWidth": 821,
+      "visible": [
+        "D01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "arc",
+      "frame": "D02",
+      "appHeight": 1178.6953125,
+      "scrollWidth": 821,
+      "visible": [
+        "D02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "civic",
+      "frame": "M01",
+      "appHeight": 1124.1484375,
+      "scrollWidth": 821,
+      "visible": [
+        "M01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "civic",
+      "frame": "M02",
+      "appHeight": 904.1640625,
+      "scrollWidth": 821,
+      "visible": [
+        "M02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "civic",
+      "frame": "M03",
+      "appHeight": 1171.5,
+      "scrollWidth": 821,
+      "visible": [
+        "M03"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "civic",
+      "frame": "M04",
+      "appHeight": 1172.0546875,
+      "scrollWidth": 821,
+      "visible": [
+        "M04"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "civic",
+      "frame": "M05",
+      "appHeight": 1053.7109375,
+      "scrollWidth": 821,
+      "visible": [
+        "M05"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "civic",
+      "frame": "D01",
+      "appHeight": 1288.5078125,
+      "scrollWidth": 821,
+      "visible": [
+        "D01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "civic",
+      "frame": "D02",
+      "appHeight": 1180.296875,
+      "scrollWidth": 821,
+      "visible": [
+        "D02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "current",
+      "frame": "M01",
+      "appHeight": 1021.8828125,
+      "scrollWidth": 821,
+      "visible": [
+        "M01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "current",
+      "frame": "M02",
+      "appHeight": 1059.0859375,
+      "scrollWidth": 821,
+      "visible": [
+        "M02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "current",
+      "frame": "M03",
+      "appHeight": 1045.234375,
+      "scrollWidth": 821,
+      "visible": [
+        "M03"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "current",
+      "frame": "M04",
+      "appHeight": 1151.9765625,
+      "scrollWidth": 821,
+      "visible": [
+        "M04"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "current",
+      "frame": "M05",
+      "appHeight": 1033.6328125,
+      "scrollWidth": 821,
+      "visible": [
+        "M05"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "current",
+      "frame": "D01",
+      "appHeight": 1307.4296875,
+      "scrollWidth": 821,
+      "visible": [
+        "D01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "current",
+      "frame": "D02",
+      "appHeight": 1160.21875,
+      "scrollWidth": 821,
+      "visible": [
+        "D02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "aperture",
+      "frame": "M01",
+      "appHeight": 1055.8203125,
+      "scrollWidth": 821,
+      "visible": [
+        "M01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "aperture",
+      "frame": "M02",
+      "appHeight": 898.3203125,
+      "scrollWidth": 821,
+      "visible": [
+        "M02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "aperture",
+      "frame": "M03",
+      "appHeight": 1081.421875,
+      "scrollWidth": 821,
+      "visible": [
+        "M03"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "aperture",
+      "frame": "M04",
+      "appHeight": 1155.2109375,
+      "scrollWidth": 821,
+      "visible": [
+        "M04"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "aperture",
+      "frame": "M05",
+      "appHeight": 1036.8671875,
+      "scrollWidth": 821,
+      "visible": [
+        "M05"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "aperture",
+      "frame": "D01",
+      "appHeight": 1301.265625,
+      "scrollWidth": 821,
+      "visible": [
+        "D01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "aperture",
+      "frame": "D02",
+      "appHeight": 1169.453125,
+      "scrollWidth": 821,
+      "visible": [
+        "D02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "forma",
+      "frame": "M01",
+      "appHeight": 1075.8828125,
+      "scrollWidth": 821,
+      "visible": [
+        "M01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "forma",
+      "frame": "M02",
+      "appHeight": 938.8828125,
+      "scrollWidth": 821,
+      "visible": [
+        "M02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "forma",
+      "frame": "M03",
+      "appHeight": 1150.234375,
+      "scrollWidth": 821,
+      "visible": [
+        "M03"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "forma",
+      "frame": "M04",
+      "appHeight": 1175.9765625,
+      "scrollWidth": 821,
+      "visible": [
+        "M04"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "forma",
+      "frame": "M05",
+      "appHeight": 1057.6328125,
+      "scrollWidth": 821,
+      "visible": [
+        "M05"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "forma",
+      "frame": "D01",
+      "appHeight": 1309.4296875,
+      "scrollWidth": 821,
+      "visible": [
+        "D01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "forma",
+      "frame": "D02",
+      "appHeight": 1184.21875,
+      "scrollWidth": 821,
+      "visible": [
+        "D02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "harbor",
+      "frame": "M01",
+      "appHeight": 1038.359375,
+      "scrollWidth": 821,
+      "visible": [
+        "M01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "harbor",
+      "frame": "M02",
+      "appHeight": 930.5625,
+      "scrollWidth": 821,
+      "visible": [
+        "M02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "harbor",
+      "frame": "M03",
+      "appHeight": 1051.7109375,
+      "scrollWidth": 821,
+      "visible": [
+        "M03"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "harbor",
+      "frame": "M04",
+      "appHeight": 1163.453125,
+      "scrollWidth": 821,
+      "visible": [
+        "M04"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "harbor",
+      "frame": "M05",
+      "appHeight": 1045.109375,
+      "scrollWidth": 821,
+      "visible": [
+        "M05"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "harbor",
+      "frame": "D01",
+      "appHeight": 1296.90625,
+      "scrollWidth": 821,
+      "visible": [
+        "D01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "harbor",
+      "frame": "D02",
+      "appHeight": 1171.6953125,
+      "scrollWidth": 821,
+      "visible": [
+        "D02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "quartz",
+      "frame": "M01",
+      "appHeight": 998.3515625,
+      "scrollWidth": 821,
+      "visible": [
+        "M01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "quartz",
+      "frame": "M02",
+      "appHeight": 846.9453125,
+      "scrollWidth": 821,
+      "visible": [
+        "M02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "quartz",
+      "frame": "M03",
+      "appHeight": 1016.8984375,
+      "scrollWidth": 821,
+      "visible": [
+        "M03"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "quartz",
+      "frame": "M04",
+      "appHeight": 1137.3359375,
+      "scrollWidth": 821,
+      "visible": [
+        "M04"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "quartz",
+      "frame": "M05",
+      "appHeight": 1034.9921875,
+      "scrollWidth": 821,
+      "visible": [
+        "M05"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "quartz",
+      "frame": "D01",
+      "appHeight": 1281.7890625,
+      "scrollWidth": 821,
+      "visible": [
+        "D01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "quartz",
+      "frame": "D02",
+      "appHeight": 1161.578125,
+      "scrollWidth": 821,
+      "visible": [
+        "D02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "alto",
+      "frame": "M01",
+      "appHeight": 1006.71875,
+      "scrollWidth": 821,
+      "visible": [
+        "M01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "alto",
+      "frame": "M02",
+      "appHeight": 912.921875,
+      "scrollWidth": 821,
+      "visible": [
+        "M02"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "alto",
+      "frame": "M03",
+      "appHeight": 1036.71875,
+      "scrollWidth": 821,
+      "visible": [
+        "M03"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "alto",
+      "frame": "M04",
+      "appHeight": 1169.8125,
+      "scrollWidth": 821,
+      "visible": [
+        "M04"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "alto",
+      "frame": "M05",
+      "appHeight": 1049.46875,
+      "scrollWidth": 821,
+      "visible": [
+        "M05"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "alto",
+      "frame": "D01",
+      "appHeight": 1311.6171875,
+      "scrollWidth": 821,
+      "visible": [
+        "D01"
+      ],
+      "width": 821
+    },
+    {
+      "slug": "alto",
+      "frame": "D02",
+      "appHeight": 1176.0546875,
+      "scrollWidth": 821,
+      "visible": [
+        "D02"
+      ],
+      "width": 821
+    }
+  ],
+  "taskChecks": [
+    {
+      "slug": "meridian",
+      "activeFrames": [
+        "M03"
+      ],
+      "lpVisible": false,
+      "mintVisible": true,
+      "reviewLink": "#M04",
+      "scrollWidth": 821,
+      "width": 821
+    },
+    {
+      "slug": "parity",
+      "activeFrames": [
+        "M03"
+      ],
+      "lpVisible": false,
+      "mintVisible": true,
+      "reviewLink": "#M04",
+      "scrollWidth": 821,
+      "width": 821
+    },
+    {
+      "slug": "arc",
+      "activeFrames": [
+        "M03"
+      ],
+      "lpVisible": false,
+      "mintVisible": true,
+      "reviewLink": "#M04",
+      "scrollWidth": 821,
+      "width": 821
+    },
+    {
+      "slug": "civic",
+      "activeFrames": [
+        "M03"
+      ],
+      "lpVisible": false,
+      "mintVisible": true,
+      "reviewLink": "#M04",
+      "scrollWidth": 821,
+      "width": 821
+    },
+    {
+      "slug": "current",
+      "activeFrames": [
+        "M03"
+      ],
+      "lpVisible": false,
+      "mintVisible": true,
+      "reviewLink": "#M04",
+      "scrollWidth": 821,
+      "width": 821
+    },
+    {
+      "slug": "aperture",
+      "activeFrames": [
+        "M03"
+      ],
+      "lpVisible": false,
+      "mintVisible": true,
+      "reviewLink": "#M04",
+      "scrollWidth": 821,
+      "width": 821
+    },
+    {
+      "slug": "forma",
+      "activeFrames": [
+        "M03"
+      ],
+      "lpVisible": false,
+      "mintVisible": true,
+      "reviewLink": "#M04",
+      "scrollWidth": 821,
+      "width": 821
+    },
+    {
+      "slug": "harbor",
+      "activeFrames": [
+        "M03"
+      ],
+      "lpVisible": false,
+      "mintVisible": true,
+      "reviewLink": "#M04",
+      "scrollWidth": 821,
+      "width": 821
+    },
+    {
+      "slug": "quartz",
+      "activeFrames": [
+        "M03"
+      ],
+      "lpVisible": false,
+      "mintVisible": true,
+      "reviewLink": "#M04",
+      "scrollWidth": 821,
+      "width": 821
+    },
+    {
+      "slug": "alto",
+      "activeFrames": [
+        "M03"
+      ],
+      "lpVisible": false,
+      "mintVisible": true,
+      "reviewLink": "#M04",
+      "scrollWidth": 821,
+      "width": 821
+    }
+  ],
+  "collections": [
+    {
+      "set": "all",
+      "visible": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    },
+    {
+      "set": "original",
+      "visible": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "set": "shortlist",
+      "visible": [
+        "01",
+        "02",
+        "06",
+        "11",
+        "14",
+        "18"
+      ]
+    },
+    {
+      "set": "new",
+      "visible": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    }
+  ],
+  "comparison": {
+    "open": true,
+    "titles": [
+      "Currency Ledger / M01",
+      "Arc / M01",
+      "Harbor / M01"
+    ],
+    "widths": [
+      390,
+      390,
+      390
+    ]
+  },
+  "escape": {
+    "focus": "compare-open",
+    "open": false
+  },
+  "shortlist": {
+    "selected": [
+      "11",
+      "14",
+      "18"
+    ],
+    "titles": [
+      "Meridian / M01",
+      "Civic / M01",
+      "Harbor / M01"
+    ]
+  },
+  "firstLoadScroll": 0,
+  "limits": [
+    "No real-user test",
+    "No network latency or CLS claim",
+    "Full-frame overflow checks at 821px; 390px comparison frames rendered; no exhaustive 360px device test"
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "schema":"peg.design.browser-qa.v1",
-  "status":"revision-2-static-pass-browser-recheck-blocked",
+  "status":"round-two-pass-with-stated-bounds",
   "date":"2026-10-23",
   "browser":"Codex in-app browser",
   "previouslyTestedRevision":"gallery HTML ef98db0bd5360da4d02067fb2922ac3313b5e6adb425595af1c9cd8f6964f49a",
-  "currentRevision":{"scope":"Index theme, copy, preview stages and shortlist controls only","htmlSha256":"770f7cf8748e38cae21433fe0c7850c4f134753e2f2f01f427daf7fad194a8ed","staticGates":10,"studyHtmlParity":"All ten study hashes equal index-baseline.json","browser":"Recheck blocked by in-app URL security; not retried using an alternate surface","screenshots":"Existing screenshots show revision 1 only, not the revised index"},
+  "currentRevision":{"scope":"Ten new original directions, 70 new frames, twenty-entry gallery","htmlSha256":"6a2a8144405d9a9be32d5b5f0d502acc3d167afce6a293531301792d26575476","staticGates":11,"studyHtmlParity":"Original ten study hashes equal index-baseline.json","browser":"All seventy new frames checked for target isolation and root overflow at 821px; ten task switches, all collection filters, cross-set 390px comparison, Escape, focus recovery and stable initial scroll passed","evidence":"round-two-browser-qa.json","limitations":"No real-user, CLS, network latency or exhaustive 360px device test"},
   "priorRevisionChecks":[
     {"name":"Gallery renders ten named directions without horizontal overflow","result":"493px content width equals 493px scroll width"},
     {"name":"All ten M03 frames load with correct LP-only default","result":"10/10; LP visible, Mint hidden, root scroll width equals viewport"},
@@ -17,6 +17,7 @@
     {"name":"Fixed-width responsive test","result":"Native 390px M03 and 1280px D01 iframes rendered and accessibility trees inspected; desktop table exposes all four currency rows"},
     {"name":"Missing data state","result":"Settlement execution is visibly disabled; channel reward APR and fee-only breakdown show unavailable"}
   ],
-  "screenshots":["gallery-preview.png","market-preview.png"],
+  "screenshots":["round-two-gallery.png","round-two-arc.png","round-two-meridian.png"],
+  "previousScreenshots":["gallery-preview.png","market-preview.png"],
   "limits":["No real-user testing","No measured CLS or network latency","No full-width desktop screenshot: desktop inspection used a fixed-width iframe and accessibility tree","No wallet or live protocol validation","Fixed examples are not editable quote calculators"]
 }
