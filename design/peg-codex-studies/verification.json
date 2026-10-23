@@ -1,0 +1,126 @@
+{
+  "schema": "peg.design.verification.v1",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "Independent rational swap vectors",
+      "status": "pass"
+    },
+    {
+      "name": "LP shares, loan health and pool conservation",
+      "status": "pass"
+    },
+    {
+      "name": "Unknown economics fail visibly rather than becoming zero",
+      "status": "pass"
+    },
+    {
+      "name": "Ten entries, seven frames, distinct structural briefs",
+      "status": "pass"
+    },
+    {
+      "name": "Index-only refresh preserves every study byte-for-byte",
+      "status": "pass"
+    },
+    {
+      "name": "Local links resolve and IDs are unique",
+      "status": "pass"
+    },
+    {
+      "name": "No runtime data, wallet, external assets or secrets",
+      "status": "pass"
+    },
+    {
+      "name": "Compressed document budgets",
+      "status": "pass"
+    },
+    {
+      "name": "Text palette contrast >= 4.5:1 for small text",
+      "status": "pass"
+    },
+    {
+      "name": "Deterministic rebuild, byte-for-byte HTML equality",
+      "status": "pass"
+    }
+  ],
+  "sizes": [
+    {
+      "name": "index",
+      "bytes": 52191,
+      "brotli": 9201,
+      "gzip": 11017,
+      "sha256": "770f7cf8748e38cae21433fe0c7850c4f134753e2f2f01f427daf7fad194a8ed"
+    },
+    {
+      "name": "currency-ledger",
+      "bytes": 33355,
+      "brotli": 7104,
+      "gzip": 8429,
+      "sha256": "0eeaeac1026ebae88f5339e7592b043aad0c822cbd9826848e4daa4aa22b7855"
+    },
+    {
+      "name": "one-thing",
+      "bytes": 32975,
+      "brotli": 7090,
+      "gzip": 8427,
+      "sha256": "1d1f0e1845c3aea3663ae848ebc8b98555b126a26ac6488b559276e52f3ddd1a"
+    },
+    {
+      "name": "balance-sheet",
+      "bytes": 33236,
+      "brotli": 7114,
+      "gzip": 8459,
+      "sha256": "20e25c796d18a1c7ef63ec84df5fe962b2b097ba024c133277969241bec0ac4c"
+    },
+    {
+      "name": "dealing-room",
+      "bytes": 33337,
+      "brotli": 7111,
+      "gzip": 8453,
+      "sha256": "ae83e8dc05935537987d1726a976a952987934d364a798421ecabf31a01d2594"
+    },
+    {
+      "name": "pocket",
+      "bytes": 33129,
+      "brotli": 7106,
+      "gzip": 8435,
+      "sha256": "e32a99a2902543a23260ad3e0f190b3f9e9d57a1f61286c5f1de34adf0e74b26"
+    },
+    {
+      "name": "health-desk",
+      "bytes": 33191,
+      "brotli": 7098,
+      "gzip": 8445,
+      "sha256": "5ec626eed8c6da9c89ef3fb90981ab6ba8d0e3956b694024aef1327af63079d4"
+    },
+    {
+      "name": "liquidity-sheet",
+      "bytes": 33078,
+      "brotli": 7070,
+      "gzip": 8416,
+      "sha256": "cdf7e86c99ede06a3def436a3fd14bf6ff573e780feb5404be54bed6852b4517"
+    },
+    {
+      "name": "flow-map",
+      "bytes": 33253,
+      "brotli": 7139,
+      "gzip": 8466,
+      "sha256": "52685f2965843f6b1678fc87591117d3f70cc9beb77b71ce7d7482f922e143e1"
+    },
+    {
+      "name": "plain-sight",
+      "bytes": 33059,
+      "brotli": 7114,
+      "gzip": 8451,
+      "sha256": "dd88c1dbeb4bb8f0bc0400a855f7f35773e317f9c5928ba59319cd1b50c60b5d"
+    },
+    {
+      "name": "settlement-tape",
+      "bytes": 33094,
+      "brotli": 7113,
+      "gzip": 8431,
+      "sha256": "347c2e013dc282bfb3edb641357447427822a5a974a948f3910487d9449852b0"
+    }
+  ],
+  "browserQA": "See browser-qa.json. Static checks do not prove CLS, network latency or user success."
+}

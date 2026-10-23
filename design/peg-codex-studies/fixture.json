@@ -1,0 +1,20 @@
+{
+  "schema":"peg.design.v1",
+  "status":"illustrative; not live; no wallet execution",
+  "source":"design/peg-markets/fixture.js inputs, frozen for this independent study",
+  "blockLabel":"Illustrative fixture block 31204118; not independently observed",
+  "collateralToken":"sUSDS",
+  "currencies":[
+    {"code":"USD","name":"US dollar","token":"pegUSD","lp":"4000000","available":"3400000","locked":"600000","debt":"1520000","oracle":"1.000000"},
+    {"code":"EUR","name":"Euro","token":"pegEUR","lp":"1200000","available":"1140000","locked":"60000","debt":"210000","oracle":"1.093000"},
+    {"code":"JPY","name":"Japanese yen","token":"pegJPY","lp":"800000","available":"800000","locked":"0","debt":"0","oracle":"0.006640"},
+    {"code":"AUD","name":"Australian dollar","token":"pegAUD","lp":"600000","available":"540000","locked":"60000","debt":"95000","oracle":"0.648000"}
+  ],
+  "position":{"collateral":"200","debt":"100","lpShares":"1000","lpValue":"1004.20","lpFeesIncluded":"4.20","walletCollateral":"400"},
+  "mint":{"addCollateral":"100","newDebt":"80","lltvNumerator":"95","lltvDenominator":"100"},
+  "liquidity":{"addCollateral":"250","shareDisplayDecimals":4},
+  "swap":{"pay":"100.000000","payToken":"pegUSD","receiveToken":"pegEUR","eurOracleNumerator":"1093","eurOracleDenominator":"1000","fixedIllustrativeFeeBp":"7.6","gross":"91.491308","receive":"91.421774","minimum":"90.964665","slippageBp":"50","displayDecimals":6,"rule":"Floor at each displayed six-decimal step. The fee is a fixed design example, not a protocol quote algorithm."},
+  "channel":{"tokens":["AUDM","pegAUD"],"amounts":["200.0000","200.0000"],"lower":"0.9950","upper":"1.0050","price":"1.0002","priceUnit":"pegAUD per AUDM","collectible":["0.0100","3.0000"],"feeOnlyBreakdown":null,"feeYield":null,"rewardApr":null},
+  "settlement":{"batch":null,"status":"Unavailable: complete balanced batch and execution plan are not supplied."},
+  "unsupported":["live quote","token addresses and chain deployment","token decimals","fee yield window","reward APR authority","historical chart series","complete settlement batch","wallet transaction plan"]
+}

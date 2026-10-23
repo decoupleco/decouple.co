@@ -1,0 +1,9 @@
+[
+  {"id":"S1","title":"Compare first","story":"I want to compare markets before I connect a wallet.","frames":["M02","D01"],"acceptance":"Show available collateral and utilization. Do not require a wallet to browse."},
+  {"id":"S2","title":"Know the swap","story":"I want to know what I pay and the minimum I receive.","frames":["M01"],"acceptance":"Name the actual tokens. Show minimum received, fee and quote state before signing."},
+  {"id":"S3","title":"Borrow with context","story":"I want to see how new debt changes my health.","frames":["M03","M04"],"acceptance":"Separate the loan from LP shares. Show collateral, debt and health before and after."},
+  {"id":"S4","title":"Supply liquidity","story":"I want to add liquidity without confusing it with my loan.","frames":["M03"],"acceptance":"Switch the summary and form together. Distinguish marked LP value from available withdrawal cash."},
+  {"id":"S5","title":"Inspect my channel","story":"I want to see my range, both token amounts and each collectible amount.","frames":["M05"],"acceptance":"Range status describes this position. Do not call every collectible amount a fee."},
+  {"id":"S6","title":"Recover safely","story":"I want to know what failed and how to continue.","frames":["M01","M04"],"acceptance":"Show expired, disconnected and partial-failure states. Never repeat a confirmed approval automatically."},
+  {"id":"S7","title":"Check settlement","story":"I want to check the batch before I run settlement.","frames":["D02"],"acceptance":"Show source and completeness. Keep execution disabled when a complete, balanced batch is unavailable."}
+]

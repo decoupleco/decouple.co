@@ -1,0 +1,54 @@
+{
+  "schema": "peg.design.provenance.v1",
+  "dataStatus": "illustrative; not live; no wallet execution",
+  "sourceInputs": {
+    "fixture.json": "e3b4d0fd5b5d842962076aa2d52ea1ec3b9912ebc73a3511a21f6adaa27c72ec",
+    "entries.json": "2b85548c8e27eaacd3a277c7ac9f7d36027b19c91771011b2d499e8b50b14f3a",
+    "stories.json": "b0eb1a5a9abe9a4cc160e1bad5c74817d555cba57d478ce7269fd8f2c178e843",
+    "build.mjs": "f2eae34c0b228339c68390d18fae3a4e522f5615e4d6f978e29fc2a85ecf30d8",
+    "check.mjs": "227c7e91f63cef14167bd43a95ce0cd6d87aaa5d7b005efaa6fb797afd060882",
+    "index-baseline.json": "5e9c53e1aee17542f39fc0f703c2206ca94758a79d1e039804b0b12fbe75bd4a",
+    "ui.css": "3361d693260a5cc392d34aaaac442bb7130398e20cf5e36ff697883b8cb3ab17",
+    "theme.css": "dacf78da7ef89fe37a18d786cf65465d5be247c60f206d636f4fec64a332ec8f",
+    "gallery.css": "161f7f498e6dc3bd55a16b704a5b443c34100569fa072f2b038f48332af8d8fa",
+    "gallery.js": "3df618a8cdad68edec7a6abe46b7803eb16cecc4035b90dd54d7aa101f4a2d59",
+    "gallery-content.json": "0209b67ffa3c75c14a130c1702e00301b732817339f82bd07dd8e665615ddec2",
+    "evidence.json": "bf8b62fc118bff2aec604742be9ac31f4a72a1a9c4737b50f165f3b9dfb6c61c",
+    "browser-qa.json": "abb72f67215380412371fe9dfe7deb6170af47fa37d3a1c40234a939dbe3b231"
+  },
+  "evidence": [
+    {
+      "file": "peg-markets-demo.pdf",
+      "sha256": "fd2e166af0d4e6f9d6f30b30fdda1752e2789f9fa770f814232710d334778148",
+      "scope": "Original six-view board"
+    },
+    {
+      "file": "refresh-wireframe.pdf",
+      "sha256": "faad8965cddc9fed3de617afda16acdba7331f1ca176f285c06ea43dc8b1e6e4",
+      "scope": "Five rendered pages at review; source may change independently"
+    },
+    {
+      "file": "min-spec-plain.md",
+      "sha256": "2a5482e721b4327b677ab96ba8455ce62f85a5cbd2b4a5fa8f207fab61243d3c",
+      "scope": "Product concepts, not permission to change protocol"
+    },
+    {
+      "file": "fixture.js",
+      "sha256": "6e94d7c7be0e80d409b97d3c780c5a2a6a3e03c1552af25120702574f8816152",
+      "scope": "Sanitized illustrative inputs only; existing gallery layouts not reused"
+    }
+  ],
+  "framework": {
+    "name": "μi / μApp",
+    "module": "decouple/design/lib/ui.js",
+    "sha256": "90ab2f034d8e8f581ae31f63a9dbdb3dbfcb820942ffb6eb685971fb154302a5",
+    "snapshot": "ui.css contains reset/base layers"
+  },
+  "nonGoals": [
+    "No Core or live app changes",
+    "No wallet execution",
+    "No fabricated historical data",
+    "No deployment to decouple.co",
+    "No real-user or latency claims"
+  ]
+}
