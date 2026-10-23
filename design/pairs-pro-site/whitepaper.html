@@ -1,0 +1,126 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pairs.pro — Whitepaper</title><style>*{box-sizing:border-box}body{margin:0;background:#f5f3ee;color:#181918;font:18px/1.65 Arial,Helvetica,sans-serif}header{max-width:1160px;margin:auto;padding:25px 30px;border-bottom:1px solid #c5c7bf;display:flex;justify-content:space-between;font-size:14px}a{color:inherit;text-underline-offset:4px}main{max-width:820px;margin:64px auto 100px;padding:0 30px}h1{font-size:64px;letter-spacing:-.06em;line-height:1;margin:0 0 20px}h2{font-size:30px;line-height:1.2;letter-spacing:-.025em;margin:65px 0 20px;font-weight:500}h3{font-size:22px;line-height:1.3;margin:35px 0 13px;font-weight:500}p{margin:0 0 20px}strong{font-weight:600}code{font:14px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace}pre{background:#e8e9e2;padding:24px;white-space:pre-wrap;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;vertical-align:top;padding:13px;border-bottom:1px solid #c5c7bf}th{background:#e8e9e2}.table-scroll{overflow:auto;margin:25px 0}li{margin:10px 0}.source-ref{border-bottom:1px dotted #777}.system{padding:30px;border-top:1px solid #181918;border-bottom:1px solid #181918;text-align:center;line-height:2}.note{font-size:12px;color:#565953;border-top:1px solid #c5c7bf;padding-top:25px;margin-top:60px;overflow-wrap:anywhere}@media(max-width:600px){body{font-size:17px}header{padding:18px 20px}main{padding:0 20px;margin-top:45px}h1{font-size:52px}h2{font-size:27px;margin-top:46px}h3{font-size:21px}pre{padding:16px}td,th{padding:10px}code{font-size:12px}}@media print{header{display:none}body{font-size:11pt;background:#fff}main{max-width:none;margin:0;padding:0}h1{font-size:34pt}h2{font-size:18pt;break-after:avoid}h3{break-after:avoid}pre,.system,tr{break-inside:avoid}.note{display:none}}</style></head><body><header><a href="wireframe.html">Pairs.pro — Sharper AMM LP.</a><a href="wireframe.html">Back to homepage ↗</a></header><main><h1>Pairs.pro</h1>
+<h2>Sharper AMM LP</h2>
+<h3>Market-aware strategies for on-chain spot liquidity</h3>
+<p>This paper sets out the Pairs.pro product vision, economic model and architecture.</p>
+<h2>Abstract</h2>
+<p>Providing liquidity is a portfolio decision. A position earns from trading activity and incentives while continuously changing the assets it holds. Its outcome depends on where capital sits, how inventory evolves, what the venue pays and what it costs to operate.</p>
+<p>Pairs.pro brings those decisions into one system. Market-aware strategies turn trend, price movement, inventory and reference-market information into explicit liquidity instructions. On-chain vaults hold assets and account for ownership. Venue integrations execute the mechanics of concentrated liquidity, staking, rewards and settlement.</p>
+<p>The product serves two connected markets: teams building liquidity for an asset, and institutions deploying assets into liquidity. Token issuers and RWA platforms need a market that fits their treasury and asset structure. Foundations, digital-asset treasuries and curators need a strategy they can evaluate alongside the assets they intend to hold.</p>
+<p>The central thesis is that AMM liquidity should be operated as a portfolio with an explicit mandate. Range selection, inventory policy, fee design and venue operations belong to that mandate. They should be understandable to the capital owner and reproducible by another operator.</p>
+<h2>1. The liquidity problem</h2>
+<p>Concentrated AMMs make capital placement programmable. A provider chooses a price interval and supplies the assets needed by the curve within that interval. As trades move price, the position exchanges one asset for the other. Outside its range, it becomes one-sided and stops earning active trading fees until price returns.</p>
+<p>That creates connected choices. A tighter range increases concentration but can spend more time inactive. A wider range distributes exposure across more prices. Moving a position changes its inventory path and incurs execution costs. Gauge participation can replace trading-fee entitlement with token rewards. An external redemption price can matter more than the pool's recent trading history.</p>
+<p>These choices cannot be reduced to a single APY. A treasury can earn fees while losing units of the reserve asset it wanted to retain. An issuer can supply substantial capital while placing little depth where its users trade. A pool can produce attractive gross rewards whose conversion and claim costs consume the benefit.</p>
+<p>Pairs.pro treats these effects as parts of one portfolio problem. The objective is a strategy that fits the market and the capital owner, with a clear account of the trade-offs.</p>
+<h2>2. A mandate before a range</h2>
+<div class="table-scroll"><table><thead><tr><th>Decision</th><th>Meaning</th></tr></thead><tbody>
+<tr><td>Market</td><td>Assets, quote orientation, venue, pool identity and relevant reference markets.</td></tr>
+<tr><td>Capital</td><td>Starting token quantities, funding source, permitted entry and exit paths.</td></tr>
+<tr><td>Inventory</td><td>Desired exposure, tolerance and acceptable conversion of one asset into the other.</td></tr>
+<tr><td>Operations</td><td>Who may act, when to rebalance, how to handle rewards and what to do when inputs fail.</td></tr>
+<tr><td>Measurement</td><td>The benchmark, reporting currency, income attribution and risk measures used to judge the result.</td></tr>
+</tbody></table></div>
+<p>The mandate makes the strategy's purpose explicit. A token issuer may prioritize useful depth around a reference market while managing treasury inventory. A BTC treasury may evaluate liquidity in BTC units as well as a quote currency. A curator may operate a policy for several capital owners through a private vault.</p>
+<p>A range is an expression of the mandate. It is not the mandate itself.</p>
+<h2>3. Architecture</h2>
+<p>Pairs.pro separates information, decisions, assets and execution.</p>
+<div class="system">Market information + mandate<br>↓<br><strong>Strategy executor</strong><br>↓<br><strong>Vault → AMM / gauge</strong><br>↓<br>Shares, assets and reporting</div>
+<h3>Market inputs</h3>
+<p>Inputs have an identity, unit, timestamp and price orientation. Historical candles describe market behavior. Pool state describes the execution market. External references describe a separate source of value. Holdings describe the portfolio's actual token mix.</p>
+<p>These inputs answer different questions. A pool price is not automatically fair value. A reference price is not automatically executable. A historical index is not a substitute for checking the state into which a transaction will execute.</p>
+<h3>Strategy executor</h3>
+<p>The executor translates the mandate and observed state into final range boundaries, a capital split and operating actions. It owns trend, volatility, inventory, triggers and cadence. A decision should explain which inputs and rules caused it.</p>
+<p>The same decision function can support simulation and operation. Equal inputs should produce equal strategy instructions. Execution timing, market paths, fees and costs still require their own measurement.</p>
+<h3>Vault core</h3>
+<p>The core holds assets, accounts for pool-specific ownership and enforces authorized execution. It receives explicit ranges. It does not interpret EMA, ATR, a target exposure or an oracle view of fair value.</p>
+<p>The singleton design groups pool accounting within a venue deployment. ERC-6909 identifiers distinguish pool shares. Ownership of one pool's shares represents a claim on that pool's accounted assets, rather than all assets managed by the singleton.</p>
+<h3>Venue integrations</h3>
+<p>Venue mechanics remain explicit: V3-style positions and callbacks, v4 PoolManager settlement and hooks, and gauge staking, claims, penalties and reward conversion. A portable strategy must respect the mechanics of the venue where it operates.</p>
+<h3>Product interfaces</h3>
+<p>Capital owners need to understand their assets, strategy and authority. Operators need configuration, decision records and execution controls. Curators need mandate-specific access and reporting. These are different views of the same underlying portfolio.</p>
+<h2>4. The two-range model</h2>
+<p>Pairs.pro expresses an allocation through a broad <strong>base range</strong> and a focused <strong>limit range</strong>.</p>
+<p>The base range distributes one part of the portfolio across a wider price region. The limit range concentrates another part around the strategy's selected prices. The focused range need not always be centered on spot: placement depends on the policy and inventory objective.</p>
+<p>The capital split and the asset mix are separate quantities. An 80% allocation to the base range is not an 80% exposure to the base asset. The token amounts each range can use depend on its geometry and the assets available. Unused balances remain part of the portfolio.</p>
+<p>Inventory policy can make a selected range one-sided. That offers an excess asset to subsequent market flow without an immediate principal swap. Whether and when conversion occurs depends on price and trading activity. A target guides the strategy; it does not impose a hard limit on market exposure.</p>
+<p>The two ranges are a compact control surface. They let an operator express continuity, concentration and inventory intent without turning vault accounting into a strategy engine.</p>
+<h2>5. Strategy design</h2>
+<p>Different markets need different policies. The strategy library has four product families, with a shared boundary: strategies decide; vaults hold and account.</p>
+<h3>Optimal-Range — trend and volatility</h3>
+<p>Optimal-Range uses moving averages to locate ranges and average true range to scale them. Daily observations define the base model; hourly observations define the focused model. A trend signal can shift selected ranges. Inventory rules shape the final one-sided or two-sided placement.</p>
+<p>The model distinguishes where to place liquidity from when to move it. Range exit, movement beyond a chase zone and a changed inventory state can trigger a new allocation. Only completed observations enter the signals.</p>
+<p>ATR measures recent price movement in price units. It is useful for scaling a range, but it does not identify every source of market risk or establish an optimal width. Parameters express a policy whose behavior must be evaluated across market conditions.</p>
+<h3>Follow-Tick — tick-aligned concentration</h3>
+<p>Follow-Tick places a focused range measured in tick spacings around pool price, alongside the shared base and inventory model. Concentration is explicit; a smaller tick width alone does not establish a better economic outcome.</p>
+<p>Aero-optimized configurations connect this placement policy to Aerodrome's gauge economics: active-liquidity eligibility, stake and unstake timing, reward claims and reinvestment. Aero optimization is a venue specialization, not a separate strategy name.</p>
+<p>The design objective is the complete net outcome of operating on the venue. Trading fees and emissions must be evaluated under their actual entitlement rules. Penalty windows, reward-token liquidity, claim timing, gas and conversion costs affect the decision.</p>
+<h3>Vol+ — volatility and fee design</h3>
+<p>Vol+ explores a volatility accumulator for AMM fee policy. Volatility, the velocity of price change and signed swap-flow changes describe different aspects of activity. The design question is how these observations should affect the price of supplying liquidity.</p>
+<p>Uniswap v4 hooks provide a separate place to express pool-level behavior, including dynamic fees. A fee hook affects a pool's swap economics; a vault strategy affects a portfolio's placement. These modules can be composed, but their accounting, permissions and risks remain distinct.</p>
+<p>The aim is a fee policy that responds to market conditions under explicit bounds. Higher fees can deter flow, and faster reaction can increase cost or manipulation sensitivity. Evaluation must account for trader behavior and net LP outcomes rather than treating a larger fee as an automatic improvement.</p>
+<h3>Market-Aware — external value and market structure</h3>
+<p>Tokenized assets, stablecoins, FX and yield-bearing assets can have a reference outside the AMM. A reference-aware strategy considers that value alongside pool price, inventory and execution liquidity. The reference can move: an accruing asset is not a fixed-peg pair.</p>
+<p>The policy defines the source, units, freshness, permitted deviation, market sessions and failure response. It distinguishes reference value from issuer redemption value and immediately executable market price. Those values can diverge during stress or settlement delays.</p>
+<p>The reference informs strategy. It does not silently replace the vault's share-accounting rules. A peg policy must state which actions it permits when a reference becomes stale or the market becomes dislocated.</p>
+<p>For wstETH/WETH, distinguish the wrapper's stETH-per-wstETH conversion rate from the executable WETH price. wstETH is a liquid-staking token, not itself a liquid-restaking token. Rewards change the conversion rate; penalties can reduce it. Neither a permanent upward path nor stETH/WETH parity is guaranteed. <a href="https://docs.lido.fi/guides/lido-tokens-integration-guide/">Lido's integration guide</a> and <a href="https://lido.fi/how-lido-works/rewards-and-penalties">rewards and penalties</a> describe those mechanics.</p>
+<p>The strategy separates <strong>accrual</strong> from <strong>market deviation</strong>. Let <code>P(t)</code> be WETH per wstETH and <code>R(t)</code> the declared reference in the same units. A wrapper-rate anchor may use the conversion rate under an explicit stETH/WETH parity assumption; a market-adjusted reference also incorporates an independently sourced stETH/WETH basis. These are different policies. Shape liquidity around <code>ln(P(t) / R(t))</code>, then map the selected boundaries back into executable pool prices. Reference movement, residual volatility, inventory and the cost of moving the position jointly inform operation.</p>
+<p>A narrow LP can sell an appreciating yield-bearing asset into WETH and lose future carry. Re-centering does not undo that conversion or guarantee a better result. Evaluation must compare the same initial token holdings, passive liquidity and—when required by the mandate—an all-wstETH alternative, with yield counted once in asset value. The <span class="source-ref">carry-aware liquidity design</span> defines the reference contract, cost discipline and evaluation cases.</p>
+<h2>6. Vaults and ownership</h2>
+<p>The core vault is a shared accounting and execution primitive. It represents a pool's position through token balances, range liquidity and pool-specific shares. Entry and redemption operate under defined authorization, rounding, minimum-output and execution rules.</p>
+<p>Holder authority and manager authority have different purposes. The manager operates liquidity within the vault interface. Share ownership defines the holder's asset claim. Administrative roles configure permissions and protocol parameters. Reward-conversion authorization can be separated from transaction submission.</p>
+<p>Private vaults package this infrastructure around a curator or asset manager's mandate. Their design includes investor access, operator authority, strategy configuration, reporting, fees and the terms of entry and exit.</p>
+<p>A single-asset interface is a separate layer around the two-asset core. It needs a conversion policy, routing, valuation, rounding and liquidity rules. An ERC-4626 wrapper cannot make a two-token position single-asset economically; it supplies an interface and explicitly manages the conversions around it.</p>
+<h2>7. Two institutional markets</h2>
+<h3>Token markets</h3>
+<p>Issuers allocate treasury assets to an on-chain market. They need useful liquidity around the prices where users trade and a policy for how inventory may change. RWA platforms add reference pricing, transfer restrictions, market sessions and redemption mechanics.</p>
+<p>A mandate begins with the token and quote asset, the capital budget, desired depth, acceptable inventory and accountable operator. Fees and incentives must be distinguished from any separate price-support or redemption commitment.</p>
+<p>Stablecoins and FX belong to the same operating family. Their strategy depends on the economics of redemption and inventory, not merely the recent stability of a chart.</p>
+<h3>Reserve assets</h3>
+<p>Foundations and treasuries can deploy BTC, ETH and other core assets into spot liquidity. The relevant question is what the LP position adds to the asset mandate after inventory conversion, adverse selection and costs.</p>
+<p>Evaluation should retain the reserve-asset perspective. A position that grows in quote value can still underperform holding the intended reserve. Reporting in token units and a declared quote currency makes that trade-off visible.</p>
+<p>Curators turn these policies into managed products for capital owners. Their value includes strategy selection, operation, reporting and accountability, alongside the underlying infrastructure.</p>
+<h2>8. Economics and measurement</h2>
+<p>The portfolio combines several economic components:</p>
+<pre><code>Portfolio value
+  = idle assets + marked position assets
+  + uncollected fees not already included
+  + reward value attributed under the stated ownership model
+  - costs not already deducted</code></pre>
+<p>Income already compounded into position assets must not be added again. A cumulative fee ledger describes attribution; it is not necessarily an additional asset. A reward estimate differs from a delivered token and from a holder's enforceable redemption claim.</p>
+<p>Results should show token quantities, inventory exposure, trading fees, incentives, turnover, idle assets, gas, conversion costs and failed execution. Comparators should include holding the same initial assets and supplying passive liquidity under matched assumptions.</p>
+<p>The evaluation unit is the entire mandate. It includes useful market depth for an issuer, inventory retained by a treasury and the operational burden of maintaining the position. Gross fee capture is one observation within that result.</p>
+<p>The business relationship follows the same principle. Mandate design and integration cover defining the market and connecting infrastructure. Ongoing operations cover monitoring and strategy execution. Revenue participation needs an explicit basis: trading fees, delivered incentives or another agreed measure, with costs and principal treatment stated. Commercial alignment should be understandable before capital is committed.</p>
+<h2>9. Evaluation discipline</h2>
+<p>A strategy result is meaningful only with a declared model. The record identifies the pool, source data, time window, configuration, initial assets, accounting rules and execution assumptions. Another operator should be able to reproduce the decision path and distinguish observed from estimated quantities.</p>
+<p>Testing spans trending, ranging, volatile and dislocated conditions. Evaluation exposes adverse cases, parameter sensitivity, drawdowns, inventory error, inactive periods and operating costs. Selection and evaluation periods serve different roles; a parameter chosen because it won a historical search needs independent assessment.</p>
+<p>The purpose is to determine where a policy is useful. It does not establish that active management is universally superior. The strongest strategy for a mandate may be broad, infrequent or deliberately conservative.</p>
+<h2>10. Control and responsibility</h2>
+<p>Controls include identified data, completed observations, execution windows, explicit roles and bounded reward-conversion authority. When an input cannot support a new decision, the executor can retain the existing position.</p>
+<p>Holding the position retains its market exposure. A failed allocation preserves transaction state; it does not stop price from moving. A reference price does not guarantee redemption, and an immutable contract still depends on tokens, venues, keys and chain execution.</p>
+<p>The relevant risks include inventory conversion, adverse selection, inactive liquidity, reference divergence, reward economics, gas, MEV, compromised authority and contract defects. A professional mandate names those risks and defines how its operator responds.</p>
+<h2>Appendix A. Concentrated-liquidity notation</h2>
+<p>These equations describe standard concentrated-liquidity geometry. They are not a return forecast.</p>
+<p>Let <code>P</code> be the raw token1 amount per raw token0 amount, <code>s = sqrt(P)</code>, and let <code>a</code> and <code>b</code> be the square roots of the lower and upper prices. For liquidity <code>L</code>:</p>
+<pre><code>P &lt;= lower:  amount0 = L(1/a - 1/b)      amount1 = 0
+inside:      amount0 = L(1/s - 1/b)      amount1 = L(s - a)
+P &gt;= upper:  amount0 = 0                 amount1 = L(b - a)</code></pre>
+<p>For an in-range position funded by amounts <code>x</code> and <code>y</code>, feasible liquidity is the smaller token constraint:</p>
+<pre><code>L0 = x * s * b / (b - s)
+L1 = y / (s - a)
+L  = min(L0, L1)</code></pre>
+<p>Outside the range, only the applicable token constraint is used. Contract arithmetic applies fixed-point representation and directed integer rounding. The algebra does not replace those implementation rules.</p>
+<p>The raw tick relation is approximately <code>tick = ln(P) / ln(1.0001)</code>. Human token1-per-token0 price is <code>P * 10^(decimals0 - decimals1)</code>. Base/quote reporting may invert that orientation. Normalize orientation and decimals before converting prices to tick-aligned boundaries.</p>
+<p>For reporting with human base units <code>B</code>, quote units <code>Q</code> and price <code>p</code> in quote per base:</p>
+<pre><code>value    = B * p + Q
+exposure = B * p / value</code></pre>
+<p>Exposure is undefined for an empty zero-value portfolio and needs an initialization rule. A holding benchmark keeps original token quantities fixed. An LP benchmark uses the quantities produced by its curve and stated rebalancing policy. Resetting a range does not erase prior divergence between those paths.</p>
+<h2>Appendix B. Further reading</h2>
+<ul>
+<li><span class="source-ref">Pairs.pro strategy specification</span>: exact rules and the core/strategy boundary.</li>
+<li><span class="source-ref">Pairs.pro strategy core</span>: executable range and inventory decisions.</li>
+<li><span class="source-ref">Liquidity vault reference</span>: ownership, allocation and roles.</li>
+<li><span class="source-ref">Simulation reference</span>: accounting, fixtures and result interpretation.</li>
+<li><a href="https://blog.uniswap.org/whitepaper-v3.pdf">Uniswap v3 whitepaper</a>: concentrated-liquidity geometry.</li>
+<li><a href="https://developers.uniswap.org/docs/get-started/concepts/liquidity-providers/concentrated-liquidity">Uniswap concentrated liquidity</a>: range and inventory mechanics.</li>
+<li><a href="https://developers.uniswap.org/docs/protocols/v4/concepts/hooks">Uniswap v4 hooks</a> and <a href="https://developers.uniswap.org/docs/protocols/v4/concepts/dynamic-fees">dynamic fees</a>: pool-level extension surfaces.</li>
+</ul><p class="note">Reading edition of docs/pairs-pro-whitepaper.md. The canonical Markdown document contains the local technical-source links. This self-contained preview includes only the product paper and no workspace data.</p></main></body></html>

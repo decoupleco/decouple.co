@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pairs.pro — homepage wireframe</title>
+<link rel="icon" href="data:,">
+<style>
+:root{--paper:#f5f3ee;--ink:#181918;--muted:#565953;--line:#c5c7bf;--accent:#d9472c;--soft:#e3e5dd;--font:Arial,Helvetica,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.5}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer}button,a{touch-action:manipulation}button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}button{border-radius:0}p,h1,h2,h3{margin:0}p+p{margin-top:16px}h1,h2,h3{font-weight:500}h1{font-size:clamp(76px,8.6vw,132px);line-height:.9;letter-spacing:-.065em}h2{font-size:clamp(36px,4.1vw,64px);line-height:1.04;letter-spacing:-.045em}h3{font-size:24px;line-height:1.15;letter-spacing:-.02em}.wrap{max-width:1440px;padding:0 48px;margin:auto}.review{padding:10px 48px;background:var(--ink);color:var(--paper);display:flex;justify-content:space-between;gap:20px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}.review a{text-decoration:underline;text-underline-offset:4px}.nav{min-height:86px;display:flex;align-items:center;gap:38px;border-bottom:1px solid var(--line)}.brand{font-size:27px;font-weight:600;letter-spacing:-.055em;white-space:nowrap}.navlinks{display:flex;gap:26px;margin-left:auto;align-items:center}.navlinks a{display:flex;align-items:center;min-height:44px;font-size:14px}.access{font-size:12px;white-space:nowrap}.cta{display:inline-flex;align-items:center;justify-content:space-between;gap:26px;min-height:50px;padding:13px 20px;border:1px solid var(--ink);background:var(--ink);color:var(--paper);font-size:14px}.cta:after{content:'↗';font-size:20px;line-height:1}.cta.accent{background:var(--accent);border-color:var(--accent);color:#fff}.textlink{display:inline-flex;align-items:center;min-height:48px;gap:10px;font-size:14px;border-bottom:1px solid var(--ink)}.textlink:after{content:'↗'}.menu{display:none;min-width:44px;min-height:44px;background:none;border:1px solid var(--line)}.eyebrow{font:12px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.08em;text-transform:uppercase}.muted{color:var(--muted)}.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:7%;padding:70px 0 76px;align-items:center}.hero h1{margin:29px 0 30px}.hero .lead{font-size:26px;line-height:1.2;letter-spacing:-.025em;max-width:420px;margin-bottom:20px}.hero .body{max-width:460px;font-size:17px;color:var(--muted)}.actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:30px}.audience{font-size:12px;margin-top:24px;color:var(--muted)}.instrument{align-self:center;padding-top:27px;min-width:0}.instrument-title{display:flex;justify-content:space-between;gap:16px;padding-bottom:18px;border-bottom:1px solid var(--line)}.plot{position:relative;margin:28px 0 0}.plot svg{width:100%;height:auto;display:block;overflow:visible}.plot rect,.plot line,.plot path{transition:all .6s ease}.plot-label{position:absolute;font-size:12px;line-height:1.2;pointer-events:none;background:var(--paper);padding:2px 4px}.base-label{left:10%;top:44%}.focus-label{left:40%;top:16%}.spot-label{left:52%;bottom:2%}.reference-label{left:57%;top:5%;color:var(--accent);display:none}.axis-copy{display:flex;justify-content:space-between;margin:9px 0 23px;font-size:11px;color:var(--muted)}.tabs{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.tabs button{min-height:50px;padding:10px 4px;background:transparent;border:0;border-right:1px solid var(--line);font-size:12px}.tabs button:last-child{border-right:0}.tabs button[aria-pressed=true]{background:var(--ink);color:var(--paper)}.instrument-caption{min-height:84px;padding-top:16px;font-size:14px;color:var(--muted);max-width:470px}.input-line{display:flex;gap:15px;flex-wrap:wrap;margin-top:15px;font:11px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;color:var(--muted)}.section{padding:72px 0;border-top:1px solid var(--ink)}.section-head{display:grid;grid-template-columns:1fr 3.1fr;gap:40px;margin-bottom:43px}.section-head .eyebrow{padding-top:7px}.section-head h2{max-width:850px}.product-intro{display:grid;grid-template-columns:1fr 3.1fr;gap:40px;margin-bottom:40px}.product-intro p{grid-column:2;max-width:680px;font-size:21px;line-height:1.4;letter-spacing:-.015em}.columns{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}.columns article{padding-top:18px;border-top:1px solid var(--line)}.columns h3{margin-bottom:15px}.columns p{color:var(--muted);font-size:16px;max-width:320px}.mechanism{padding:36px 0;display:grid;grid-template-columns:repeat(3,1fr);gap:40px;border-top:1px solid var(--line);margin-top:44px}.mechanism .num{font:12px ui-monospace,monospace;color:var(--accent);display:block;margin-bottom:16px}.mechanism h3{font-size:19px;margin-bottom:12px}.mechanism p{font-size:14px;color:var(--muted);max-width:300px}.strategy-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 56px}.strategy{display:grid;grid-template-columns:52px 1fr;gap:18px;padding:28px 0;border-top:1px solid var(--line)}.strategy .num{font:12px ui-monospace,monospace;padding-top:6px;color:var(--muted)}.strategy p{margin-top:14px;max-width:460px;color:var(--muted);font-size:16px}.strategy .tag{display:block;margin-top:19px;font-size:11px;letter-spacing:.07em;text-transform:uppercase}.markets{display:grid;grid-template-columns:repeat(2,1fr);gap:64px}.market{border-top:1px solid var(--line);padding-top:22px}.market h3{font-size:36px;line-height:1.06;letter-spacing:-.04em;margin:18px 0 22px}.market p{max-width:470px;color:var(--muted)}.market .types{font-size:12px;margin-top:30px;line-height:1.8}.vault{display:grid;grid-template-columns:1.1fr 1fr;gap:80px}.vault h2{max-width:500px}.vault p{color:var(--muted);margin-top:22px;max-width:520px}.vault-note{margin-top:27px;font-size:16px!important;color:var(--ink)!important}.vault-schema{margin-top:10px}.schema-row{display:flex;justify-content:space-between;gap:20px;padding:17px 0;border-bottom:1px solid var(--line);font-size:14px}.schema-row:first-child{border-top:1px solid var(--line)}.schema-row span:first-child{color:var(--muted)}.venues{margin-top:36px;display:grid;grid-template-columns:1fr 1fr;gap:24px}.venues p{font-size:13px;margin-top:10px;color:var(--ink)}.close{display:grid;grid-template-columns:1fr auto;gap:50px;align-items:center;padding:82px 0;border-top:1px solid var(--ink)}.close h2{max-width:850px;font-size:clamp(44px,5vw,74px)}.close p{margin-top:22px;color:var(--muted);max-width:570px}.close .actions{margin-top:0;flex-direction:column;align-items:stretch;gap:16px}.close .access{text-align:center}.footer{display:flex;justify-content:space-between;gap:24px;padding:30px 0;border-top:1px solid var(--line);font-size:12px}.footer-links{display:flex;gap:24px;flex-wrap:wrap}.footer a{min-height:44px;display:inline-flex;align-items:center}.footer-brand{padding-top:12px}dialog{max-width:560px;width:calc(100% - 40px);padding:36px;border:1px solid var(--ink);background:var(--paper);color:var(--ink)}dialog::backdrop{background:rgba(20,22,19,.55)}dialog h2{font-size:42px;margin:22px 0}dialog p{color:var(--muted)}dialog ul{padding-left:20px;margin:25px 0}dialog li{margin:8px 0}.dialog-close{float:right;min-height:44px;min-width:44px;border:1px solid var(--ink);background:transparent}.dialog-note{padding-top:22px;border-top:1px solid var(--line);font-size:13px}.skip{position:fixed;left:15px;top:-80px;z-index:10;background:var(--ink);color:var(--paper);padding:15px}.skip:focus{top:15px}
+@media(min-width:1500px){.hero{gap:90px}}@media(max-width:1000px){.wrap{padding:0 28px}.nav{gap:22px}.navlinks{gap:16px}.access{display:none}.hero{gap:35px}.hero .lead{font-size:23px}.section-head,.product-intro{grid-template-columns:1fr 3fr;gap:26px}.columns{gap:28px}.vault{gap:40px}.markets{gap:40px}.review{padding-left:28px;padding-right:28px}}
+@media(max-width:740px){body{font-size:16px}.wrap{padding:0 20px}.review{padding:9px 20px;font-size:10px}.review span:last-child{display:none}.nav{min-height:74px;position:relative;gap:16px}.brand{font-size:25px}.nav>.cta{display:none}.menu{display:block;margin-left:auto}.navlinks{display:none;position:absolute;left:0;right:0;top:73px;margin:0;background:var(--paper);z-index:3;padding:16px;border:1px solid var(--ink);flex-direction:column;align-items:stretch;gap:0}.navlinks.open{display:flex}.navlinks a{font-size:16px}.hero{display:flex;flex-direction:column;align-items:stretch;padding:43px 0 45px;gap:35px}.hero h1{font-size:clamp(74px,19vw,110px);margin:24px 0}.hero .lead{font-size:25px;max-width:none}.hero .body{font-size:16px}.actions{gap:18px;margin-top:24px}.cta{min-height:50px}.audience{font-size:12px;max-width:260px}.instrument{padding-top:10px;align-self:auto}.instrument-title{font-size:10px}.instrument-caption{min-height:82px}.plot{margin-top:14px}.plot-label{font-size:12px}.tabs button{font-size:11px;min-height:48px}.section{padding:46px 0}.section-head{display:block;margin-bottom:28px}.section-head .eyebrow{margin-bottom:19px}.section h2{font-size:40px}.product-intro{display:block;margin-bottom:30px}.product-intro p{font-size:19px}.columns{grid-template-columns:1fr;gap:26px}.columns p{max-width:none}.columns h3{font-size:22px}.mechanism{grid-template-columns:1fr;gap:24px;margin-top:30px;padding:28px 0 0}.mechanism article{display:grid;grid-template-columns:35px 1fr;gap:0 14px}.mechanism .num{grid-row:1/3;margin:3px 0 0}.mechanism h3{margin-bottom:7px}.mechanism p{grid-column:2;max-width:none}.strategy-grid{grid-template-columns:1fr;gap:0}.strategy{grid-template-columns:30px 1fr;gap:14px;padding:24px 0}.strategy h3{font-size:26px}.markets{grid-template-columns:1fr;gap:38px}.market h3{font-size:36px}.market .types{margin-top:20px}.vault{grid-template-columns:1fr;gap:30px}.vault h2{font-size:43px}.venues{grid-template-columns:1fr;gap:15px}.close{display:block;padding:50px 0}.close h2{font-size:48px}.close .actions{align-items:flex-start;margin-top:30px;flex-direction:row}.close .access{display:inline-flex;align-items:center;min-height:50px}.footer{display:block;padding:20px 0 28px}.footer-links{gap:20px}.footer-brand{padding:0 0 15px}.schema-row{font-size:13px}dialog{padding:24px}dialog h2{font-size:34px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}@media print{.review,.menu,.cta,dialog{display:none}.wrap{padding:0}.section{break-inside:avoid}.hero{padding-top:25px}}
+:root{--accent:#c63e28}
+.profiles{display:flex;align-items:center;gap:14px;margin-top:10px;border-bottom:1px solid var(--line)}.profiles-label{font:10px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}.profile-options{display:grid;grid-template-columns:repeat(4,1fr);flex:1}.profile-options button{min-height:44px;border:0;border-bottom:2px solid transparent;background:none;font-size:12px;padding:8px 5px}.profile-options button[aria-pressed=true]{border-bottom-color:var(--ink);font-weight:600}.input-line{font-size:10px;gap:12px;margin-top:13px;min-height:16px}.plot{margin-top:12px}.plot svg{overflow:hidden}.liquidity-curve{fill:none;stroke-width:2.5;vector-effect:non-scaling-stroke;stroke-linecap:round;stroke-linejoin:round}.base-curve{stroke:#747b6b;stroke-dasharray:5 4}.focus-curve{stroke:var(--accent)}.liquidity-fill{opacity:.055}.tick-field rect{transition:all .6s ease}.spot-label{bottom:1%;white-space:nowrap}.reference-label{top:0}.curve-legend{display:flex;align-items:center;gap:22px;margin:0 0 13px;font-size:11px;color:var(--muted)}.curve-legend span{display:flex;gap:8px;align-items:center}.curve-legend i{display:inline-block;width:24px;border-top:2px dashed #747b6b}.curve-legend .focused-key{border-top-style:solid;border-color:var(--accent)}.axis-copy{margin-top:2px;margin-bottom:12px}.instrument-caption{min-height:78px;font-size:13px;line-height:1.55;padding-top:13px}.execution-note{display:flex;justify-content:space-between;gap:14px;padding-top:12px;margin-top:12px;border-top:1px solid var(--line);font-size:11px;color:var(--muted)}.execution-note strong{font-weight:500;color:var(--ink);max-width:170px}.execution-note span{text-align:right;max-width:220px}.instrument-title{padding-bottom:13px}
+@media(max-width:740px){.profiles{gap:9px}.profiles-label{font-size:9px}.profile-options button{font-size:11px}.input-line{font-size:9px;gap:10px}.plot-label{font-size:11px}.curve-legend{font-size:10px;gap:18px}.instrument-caption{min-height:92px;font-size:13px}.execution-note{font-size:10px}.execution-note strong{max-width:125px}.execution-note span{max-width:170px}}
+.carry-study{padding:12px 0;border-top:1px solid var(--line);font-size:11px;color:var(--muted)}.carry-study[hidden]{display:none}.carry-heading{display:flex;justify-content:space-between;gap:12px;font:10px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace}.carry-row{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:7px}.carry-row span{max-width:265px}.carry-row button{min-height:44px;min-width:104px;background:transparent;border:1px solid var(--line);padding:8px 10px;font-size:11px;white-space:nowrap}.carry-row button[aria-pressed=true]{border-color:var(--ink);color:var(--ink)}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<div class="review"><span>Pairs.pro / Homepage wireframe</span><span>Product vision · <a href="DESIGN-BRIEF.md">Design brief ↗</a></span></div>
+<div class="wrap">
+<header class="nav">
+  <a class="brand" href="#">Pairs.pro</a>
+  <nav class="navlinks" id="navlinks" aria-label="Main navigation"><a href="#product">Product</a><a href="#strategies">Strategies</a><a href="#markets">Markets</a><a href="whitepaper.html">Whitepaper ↗</a></nav>
+  <span class="access">Invite only</span><button class="cta" data-book>Book a call</button>
+  <button class="menu" aria-expanded="false" aria-controls="navlinks" aria-label="Toggle navigation">☰</button>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+  <div>
+    <p class="eyebrow">Market-aware liquidity</p>
+    <h1 id="hero-title">Sharper<br>AMM LP.</h1>
+    <p class="lead">Create markets.<br>Shape liquidity.</p>
+    <p class="body">Put trend, volatility and inventory at the center of your LP strategy. Automated range management, venue-aware execution and on-chain vaults for the markets you want to build—and the assets you want to put to work.</p>
+    <div class="actions"><button class="cta accent" data-book>Book a call</button><a class="textlink" href="whitepaper.html">Read the whitepaper</a></div>
+    <p class="audience">For token issuers, treasuries and curators.<br>Invite only.</p>
+  </div>
+  <figure class="instrument" aria-label="Schematic liquidity profiles and strategy" style="margin:0">
+    <div class="instrument-title eyebrow"><span>Liquidity instrument</span><span>Schematic / profiles</span></div>
+    <div class="profiles"><span class="profiles-label">Asset profile</span><div class="profile-options" role="group" aria-label="Illustrative asset profile"><button data-profile="spot" aria-pressed="true">Spot</button><button data-profile="stable" aria-pressed="false">Stable</button><button data-profile="lrt" aria-pressed="false">LST/LRT</button><button data-profile="volatile" aria-pressed="false">Volatile</button></div></div>
+    <div class="input-line"><span id="input-one">TREND</span><span id="input-two">PRICE MOVEMENT</span><span id="input-three">INVENTORY</span></div>
+    <div class="plot">
+      <svg viewBox="0 0 600 320" role="img" aria-labelledby="plot-title plot-desc">
+        <title id="plot-title">Spot liquidity profile</title><desc id="plot-desc">Two smooth envelopes describe broad base liquidity and a focused allocation above fine tick-level samples. The samples show a conceptual liquidity shape, not individual on-chain positions. The pool price is marked vertically.</desc>
+        <g stroke="#d3d5cd" stroke-width="1" opacity=".65"><line x1="50" y1="35" x2="50" y2="270"/><line x1="150" y1="35" x2="150" y2="270"/><line x1="250" y1="35" x2="250" y2="270"/><line x1="350" y1="35" x2="350" y2="270"/><line x1="450" y1="35" x2="450" y2="270"/><line x1="550" y1="35" x2="550" y2="270"/></g>
+        <path id="base-area" class="liquidity-fill" fill="#747b6b" d="M30 260 C130 260 170 176 296 176 C420 176 475 260 570 260 Z"/>
+        <path id="focus-area" class="liquidity-fill" fill="#c63e28" d="M30 260 C220 260 238 102 309 102 C380 102 402 260 570 260 Z"/>
+        <g id="base-ticks" class="tick-field" fill="#aab09f" fill-opacity=".33" aria-hidden="true"></g>
+        <g id="focus-ticks" class="tick-field" fill="#c63e28" fill-opacity=".22" aria-hidden="true"></g>
+        <path id="base-curve" class="liquidity-curve base-curve" d="M30 260 C130 260 170 176 296 176 C420 176 475 260 570 260"/>
+        <path id="focus-curve" class="liquidity-curve focus-curve" d="M30 260 C220 260 238 102 309 102 C380 102 402 260 570 260"/>
+        <line id="reference" x1="340" y1="35" x2="340" y2="260" stroke="#c63e28" stroke-width="1.5" stroke-dasharray="4 5" opacity="0"/>
+        <line id="spot" x1="300" y1="48" x2="300" y2="280" stroke="#181918" stroke-width="1.5"/>
+        <circle id="spot-dot" cx="300" cy="260" r="4" fill="#181918"/>
+        <line x1="30" y1="260" x2="570" y2="260" stroke="#181918" stroke-width="1.5"/>
+        <path d="M30 282v6m120-6v6m100-6v6m100-6v6m100-6v6m120-6v6" stroke="#73766e" stroke-width="1"/>
+      </svg>
+      <span class="plot-label spot-label">Pool price</span><span class="plot-label reference-label" id="reference-label">Reference</span>
+    </div>
+    <div class="axis-copy"><span>Lower price</span><span>Higher price</span></div>
+    <div class="curve-legend" aria-label="Liquidity envelope legend"><span><i aria-hidden="true"></i>Base liquidity</span><span><i class="focused-key" aria-hidden="true"></i>Focused liquidity</span></div>
+    <div class="tabs" role="group" aria-label="Illustrative strategy"><button data-mode="follow" aria-pressed="false">Follow-Tick</button><button data-mode="range" aria-pressed="true">Optimal-Range</button><button data-mode="vol" aria-pressed="false">Vol+</button><button data-mode="reference" aria-pressed="false">Market-Aware</button></div>
+    <figcaption class="instrument-caption" id="instrument-caption" aria-live="polite">Spot profile: directional depth around the trading market. Trend, price movement and inventory shape placement and concentration.</figcaption>
+    <div class="carry-study" id="carry-study" hidden><div class="carry-heading"><span>wstETH / WETH</span><span>WETH per wstETH</span></div><div class="carry-row"><span id="carry-caption" aria-live="polite">Separate reference accrual from market deviation.</span><button id="advance-reference" type="button" aria-pressed="false">Step accrual ↗</button></div></div>
+    <div class="execution-note"><strong>Shape precisely.<br>Execute selectively.</strong><span>Tick-aligned placement.<br>Position count and rebalance cost in view.</span></div>
+  </figure>
+</section>
+<section class="section" id="product" aria-labelledby="product-title">
+  <div class="section-head"><p class="eyebrow">01 / The product</p><h2 id="product-title">Put a strategy<br>behind your liquidity.</h2></div>
+  <div class="product-intro"><p>A market moves. Your inventory changes. The way a venue pays can change the value of every allocation. Pairs.pro connects those decisions in one strategy.</p></div>
+  <div class="columns"><article><h3>Trend and volatility</h3><p>Shape ranges around market direction and price movement.</p></article><article><h3>Inventory</h3><p>Give the position an explicit asset objective and conversion policy.</p></article><article><h3>Venue economics</h3><p>Bring trading fees, gauge participation and reward reinvestment into the same operating view.</p></article></div>
+  <div class="mechanism"><article><span class="num">01</span><h3>Read the market.</h3><p>Price history, pool activity, holdings and relevant external references.</p></article><article><span class="num">02</span><h3>Shape the position.</h3><p>Market-specific liquidity profiles, concentration and an inventory policy matched to the assets.</p></article><article><span class="num">03</span><h3>Run the liquidity.</h3><p>On-chain vaults and AMM integrations turn strategy into positions and accounting.</p></article></div>
+</section>
+<section class="section" id="strategies" aria-labelledby="strategy-title">
+  <div class="section-head"><p class="eyebrow">02 / Strategies</p><h2 id="strategy-title">Different markets.<br>Purpose-built strategies.</h2></div>
+  <div class="strategy-grid">
+    <article class="strategy"><span class="num">01</span><div><h3>Follow-Tick</h3><p>A tick-spaced focused range follows pool price alongside broader base liquidity. Aero-optimized configurations connect gauge participation, reward collection and reinvestment.</p><span class="tag">Tick-following / Aero optimization</span></div></article>
+    <article class="strategy"><span class="num">02</span><div><h3>Optimal-Range</h3><p>Trend and volatility shape base and focused liquidity. EMA and ATR connect recent market behavior to placement.</p><span class="tag">Trend / Volatility / Inventory</span></div></article>
+    <article class="strategy"><span class="num">03</span><div><h3>Vol+</h3><p>Volatility, velocity and swap flow inform dynamic fee design through Uniswap v4 hooks. Adapt the price of liquidity alongside its placement.</p><span class="tag">Volatility / Velocity / Swap flow</span></div></article>
+    <article class="strategy"><span class="num">04</span><div><h3>Market-Aware</h3><p>References that move with the asset. Bring staking accrual, exchange rates, data freshness and market structure into liquidity strategy for yield-bearing assets, stablecoins, FX and tokenized markets.</p><span class="tag">Accrual / Reference / Market structure</span></div></article>
+  </div>
+</section>
+<section class="section" id="markets" aria-labelledby="markets-title">
+  <div class="section-head"><p class="eyebrow">03 / Markets</p><h2 id="markets-title">Two sides of<br>the liquidity market.</h2></div>
+  <div class="markets"><article class="market"><p class="eyebrow">Token issuers / RWA</p><h3>Build your market.</h3><p>Give your asset a deliberate spot-liquidity strategy. Define the treasury budget, useful depth, reference prices and inventory you are prepared to hold.</p><p class="types">Crypto tokens · Tokenized assets · Stablecoins · FX</p></article><article class="market"><p class="eyebrow">Treasuries / Foundations</p><h3>Put your reserves<br>to work.</h3><p>Bring BTC, ETH and core-asset liquidity into a portfolio mandate. Evaluate income alongside the assets you retain, with fees, incentives and costs kept in view.</p><p class="types">Foundations · Digital-asset treasuries · Reserve managers</p></article></div>
+</section>
+<section class="section" aria-labelledby="vault-title">
+  <div class="vault"><div><p class="eyebrow" style="margin-bottom:23px">04 / Liquidity vaults</p><h2 id="vault-title">Your mandate.<br>Your vault.</h2><p>Curators and asset managers need a strategy that fits their investors and operating model. Private vaults bring access, authority, configuration and reporting around one liquidity mandate.</p><p class="vault-note">On-chain ownership. Explicit operator roles.<br>A strategy your team can understand.</p></div><div class="vault-schema"><div class="schema-row"><span>Capital owner</span><span>Assets / mandate</span></div><div class="schema-row"><span>Curator</span><span>Strategy / authority</span></div><div class="schema-row"><span>Vault</span><span>Ownership / accounting</span></div><div class="schema-row"><span>AMM</span><span>Liquidity / settlement</span></div><div class="venues"><div><span class="eyebrow">V3 concentrated liquidity</span><p>Uniswap · Aerodrome · PancakeSwap</p></div><div><span class="eyebrow">V4 pool design</span><p>Uniswap hooks</p></div></div></div></div>
+</section>
+<section class="close" aria-labelledby="close-title"><div><h2 id="close-title">Create markets.<br>Shape liquidity.</h2><p>Tell us the assets, venue and outcome that matter to your team. We will talk through the strategy, vault and operating approach that fit.</p></div><div class="actions"><button class="cta accent" data-book>Book a call</button><a class="textlink" href="whitepaper.html">Read the whitepaper</a><span class="access">Invite only</span></div></section>
+</main>
+<footer class="footer"><span class="footer-brand">Pairs.pro — Sharper AMM LP.</span><div class="footer-links"><a href="whitepaper.html">Whitepaper</a><a href="whitepaper.html">Documentation</a><button style="padding:0;background:none;border:0;font-size:12px;min-height:44px;min-width:44px" data-book>Contact</button><a href="/app">App ↗</a></div></footer>
+</div>
+<dialog id="booking" aria-labelledby="booking-title"><button class="dialog-close" aria-label="Close conversation panel">×</button><p class="eyebrow">Pairs.pro / Private conversation</p><h2 id="booking-title">Let's talk about<br>your market.</h2><p>Bring the assets, venue and objective. We can shape the strategy and vault around the job your liquidity needs to do.</p><ul><li>Your organization and market</li><li>The assets and inventory that matter</li><li>The liquidity outcome you want to explore</li></ul><p class="dialog-note">Booking interaction preview. Scheduling is connected during implementation; this prototype transmits no information.</p><button class="cta" id="return-page" style="margin-top:22px">Return to the page</button></dialog>
+<script>
+(() => {
+  const dialog=document.getElementById('booking');
+  document.querySelectorAll('[data-book]').forEach(button=>button.addEventListener('click',()=>dialog.showModal()));
+  document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
+  document.getElementById('return-page').addEventListener('click',()=>dialog.close());
+  dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close()}});
+  const menu=document.querySelector('.menu'),nav=document.getElementById('navlinks');
+  menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open)});
+  nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
+  // Display-only envelopes: these samples are not ticks emitted by the strategy core,
+  // individually minted positions, or a forecast of executable liquidity.
+  const modes={
+    range:{shift:-4,width:1,focus:1,baseHeight:84,focusHeight:158,inputs:['TREND','PRICE MOVEMENT','INVENTORY'],caption:'Trend, price movement and inventory shape placement and concentration.'},
+    follow:{shift:8,width:.92,focus:.76,baseHeight:76,focusHeight:166,inputs:['POOL TICK','CONCENTRATION','INVENTORY'],caption:'A tick-spaced focused range follows pool price. Aero-optimized operation adds gauges and reward reinvestment.'},
+    vol:{shift:-8,width:1.08,focus:1.18,baseHeight:90,focusHeight:144,inputs:['VOLATILITY','VELOCITY','SWAP FLOW'],caption:'A dynamic fee response complements liquidity placement as market activity changes.'},
+    reference:{shift:14,width:.94,focus:.9,baseHeight:82,focusHeight:156,inputs:['EXTERNAL REFERENCE','POOL PRICE','MARKET SESSION'],caption:'Reference price, freshness and market structure inform the placement region.'}
+  };
+  const profiles={
+    spot:{name:'Spot',center:300,width:148,focus:62,skew:.12,power:2.2,caption:'Directional depth around the trading market.'},
+    stable:{name:'Stable',center:300,width:104,focus:36,skew:0,power:4,caption:'Tight, balanced depth around a reference.'},
+    lrt:{name:'LST/LRT',center:305,width:125,focus:49,skew:.32,power:2.6,caption:'Depth around an accruing exchange-rate relationship.'},
+    volatile:{name:'Volatile',center:300,width:185,focus:88,skew:-.08,power:1.7,caption:'Broader coverage with softer liquidity tails.'}
+  };
+  const byId=id=>document.getElementById(id),ns='http://www.w3.org/2000/svg';
+  let selectedMode='range',selectedProfile='spot',accrualStep=0;
+  // One sample per visual bin. Both layers describe liquidity at price, not NFTs.
+  const bins=Array.from({length:49},(_,i)=>36+i*11);
+  const tickLayers=['base','focus'].map(layer=>bins.map(x=>{const rect=document.createElementNS(ns,'rect');rect.setAttribute('x',x-3);rect.setAttribute('width',6);byId(layer+'-ticks').appendChild(rect);return rect}));
+  function envelope(x,center,width,height,power,skew){
+    const sideWidth=width*(x<center?1-skew:1+skew);
+    const shape=Math.exp(-Math.pow(Math.abs((x-center)/sideWidth),power));
+    const taper=Math.pow(Math.sin(Math.PI*(x-30)/540),.35);
+    return height*shape*taper;
+  }
+  function smoothPath(points){
+    const n=value=>value.toFixed(2);
+    let path='M'+n(points[0][0])+' '+n(points[0][1]);
+    for(let i=0;i<points.length-1;i++){
+      const a=points[Math.max(0,i-1)],b=points[i],c=points[i+1],d=points[Math.min(points.length-1,i+2)];
+      const y1=Math.max(60,Math.min(260,b[1]+(c[1]-a[1])/6));
+      const y2=Math.max(60,Math.min(260,c[1]-(d[1]-b[1])/6));
+      path+=' C'+n(b[0]+(c[0]-a[0])/6)+' '+n(y1)+' '+n(c[0]-(d[0]-b[0])/6)+' '+n(y2)+' '+n(c[0])+' '+n(c[1]);
+    }
+    return path;
+  }
+  function renderInstrument(){
+    const mode=modes[selectedMode],profile=profiles[selectedProfile];
+    const carryAware=selectedMode==='reference'&&selectedProfile==='lrt';
+    // A schematic positive-accrual step on a log-price axis, not a yield forecast.
+    // Keeping the marker gap fixed represents an unchanged log(P / R) residual.
+    const carryShift=carryAware?accrualStep*52:0;
+    const center=profile.center+mode.shift+carryShift;
+    const shapes=[
+      x=>envelope(x,center,profile.width*mode.width,mode.baseHeight,profile.power,profile.skew*.6),
+      x=>envelope(x,center+profile.skew*70,profile.focus*mode.focus,mode.focusHeight,profile.power,profile.skew)
+    ];
+    ['base','focus'].forEach((layer,index)=>{
+      const points=Array.from({length:91},(_,i)=>{const x=30+i*6;return[x,260-shapes[index](x)]});
+      const path=smoothPath(points);
+      byId(layer+'-curve').setAttribute('d',path);
+      byId(layer+'-area').setAttribute('d',path+' L570 260 L30 260 Z');
+      tickLayers[index].forEach((rect,i)=>{const height=shapes[index](bins[i]);rect.setAttribute('y',(260-height).toFixed(2));rect.setAttribute('height',height.toFixed(2))});
+    });
+    const hasReference=selectedMode==='reference';
+    const spot=profile.center+(hasReference?64:0)+carryShift;
+    ['x1','x2'].forEach(attr=>{byId('spot').setAttribute(attr,spot);byId('reference').setAttribute(attr,center)});
+    byId('spot-dot').setAttribute('cx',spot);
+    byId('reference').setAttribute('opacity',hasReference?'1':'0');
+    byId('reference-label').style.display=hasReference?'block':'none';
+    byId('reference-label').textContent=carryAware?'Accrual anchor':'Reference';
+    byId('reference-label').style.left=(center/6-14)+'%';
+    document.querySelector('.spot-label').style.left=(spot/6+1)+'%';
+    byId('plot-title').textContent=profile.name+' liquidity profile / '+document.querySelector('[data-mode="'+selectedMode+'"]').textContent;
+    byId('instrument-caption').textContent=carryAware?'wstETH/WETH: move the reference with staking accrual, then measure market-price deviation. Inventory and rebalancing costs remain part of the strategy.':profile.name+' profile: '+profile.caption+' '+mode.caption;
+    const inputs=carryAware?['EXCHANGE RATE','MARKET BASIS','INVENTORY']:mode.inputs;
+    ['input-one','input-two','input-three'].forEach((id,i)=>byId(id).textContent=inputs[i]);
+    byId('carry-study').hidden=!carryAware;
+    byId('advance-reference').setAttribute('aria-pressed',String(accrualStep===1));
+    byId('advance-reference').textContent=accrualStep?'Reset accrual ↶':'Step accrual ↗';
+    byId('carry-caption').textContent=accrualStep?'New reference, same relative market deviation.':'Separate reference accrual from market deviation.';
+    document.querySelectorAll('[data-mode]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.mode===selectedMode)));
+    document.querySelectorAll('[data-profile]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.profile===selectedProfile)));
+  }
+  document.querySelectorAll('[data-mode]').forEach(button=>button.addEventListener('click',()=>{selectedMode=button.dataset.mode;accrualStep=0;renderInstrument()}));
+  document.querySelectorAll('[data-profile]').forEach(button=>button.addEventListener('click',()=>{selectedProfile=button.dataset.profile;accrualStep=0;renderInstrument()}));
+  byId('advance-reference').addEventListener('click',()=>{accrualStep=1-accrualStep;renderInstrument()});
+  renderInstrument();
+})();
+</script>
+</body>
+</html>
