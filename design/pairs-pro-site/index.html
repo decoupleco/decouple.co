@@ -60,7 +60,7 @@
     </div>
     <div class="axis-copy"><span>Lower price</span><span>Higher price</span></div>
     <div class="curve-legend" aria-label="Liquidity envelope legend"><span><i aria-hidden="true"></i>Base liquidity</span><span><i class="focused-key" aria-hidden="true"></i>Focused liquidity</span></div>
-    <div class="tabs" role="group" aria-label="Illustrative strategy"><button data-mode="follow" aria-pressed="false">Follow-Tick</button><button data-mode="range" aria-pressed="true">Optimal-Range</button><button data-mode="vol" aria-pressed="false">Vol+</button><button data-mode="reference" aria-pressed="false">Market-Aware</button></div>
+    <div class="tabs" role="group" aria-label="Illustrative strategy"><button data-mode="range" aria-pressed="true">Optimal-Range</button><button data-mode="reference" aria-pressed="false">Market-Aware</button><button data-mode="follow" aria-pressed="false">Follow-Tick</button><button data-mode="vol" aria-pressed="false">Vol+</button></div>
     <figcaption class="instrument-caption" id="instrument-caption" aria-live="polite">Spot profile: directional depth around the trading market. Trend, price movement and inventory shape placement and concentration.</figcaption>
     <div class="carry-study" id="carry-study" hidden><div class="carry-heading"><span>wstETH / WETH</span><span>WETH per wstETH</span></div><div class="carry-row"><span id="carry-caption" aria-live="polite">Separate reference accrual from market deviation.</span><button id="advance-reference" type="button" aria-pressed="false">Step accrual ↗</button></div></div>
     <div class="execution-note"><strong>Shape precisely.<br>Execute selectively.</strong><span>Tick-aligned placement.<br>Position count and rebalance cost in view.</span></div>
@@ -75,10 +75,10 @@
 <section class="section" id="strategies" aria-labelledby="strategy-title">
   <div class="section-head"><p class="eyebrow">02 / Strategies</p><h2 id="strategy-title">Different markets.<br>Purpose-built strategies.</h2></div>
   <div class="strategy-grid">
-    <article class="strategy"><span class="num">01</span><div><h3>Follow-Tick</h3><p>A tick-spaced focused range follows pool price alongside broader base liquidity. Aero-optimized configurations connect gauge participation, reward collection and reinvestment.</p><span class="tag">Tick-following / Aero optimization</span></div></article>
-    <article class="strategy"><span class="num">02</span><div><h3>Optimal-Range</h3><p>Trend and volatility shape base and focused liquidity. EMA and ATR connect recent market behavior to placement.</p><span class="tag">Trend / Volatility / Inventory</span></div></article>
-    <article class="strategy"><span class="num">03</span><div><h3>Vol+</h3><p>Volatility, velocity and swap flow inform dynamic fee design through Uniswap v4 hooks. Adapt the price of liquidity alongside its placement.</p><span class="tag">Volatility / Velocity / Swap flow</span></div></article>
-    <article class="strategy"><span class="num">04</span><div><h3>Market-Aware</h3><p>References that move with the asset. Bring staking accrual, exchange rates, data freshness and market structure into liquidity strategy for yield-bearing assets, stablecoins, FX and tokenized markets.</p><span class="tag">Accrual / Reference / Market structure</span></div></article>
+    <article class="strategy"><span class="num">01</span><div><h3>Optimal-Range</h3><p>Trend and volatility shape base and focused liquidity. EMA and ATR connect recent market behavior to placement.</p><span class="tag">Trend / Volatility / Inventory</span></div></article>
+    <article class="strategy"><span class="num">02</span><div><h3>Market-Aware</h3><p>References that move with the asset. Bring staking accrual, exchange rates, data freshness and market structure into liquidity strategy for yield-bearing assets, stablecoins, FX and tokenized markets.</p><span class="tag">Accrual / Reference / Market structure</span></div></article>
+    <article class="strategy"><span class="num">03</span><div><h3>Follow-Tick</h3><p>A tick-spaced focused range follows pool price alongside broader base liquidity. Aero-optimized configurations connect gauge participation, reward collection and reinvestment.</p><span class="tag">Tick-following / Aero optimization</span></div></article>
+    <article class="strategy"><span class="num">04</span><div><h3>Vol+</h3><p>Volatility, velocity and swap flow inform dynamic fee design through Uniswap v4 hooks. Adapt the price of liquidity alongside its placement.</p><span class="tag">Volatility / Velocity / Swap flow</span></div></article>
   </div>
 </section>
 <section class="section" id="markets" aria-labelledby="markets-title">

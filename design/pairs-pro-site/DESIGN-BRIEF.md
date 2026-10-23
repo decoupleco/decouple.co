@@ -30,7 +30,7 @@ MARKET INFORMATION → STRATEGY → LIQUIDITY POSITION
 
 The instrument shows two smooth liquidity envelopes—broad base liquidity and focused liquidity—over a fine tick-level field. The contours, rather than two large rectangular blocks, are the visual subject. A pool-price marker keeps the shape anchored to a market.
 
-Two independent controls change the schematic: asset profile (Spot, Stable, LST/LRT, Volatile) and strategy (Follow-Tick, Optimal-Range, Vol+, Market-Aware). Profiles change concentration, symmetry and tails; strategies change placement and the relationship being explained. LST/LRT covers liquid-staking and liquid-restaking token pairs. wstETH is an LST; do not describe it as restaking exposure.
+Two independent controls change the schematic: asset profile (Spot, Stable, LST/LRT, Volatile) and strategy (Optimal-Range, Market-Aware, Follow-Tick, Vol+). Profiles change concentration, symmetry and tails; strategies change placement and the relationship being explained. LST/LRT covers liquid-staking and liquid-restaking token pairs. wstETH is an LST; do not describe it as restaking exposure.
 
 Market-Aware + LST/LRT adds a small accrual-step interaction: the reference anchor and market price move together on a schematic log-price axis, keeping relative market deviation unchanged. Label the quote WETH per wstETH. This explains the difference between reference accrual and a discount/premium; it does not forecast yield. The [carry-aware design](../../docs/vision/carry-aware-liquidity.md) defines the policy behind the visual.
 
@@ -52,7 +52,7 @@ Explain trend/volatility, inventory and venue economics as three connected decis
 
 ### Strategy library
 
-Give Follow-Tick, Optimal-Range, Vol+ and Market-Aware distinct jobs within one family. Aero-optimized operation remains a venue specialization rather than a fifth strategy. A small selector can change the instrument's emphasis. The text remains readable without interacting.
+Present the strategies in this order: 1. Optimal-Range, 2. Market-Aware, 3. Follow-Tick, 4. Vol+. Give each a distinct job within one family. Aero-optimized operation remains a venue specialization rather than a fifth strategy. A small selector can change the instrument's emphasis. The text remains readable without interacting.
 
 ### Two markets
 
@@ -66,10 +66,10 @@ Use Create markets. Shape liquidity. as the hero lead and closing headline. Keep
 
 Motion should explain a change in profile or strategy input and its effect. Use a brief sequence with a stable axis, named envelopes and a visible relationship to inventory or fees. Keep both contours smooth as they transition, with fine tick samples subordinate to the lines. Use a dashed base contour and solid focused contour so the layers remain distinguishable without color.
 
-- Follow-Tick: show a tick-spaced focused range following pool price; explain Aero gauge/reward operation as a specialization.
 - Optimal-Range: change trend and price movement, then show placement and concentration.
-- Vol+: connect volatility/velocity/flow to a schematic fee response.
 - Market-Aware: compare pool price with a reference and show the intended decision region. For LST/LRT, separate reference accrual from residual market deviation rather than showing a static peg.
+- Follow-Tick: show a tick-spaced focused range following pool price; explain Aero gauge/reward operation as a specialization.
+- Vol+: connect volatility/velocity/flow to a schematic fee response.
 
 No animated balance growth, APY counter or always-successful trade path. Label the instrument Schematic. Treat the geometry as explanatory, not a second strategy implementation.
 
