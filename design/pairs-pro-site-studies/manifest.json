@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 2,
+  "files": [
+    {
+      "path": "01-signal-mandate.html",
+      "bytes": 65710,
+      "sha256": "3c8f46dcb72933e255a79b85557a5c786b2632898bb06e91d1fb440129b11cda"
+    },
+    {
+      "path": "01-signal-market.html",
+      "bytes": 65694,
+      "sha256": "79cdc147914a7970c9b58be7248f592b9bfc2b0d760e886481a343bb350879ec"
+    },
+    {
+      "path": "01-signal-mechanism.html",
+      "bytes": 65728,
+      "sha256": "6cf22ae7f2ac7aff3a40e626f1ca309f9daec5693526e2e40d1f16b60b43cffe"
+    },
+    {
+      "path": "02-caliper-mandate.html",
+      "bytes": 65590,
+      "sha256": "1dc3d72d460ea8110a66e804c52eb19a2cd3bd3f5856f4bf72cf81526ab62e8a"
+    },
+    {
+      "path": "02-caliper-market.html",
+      "bytes": 65574,
+      "sha256": "17481ef5a1bbc5bf4aeab6d50c2f77f4ed0385e43212a630c44c9cda787e3268"
+    },
+    {
+      "path": "02-caliper-mechanism.html",
+      "bytes": 65608,
+      "sha256": "d2f3ea48ca0de8222c6db51ddec86ec3e850b1d420696ac41033d6bb63c59299"
+    },
+    {
+      "path": "03-contour-mandate.html",
+      "bytes": 65708,
+      "sha256": "dd0047fb326e8dcaf22b559896e80eb535ab3b2cfcaa2adebef643e66e44444e"
+    },
+    {
+      "path": "03-contour-market.html",
+      "bytes": 65692,
+      "sha256": "9ba1df788c58dc4fc7cb096482c3ca2e47c54fe8eb31856bbbb485185cd3cf90"
+    },
+    {
+      "path": "03-contour-mechanism.html",
+      "bytes": 65726,
+      "sha256": "8e93d32265d3d68294ef18cf3aaf57df5f41f82b1120222814675948071d1b6f"
+    },
+    {
+      "path": "04-folio-mandate.html",
+      "bytes": 65750,
+      "sha256": "1f462473e94d4ada81b6b62215d0fe8b17423c6d02ca8e5651aa6bcf1a38bbf1"
+    },
+    {
+      "path": "04-folio-market.html",
+      "bytes": 65734,
+      "sha256": "d5427873e66a323a9250eaec9d4e74fa48e25d46d615930aef54d58031ed72b4"
+    },
+    {
+      "path": "04-folio-mechanism.html",
+      "bytes": 65768,
+      "sha256": "cee5f470b1ed13f686673e0ec56a6ce13a957e3f2aa9d7483c894942f3365e83"
+    },
+    {
+      "path": "05-dual-mandate.html",
+      "bytes": 66044,
+      "sha256": "c2a89452edcd00e45a2ab53aca805f28eca8a2eb5c916faf45b5ff71d5c86aaf"
+    },
+    {
+      "path": "05-dual-market.html",
+      "bytes": 66028,
+      "sha256": "e097eff1f9eafc767912cfa1fe2d2dc4c6323a50fd388dfba2b76847d473ab91"
+    },
+    {
+      "path": "05-dual-mechanism.html",
+      "bytes": 66062,
+      "sha256": "bdf494a71d150bcf149288f155f6cec0e5dc25922d853f10529a73551b5b08bb"
+    },
+    {
+      "path": "06-section-mandate.html",
+      "bytes": 66397,
+      "sha256": "92f8ba2c701b26e93ed029b5904872d18f67fa1a0419631fe9d457a9daf24b5d"
+    },
+    {
+      "path": "06-section-market.html",
+      "bytes": 66381,
+      "sha256": "33725976d2f9f3f7f40baefaa28115ccb096bcddb96776b91879e5ba30e25533"
+    },
+    {
+      "path": "06-section-mechanism.html",
+      "bytes": 66415,
+      "sha256": "1e246255abf50bb46ce106d20eb8bbe99d3e83f9b4b8619f404e7ab78e01decc"
+    },
+    {
+      "path": "07-sequence-mandate.html",
+      "bytes": 66149,
+      "sha256": "5ca39aaa2abddfc41984407f7611d1309a01a0769883678b41bd496822e1b3d4"
+    },
+    {
+      "path": "07-sequence-market.html",
+      "bytes": 66149,
+      "sha256": "9e5c52238f5b65262f658248b6fe86250b885471aa753447298efe4108ba92fe"
+    },
+    {
+      "path": "07-sequence-mechanism.html",
+      "bytes": 66151,
+      "sha256": "706b48514d8d676bf4d1cefbf3fcbba5d81247804918efc3b81aed4ac21a00cb"
+    },
+    {
+      "path": "08-ledger-mandate.html",
+      "bytes": 66185,
+      "sha256": "cb9dfd1ec10d14ed97c11fde21180365e5063bf8f7b79b022ccb54441c8a56ae"
+    },
+    {
+      "path": "08-ledger-market.html",
+      "bytes": 66169,
+      "sha256": "98e97fe85cbe0b704a764f6c7f58bb404c03b36e301db7340bb59af69a0b0e78"
+    },
+    {
+      "path": "08-ledger-mechanism.html",
+      "bytes": 66203,
+      "sha256": "9e26ad0dca80715448c7c02e2582c4a3c31cb6e12fa2917fac837584fc3ae8da"
+    },
+    {
+      "path": "09-nocturne-mandate.html",
+      "bytes": 65809,
+      "sha256": "893ac7d4df8578c37a5bb436196d32f2da16a23766334d5c136dc0081f9794e3"
+    },
+    {
+      "path": "09-nocturne-market.html",
+      "bytes": 65793,
+      "sha256": "242d81798ae8d2fc0c0369ad19795c2fc819fab8e61cac0a83e63c9f99f847e3"
+    },
+    {
+      "path": "09-nocturne-mechanism.html",
+      "bytes": 65827,
+      "sha256": "1e5b33b3212579cb1baf84a025ccbf8e2d8145a4601c02eb6d531d1c4067f68e"
+    },
+    {
+      "path": "10-workshop-mandate.html",
+      "bytes": 66284,
+      "sha256": "c3a7020920a54502bfe6d83086d621254afa4fa57d21d74b0e71898dadaca6fd"
+    },
+    {
+      "path": "10-workshop-market.html",
+      "bytes": 66268,
+      "sha256": "897b9853ba4ba381cf6e7eef0318dc20e2f339689202d2834e6d5e5c57b72eb0"
+    },
+    {
+      "path": "10-workshop-mechanism.html",
+      "bytes": 66302,
+      "sha256": "7420c792f8e1f54dd949a7b4695cc38bf2ed1b3f1b316c266529c8f9e8652a2a"
+    },
+    {
+      "path": "brief.html",
+      "bytes": 44602,
+      "sha256": "8ecfc1217c14c9e09e22f906b9e0342acca07982e9de8d439ea9006607bf0700"
+    },
+    {
+      "path": "index.html",
+      "bytes": 71494,
+      "sha256": "dfe432cef5b3b8490bd8c788c5bd7b9c31240531c0eb362ec0adf05a7709325f"
+    },
+    {
+      "path": "studio.html",
+      "bytes": 71494,
+      "sha256": "dfe432cef5b3b8490bd8c788c5bd7b9c31240531c0eb362ec0adf05a7709325f"
+    },
+    {
+      "path": "whitepaper.html",
+      "bytes": 24107,
+      "sha256": "360a0388acc5ef1d75c2925cde14292df22e474f15e9c86c46d49c363d7c509d"
+    },
+    {
+      "path": "round-2/afterhours.html",
+      "bytes": 47074,
+      "sha256": "de31e248ad1990bdd3646f0e0c00a41798bd320c0ac8b4232e861a01f0c62230"
+    },
+    {
+      "path": "round-2/decision-record.json",
+      "bytes": 4735,
+      "sha256": "0fdc3514d8db6c420b45480b794c5c8c9adbe23d37b955752900c6cc05787b3a"
+    },
+    {
+      "path": "round-2/index.html",
+      "bytes": 42059,
+      "sha256": "b0f6fb732ffa694174455e3e952298078a81b75c8e310ecb8b2ba16c6314efd5"
+    },
+    {
+      "path": "round-2/mandate.html",
+      "bytes": 46134,
+      "sha256": "8cb5c7eac7ee13e26a213ef9a4e96a4c49c56e5dd204601ed10bf9cfe3229194"
+    },
+    {
+      "path": "round-2/reference.html",
+      "bytes": 47400,
+      "sha256": "635bc42d7249d10cb9f8edb37f7f9bdeb5d8b74e37661af87f566f15e33d3e1f"
+    }
+  ],
+  "previews": 30,
+  "round2": 3
+}

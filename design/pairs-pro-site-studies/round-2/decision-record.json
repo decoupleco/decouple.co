@@ -1,0 +1,118 @@
+{
+  "revision": 2,
+  "brand": "pairs.pro",
+  "wordmark": {
+    "pairs": 750,
+    ".pro": 300
+  },
+  "leadLine": "Liquidity shapes markets.",
+  "directions": [
+    {
+      "id": "afterhours",
+      "name": "Afterhours",
+      "number": "01",
+      "tone": "Always-on markets",
+      "headline": [
+        "Markets close.",
+        "Liquidity never sleeps."
+      ],
+      "body": "Market-aware liquidity for FX and tokenized assets. Define what happens when the reference market closes—and the on-chain market stays open.",
+      "eyebrow": "Sharper AMM LP. / FX + real-world assets",
+      "theme": "Minimal, direct, high contrast",
+      "influence": "Ekubo’s focused opening; an original session instrument.",
+      "thesis": "Lead with the tension between market hours and an always-on token market.",
+      "pillars": [
+        [
+          "Respect the session.",
+          "A market close is a strategy input, not an afterthought."
+        ],
+        [
+          "Follow the reference.",
+          "Separate the token’s trading price from its external anchor."
+        ],
+        [
+          "Know your exposure.",
+          "Keep inventory, fees and operating costs in the same view."
+        ]
+      ],
+      "close": "Bring your market on-chain.",
+      "tradeoff": "The strongest headline. It needs the session-policy note so “never sleeps” is not mistaken for guaranteed liquidity or uninterrupted trading."
+    },
+    {
+      "id": "mandate",
+      "name": "Mandate",
+      "number": "02",
+      "tone": "Asset-first liquidity",
+      "headline": [
+        "Liquidity shapes",
+        "markets."
+      ],
+      "body": "A euro market is not a tokenized stock market. Start with the asset, its reference and its trading session. Shape the liquidity around them.",
+      "eyebrow": "Sharper AMM LP. / Built around the asset",
+      "theme": "Editorial, commercial, asset-led",
+      "influence": "A concise issuer brief; concrete markets replace abstract product paragraphs.",
+      "thesis": "Help issuers recognize their asset before asking them to understand the architecture.",
+      "pillars": [
+        [
+          "Useful depth.",
+          "Place capital where the market needs it—not simply in the tightest ticks."
+        ],
+        [
+          "Explicit inventory.",
+          "Set the assets you want to hold and the exposure you can accept."
+        ],
+        [
+          "One mandate.",
+          "Connect strategy, vault ownership and accountable operations."
+        ]
+      ],
+      "close": "Which asset are you building for?",
+      "tradeoff": "The clearest buyer story. Illustrative asset names must not look like live listings or issuer partnerships."
+    },
+    {
+      "id": "reference",
+      "name": "Reference",
+      "number": "03",
+      "tone": "Engineering-led trust",
+      "headline": [
+        "One market.",
+        "Three signals.",
+        "A clear policy."
+      ],
+      "body": "Reference value. Market session. Inventory. Connect them to explicit liquidity instructions, with strategy separate from on-chain custody and accounting.",
+      "eyebrow": "Sharper AMM LP. / Reference → policy → liquidity",
+      "theme": "Engineering schematic, restrained precision",
+      "influence": "Five North’s annotated engineering language; original Pairs.pro system geometry.",
+      "thesis": "Make session-aware market design tangible through a single readable engineering drawing.",
+      "pillars": [
+        [
+          "Reference.",
+          "Identify the source, quote currency and freshness rules."
+        ],
+        [
+          "Session.",
+          "Define open, closed and stale-input behavior before capital moves."
+        ],
+        [
+          "Inventory.",
+          "Apply an exposure policy; a reference price is not a guaranteed exit."
+        ]
+      ],
+      "close": "Make the operating policy explicit.",
+      "tradeoff": "The strongest diligence story. Keep the diagram legible on mobile and avoid implying the session-aware design is already deployed."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://ekubo.org/",
+      "use": "Focus, concise proposition and clear action; no assets or claims copied."
+    },
+    {
+      "url": "https://fivenorth.io/canton-ecosystem",
+      "use": "Annotated engineering relationships; original Pairs.pro drawing."
+    }
+  ],
+  "examples": "EUR/USD, Tesla-linked and Nvidia-linked tokens are illustrative, not listings or affiliations.",
+  "capabilityBoundary": "Session-aware/external-reference policies are design scope, not a claim of deployed behavior. HOLD stops new instructions, not existing exposure.",
+  "scope": "Static presentation only. No strategy, contract, execution or custody changes."
+}

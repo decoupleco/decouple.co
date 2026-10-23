@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "collection": "Pairs.pro homepage / Studio 01",
+  "date": "2026-10-23",
+  "purpose": "Visual and microcopy comparison, not production strategy or live product availability.",
+  "sourceWireframe": "http://127.0.0.1:8772/wireframe.html",
+  "copies": [
+    {
+      "id": "market",
+      "letter": "A",
+      "name": "Always-on markets",
+      "angle": "Lead with the tension between market hours and an always-on token market.",
+      "kicker": "Sharper AMM LP. / FX + real-world assets",
+      "headline": "Sharper AMM LP.",
+      "lead": "Markets close. Liquidity never sleeps.",
+      "body": "Market-aware liquidity for FX and tokenized assets. Define what happens when the reference market closes—and the on-chain market stays open.",
+      "audience": "FX · Tokenized assets · Issuers · Capital owners",
+      "ctaNote": "Start with one market.",
+      "product": "Put a strategy behind your liquidity.",
+      "productBody": "A market moves. Your inventory changes. The way a venue pays can change the value of every allocation. Bring those decisions into one operating view.",
+      "mechanism": [
+        "Respect the session.",
+        "Follow the reference.",
+        "Know your exposure."
+      ],
+      "strategies": "Strategies, Built differently",
+      "markets": "Two sides of the liquidity market.",
+      "vault": "Your mandate. Your vault.",
+      "close": "Bring your market on-chain.",
+      "closeBody": "For issuers, treasuries and curators.",
+      "instrument": "Shape precisely. Execute selectively.",
+      "micro": [
+        "A wider foundation",
+        "A focused allocation",
+        "One explicit inventory policy"
+      ],
+      "headlineLines": [
+        "Markets close.",
+        "Liquidity never sleeps."
+      ],
+      "pillars": [
+        [
+          "Respect the session.",
+          "A market close is a strategy input, not an afterthought."
+        ],
+        [
+          "Follow the reference.",
+          "Separate the token’s trading price from its external anchor."
+        ],
+        [
+          "Know your exposure.",
+          "Keep inventory, fees and operating costs in the same view."
+        ]
+      ]
+    },
+    {
+      "id": "mandate",
+      "letter": "B",
+      "name": "Asset-first liquidity",
+      "angle": "Help issuers recognize their asset before asking them to understand the architecture.",
+      "kicker": "Sharper AMM LP. / Built around the asset",
+      "headline": "Sharper AMM LP.",
+      "lead": "Liquidity shapes markets.",
+      "body": "A euro market is not a tokenized stock market. Start with the asset, its reference and its trading session. Shape the liquidity around them.",
+      "audience": "FX · Tokenized assets · Issuers · Capital owners",
+      "ctaNote": "Start with one market.",
+      "product": "Start with the assets you want to hold.",
+      "productBody": "A range is one decision. Your mandate also defines the asset mix, operating authority and benchmark. Keep them connected, without confusing fee income with the whole result.",
+      "mechanism": [
+        "Useful depth.",
+        "Explicit inventory.",
+        "One mandate."
+      ],
+      "strategies": "Strategies, Built differently",
+      "markets": "Two sides of the liquidity market.",
+      "vault": "Ownership, authority and strategy. Aligned.",
+      "close": "Which asset are you building for?",
+      "closeBody": "For issuers, treasuries and curators.",
+      "instrument": "Concentration is a choice. Exposure is a consequence.",
+      "micro": [
+        "Continuity across prices",
+        "Depth where it matters",
+        "Inventory stays in view"
+      ],
+      "headlineLines": [
+        "Liquidity shapes",
+        "markets."
+      ],
+      "pillars": [
+        [
+          "Useful depth.",
+          "Place capital where the market needs it—not simply in the tightest ticks."
+        ],
+        [
+          "Explicit inventory.",
+          "Set the assets you want to hold and the exposure you can accept."
+        ],
+        [
+          "One mandate.",
+          "Connect strategy, vault ownership and accountable operations."
+        ]
+      ]
+    },
+    {
+      "id": "mechanism",
+      "letter": "C",
+      "name": "Engineering-led trust",
+      "angle": "Make session-aware market design tangible through a single readable engineering drawing.",
+      "kicker": "Sharper AMM LP. / Reference → policy → liquidity",
+      "headline": "Sharper AMM LP.",
+      "lead": "One market. Three signals. A clear policy.",
+      "body": "Reference value. Market session. Inventory. Connect them to explicit liquidity instructions, with strategy separate from on-chain custody and accounting.",
+      "audience": "FX · Tokenized assets · Issuers · Capital owners",
+      "ctaNote": "Start with one market.",
+      "product": "Make every allocation understandable.",
+      "productBody": "Where capital sits, when it moves and which assets it holds are connected decisions. Make the policy legible before judging its results.",
+      "mechanism": [
+        "Reference.",
+        "Session.",
+        "Inventory."
+      ],
+      "strategies": "Strategies, Built differently",
+      "markets": "Two sides of the liquidity market.",
+      "vault": "Strategy decides. The vault accounts.",
+      "close": "Make the operating policy explicit.",
+      "closeBody": "For issuers, treasuries and curators.",
+      "instrument": "A visible relationship. Not a return forecast.",
+      "micro": [
+        "Broad base liquidity",
+        "Focused liquidity",
+        "Separate ownership and decisions"
+      ],
+      "headlineLines": [
+        "One market.",
+        "Three signals.",
+        "A clear policy."
+      ],
+      "pillars": [
+        [
+          "Reference.",
+          "Identify the source, quote currency and freshness rules."
+        ],
+        [
+          "Session.",
+          "Define open, closed and stale-input behavior before capital moves."
+        ],
+        [
+          "Inventory.",
+          "Apply an exposure policy; a reference price is not a guaranteed exit."
+        ]
+      ]
+    }
+  ],
+  "themes": [
+    {
+      "id": "01-signal",
+      "name": "Signal",
+      "tag": "Swiss market poster",
+      "bg": "#f3eee4",
+      "ink": "#191b17",
+      "accent": "#b52c1b",
+      "soft": "#e6dfd2",
+      "on": "#ffffff",
+      "layout": "poster",
+      "thesis": "A financial poster with a living liquidity field.",
+      "buyer": "Brand-first / issuer teams",
+      "distinct": "Monumental typography, a narrow editorial rail and a full-width liquidity interruption. Strategy entries become oversized numbered lines.",
+      "tradeoff": "The strongest brand recall, but the long headline needs careful mobile line breaks.",
+      "shortlist": "Brand challenger",
+      "prompt": "Design a Swiss financial poster, not a software landing page. Interrupt monumental type with one meaningful liquidity field; carry the same strong rules and numbered rhythm through strategies and buyer stories."
+    },
+    {
+      "id": "02-caliper",
+      "name": "Caliper",
+      "tag": "Precision range instrument",
+      "bg": "#f1f3ef",
+      "ink": "#182329",
+      "accent": "#2349c8",
+      "soft": "#e2e7e5",
+      "on": "#ffffff",
+      "layout": "instrument",
+      "thesis": "The range instrument is the product signature.",
+      "buyer": "Technical capital owners",
+      "distinct": "A copy rail and a calibrated figure form one opening spread. Rulers, cross-references and open grid lines continue into every section.",
+      "tradeoff": "The mechanism is clearest here; the brand is quieter than the poster directions.",
+      "shortlist": "Product-clarity pick",
+      "prompt": "Build a precision editorial instrument around two smooth liquidity envelopes. Put readable copy beside it, not on it. Use cobalt only for action and focus; maintain stable axes and explanatory labels."
+    },
+    {
+      "id": "03-contour",
+      "name": "Contour",
+      "tag": "Liquidity as a field",
+      "bg": "#202824",
+      "ink": "#f1eddf",
+      "accent": "#e9ad7d",
+      "soft": "#303d35",
+      "on": "#202824",
+      "layout": "field",
+      "thesis": "Capital has a shape. Give it a landscape.",
+      "buyer": "Vision / design-led curators",
+      "distinct": "A panoramic field stretches beneath a compact opening. Large contour lines and a continuous reading axis replace conventional feature boxes.",
+      "tradeoff": "Atmospheric and original; the schematic label must prevent an impression of real portfolio data.",
+      "shortlist": "Visual-identity pick",
+      "prompt": "Treat liquidity as a continuous price landscape. Use a wide shallow figure, cream type on deep forest and copper contours. Keep samples subordinate to smooth envelopes and explain intent versus execution."
+    },
+    {
+      "id": "04-folio",
+      "name": "Folio",
+      "tag": "The asset owner’s journal",
+      "bg": "#f5f0e5",
+      "ink": "#263c31",
+      "accent": "#315b43",
+      "soft": "#e4e8da",
+      "on": "#ffffff",
+      "layout": "journal",
+      "thesis": "A product page with the authority of a considered journal.",
+      "buyer": "Foundations / reserve managers",
+      "distinct": "A restrained serif editorial lead, a numbered issue masthead and margin notes. Mechanism figures sit inside substantial reading spreads.",
+      "tradeoff": "Trustworthy reading rhythm; less immediate software energy than the technical entries.",
+      "shortlist": "Treasury conversation",
+      "prompt": "Create an asset owner’s journal with a Swiss grid, editorial serif leads, generous margins and concise figure captions. Explain the whole portfolio without turning the homepage into an academic paper."
+    },
+    {
+      "id": "05-dual",
+      "name": "Dual",
+      "tag": "One platform, two mandates",
+      "bg": "#f5f4ec",
+      "ink": "#102d4e",
+      "accent": "#173fba",
+      "soft": "#e5e9f0",
+      "on": "#ffffff",
+      "layout": "dual",
+      "thesis": "Two institutional jobs make one product legible.",
+      "buyer": "Issuers + treasury buyers",
+      "distinct": "One shared brand sits over two strongly divided buyer fields. A common mechanism reconnects them; selected focus changes context, not the product.",
+      "tradeoff": "Fast buyer recognition, at the cost of less first-screen engineering detail.",
+      "shortlist": "Commercial clarity",
+      "prompt": "Organize the opening as two institutional mandates: build an asset market and operate reserve assets. Use one brand and one primary call, with a single underlying liquidity mechanism."
+    },
+    {
+      "id": "06-section",
+      "name": "Section",
+      "tag": "An architectural cutaway",
+      "bg": "#f0f2f0",
+      "ink": "#22292c",
+      "accent": "#a13e14",
+      "soft": "#dfe5e2",
+      "on": "#ffffff",
+      "layout": "architecture",
+      "thesis": "Separate decisions from ownership—and make the boundary beautiful.",
+      "buyer": "Curators / integration teams",
+      "distinct": "A cutaway diagram leads the right side; technical section lines and orange callouts explain strategy, vault and venue as different layers.",
+      "tradeoff": "The cleanest architecture story; commercial language must stay ahead of implementation detail.",
+      "shortlist": "Architecture direction",
+      "prompt": "Draw a spare architectural cutaway of market inputs, strategy decisions, vault ownership and AMM execution. Never put signals in custody. Keep the first-screen proposition commercial, then reveal the system."
+    },
+    {
+      "id": "07-sequence",
+      "name": "Sequence",
+      "tag": "A controlled motion study",
+      "bg": "#2344b4",
+      "ink": "#f5f2e8",
+      "accent": "#e9ed9c",
+      "soft": "#304fbb",
+      "on": "#172554",
+      "layout": "sequence",
+      "thesis": "One intentional transformation tells the product story.",
+      "buyer": "A confident product launch",
+      "distinct": "A centered typographic opening followed by a numbered Read / Shape / Run stage. Hard blue fields and stable alignments replace ambient animation.",
+      "tradeoff": "Distinctive and energetic; motion is optional and every stage must remain complete when paused.",
+      "shortlist": "Product-energy pick",
+      "prompt": "Use ultramarine as a confident editorial field. Show one intentional Read–Shape–Run transition with a stable axis and clear stage labels. No looping display, animated profits or scroll traps."
+    },
+    {
+      "id": "08-ledger",
+      "name": "Ledger",
+      "tag": "The complete position",
+      "bg": "#f1eae0",
+      "ink": "#3e242a",
+      "accent": "#803543",
+      "soft": "#e5d9d1",
+      "on": "#ffffff",
+      "layout": "ledger",
+      "thesis": "A disciplined ledger makes complexity feel manageable.",
+      "buyer": "Diligence / operating mandates",
+      "distinct": "Horizontal rules, aligned definitions and a non-monetary position ledger. The whole page uses an accounting rhythm without fake balances.",
+      "tradeoff": "The most accountable story; deliberately less expressive than Signal or Contour.",
+      "shortlist": "Measurement direction",
+      "prompt": "Build an operating ledger with no invented money. Separate assets, liquidity, trading fees, rewards and costs. Use a bold editorial opening and aligned rows; preserve a calm burgundy-and-paper identity."
+    },
+    {
+      "id": "09-nocturne",
+      "name": "Nocturne",
+      "tag": "A private research desk",
+      "bg": "#191d22",
+      "ink": "#f0ede2",
+      "accent": "#e7c27d",
+      "soft": "#2a3037",
+      "on": "#191d22",
+      "layout": "night",
+      "thesis": "Dark institutional restraint, without trading-terminal theatre.",
+      "buyer": "Private capital / technical diligence",
+      "distinct": "A quiet amber locator, deep negative space, inset research figure and full-width strategy reading panels. No glowing cards or tickers.",
+      "tradeoff": "Memorable and private; careful contrast is essential for long-form reading.",
+      "shortlist": "Dark-brand direction",
+      "prompt": "Create a night research desk with charcoal, warm light and pale amber. Lead with huge calm typography, then a small precise figure. Avoid neon, tickers, gradients, glass and fake live market information."
+    },
+    {
+      "id": "10-workshop",
+      "name": "Workshop",
+      "tag": "Shape the mandate together",
+      "bg": "#e8ece1",
+      "ink": "#253f2c",
+      "accent": "#355f39",
+      "soft": "#d5dfcc",
+      "on": "#ffffff",
+      "layout": "workshop",
+      "thesis": "An invitation to shape a real liquidity mandate.",
+      "buyer": "B2B discovery / curators",
+      "distinct": "A structured mandate slip sits beside the proposition. Choosing a buyer focus highlights useful inputs, then the page returns to product mechanics.",
+      "tradeoff": "Approachable and practical; the instrument keeps it from feeling like a consultancy questionnaire.",
+      "shortlist": "Conversation-first pick",
+      "prompt": "Make an open professional workshop, not a lead-generation form. Pair a strong brand line with a small Assets / Market / Objective slip. Use disciplined green and a tangible schematic mechanism."
+    }
+  ],
+  "strategies": [
+    {
+      "id": "range",
+      "name": "Optimal-Range",
+      "signal": "Trend / volatility / inventory",
+      "text": "EMA and ATR connect recent market behavior to broad base liquidity and a focused allocation. Inventory policy shapes the final placement."
+    },
+    {
+      "id": "follow",
+      "name": "Follow-Tick",
+      "signal": "Tick spacing / inventory / venue",
+      "text": "A tick-spaced focused range alongside the shared base and inventory policy. Aero-optimized design considers gauge eligibility, fees, reward claims and reinvestment costs together."
+    },
+    {
+      "id": "vol",
+      "name": "Vol+",
+      "signal": "Volatility / velocity / swap flow",
+      "text": "Explore how market activity can inform dynamic fee design through Uniswap v4 hooks. The fee policy and the portfolio strategy remain separate."
+    },
+    {
+      "id": "reference",
+      "name": "Market-Aware",
+      "signal": "Reference / freshness / market structure",
+      "text": "Bring external value, peg relationships and market sessions into the strategy design. LRT pairs need a moving exchange-rate reference—not an assumed fixed peg."
+    }
+  ],
+  "safety": "Schematic product study. No live funds, forecasts or return claims. Strategy and venue availability are qualified for each mandate.",
+  "sources": [
+    {
+      "path": "design/pairs-pro-homepage/CHALLENGE.md",
+      "sha256": "ecd0e63b88c64f422b85ef462268cce92f4751dc71b3120759d7a493d38f2857"
+    },
+    {
+      "path": "design/pairs-pro-homepage/DESIGN-BRIEF.md",
+      "sha256": "2b8feebd1db00089b131c7627d793153dba2e6a7b45a54518142143141bbf27e"
+    },
+    {
+      "path": "design/pairs-pro-homepage/WIREFRAME.md",
+      "sha256": "39a15bb559df4dac2149bff3c76e7abfdbac96ec10b382ec82a8a19c14290334"
+    },
+    {
+      "path": "design/pairs-pro-homepage/wireframe.html",
+      "sha256": "57f5f2d7c2ff6f510bc1c3c21de91a7518c8a1a2a4f108d69c70e20e5f3066a4"
+    },
+    {
+      "path": "docs/marketing/homepage-copy.md",
+      "sha256": "590d2e9e15fa843327a5bb8539225f082de4a380d88d6d465eccd722d3703a29"
+    },
+    {
+      "path": "docs/pairs-pro-whitepaper.md",
+      "sha256": "d6d8e3a9ec0c7485ff5980ed37cf79f6667cf0a262c5d73894a60737a8be5034"
+    },
+    {
+      "path": "api/docs/pairs-pro-v2-min-spec.md",
+      "sha256": "a127cb2857c9ee6514391fd8d1dcfd4cde8a779c9736df0ff397ca043d5bea29"
+    }
+  ],
+  "claimPolicy": "Vision-led; no returns, TVL, testimonials, universal venue availability or audit claims. Strategy names follow the latest Commercial naming decision. No production APIs or booking transmissions.",
+  "scope": "Static design review only. Does not edit the shared wireframe, canonical copy, application, contracts or strategy.",
+  "combinations": 10,
+  "requestedPublication": "https://decouple.co/design/pairs-pro-site-studies/",
+  "assignments": {
+    "01-signal": "market",
+    "02-caliper": "mechanism",
+    "03-contour": "market",
+    "04-folio": "mandate",
+    "05-dual": "mandate",
+    "06-section": "mechanism",
+    "07-sequence": "market",
+    "08-ledger": "mechanism",
+    "09-nocturne": "mechanism",
+    "10-workshop": "mandate"
+  },
+  "editorialModel": "Ten design entries. Three copywriting directions assigned by fit. Alternate renders are retained for review, not presented as thirty competition entries."
+}
